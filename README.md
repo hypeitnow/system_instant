@@ -52,7 +52,7 @@ __[Arch Linux Installation Guide](https://github.com/rickellis/Arch-Linux-Instal
 ### No Wifi
 
 ```bash
-sudo wifi-menu`
+sudo wifi-menu
 ```
 
 ## Credits
