@@ -120,6 +120,12 @@ EOF
 cp -R ${SCRIPT_DIR} /mnt/root/$SCRIPTHOME
 cp /etc/pacman.d/mirrorlist /mnt/etc/pacman.d/mirrorlist
 echo "--------------------------------------"
+echo "--GRUB BIOS Bootloader Install&Check--"
+echo "--------------------------------------"
+if [[ ! -d "/sys/firmware/efi" ]]; then
+    grub-install --boot-directory=/boot ${DISK}
+fi
+echo "--------------------------------------"
 echo "-- Check for low memory systems <8G --"
 echo "--------------------------------------"
 TOTALMEM=$(cat /proc/meminfo | grep -i 'memtotal' | grep -o '[[:digit:]]*')
