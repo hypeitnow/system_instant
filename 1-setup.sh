@@ -109,20 +109,49 @@ elif grep -E "Integrated Graphics Controller" <<< ${gpu_type}; then
 elif grep -E "Intel Corporation UHD" <<< ${gpu_type}; then
     pacman -S libva-intel-driver libvdpau-va-gl lib32-vulkan-intel vulkan-intel libva-intel-driver libva-utils lib32-mesa --needed --noconfirm
 fi
-echo -ne "
--------------------------------------------------------------------------
-                    Adding User
--------------------------------------------------------------------------
-"
-if [ $(whoami) = "root"  ]; then
-    groupadd libvirt
+
+echo -e "\nDone!\n"
+if ! source install.conf; then
+	# Loop through user input until the user gives a valid username
+	while true
+	do 
+		read -p "Please enter username:" username
+		# username regex per response here https://unix.stackexchange.com/questions/157426/what-is-the-regex-to-validate-linux-users
+		# lowercase the username to test regex
+		if [[ "${username,,}" =~ ^[a-z_]([a-z0-9_-]{0,31}|[a-z0-9_-]{0,30}\$)$ ]]
+		then 
+			break
+		fi 
+		echo "Incorrect username."
+	done 
+# save the username in lowercase form to install.conf
+echo "username=${username,,}" >> ${HOME}/${SCRIPTHOME}/install.conf
+fi
+if [ $(whoami) = "root"  ];
+then
     useradd -m -G wheel,libvirt -s /bin/bash $username 
-# use chpasswd to enter $username:$password
-    echo "$username:$password" | chpasswd
-	cp -R /root/$SCRIPTHOME /home/$username/
-    chown -R $username: /home/$username/$SCRIPTHOME
-# enter $hostname to /etc/hostname
-	echo $hostname > /etc/hostname
+	passwd $username
+	cp -R ${HOME}/${SCRIPTHOME} /home/${username}/
+    chown -R ${username}: /home/${username}/${SCRIPTHOME}
+
+	# Loop through user input until the user gives a valid hostname, but allow the user to force save 
+	while true
+	do 
+		read -p "Please name your machine:" nameofmachine
+		# hostname regex (!!couldn't find spec for computer name!!)
+		if [[ "${nameofmachine,,}" =~ ^[a-z][a-z0-9_-\.]{0,62}[a-z0-9]$ ]]
+		then 
+			break 
+		fi 
+		# if validation fails allow the user to force saving of the hostname
+		read -p "Username doesn't seem correct. Do you still want to save it? (y/n)" force 
+		if [[ "${force,,}" = "y" ]]
+		then 
+			break 
+		fi 
+	done 
+
+	echo ${nameofmachine,,} > /etc/hostname
 else
 	echo "You are already a user proceed with aur installs"
 fi
