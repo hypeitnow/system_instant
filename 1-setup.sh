@@ -124,7 +124,7 @@ if ! source install.conf; then
 		fi 
 		echo "Incorrect username."
 	done 
-# save the username in lowercase form to install.conf
+# convert name to lowercase before saving to install.conf
 echo "username=${username,,}" >> ${HOME}/${SCRIPTHOME}/install.conf
 fi
 if [ $(whoami) = "root"  ];
@@ -151,7 +151,7 @@ then
 		fi 
 	done 
 
-	echo ${nameofmachine,,} > /etc/hostname
+	echo ${nameofmachine} > /etc/hostname
 else
 	echo "You are already a user proceed with aur installs"
 fi
