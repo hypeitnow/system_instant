@@ -108,8 +108,29 @@ if [[ "${DISK}" =~ "nvme" ]]; then
         mountallsubvol
     fi
 else
-    partition2=${DISK}2
-    partition3=${DISK}3
+    if [[ "${FS}" == "btrfs" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}2
+        mkfs.btrfs -f -L ROOT ${DISK}3
+        mount -t btrfs ${DISK}3 /mnt
+    elif [[ "${FS}" == "ext4" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}2
+        mkfs.ext4 -L ROOT ${DISK}3
+        mount -t ext4 ${DISK}3 /mnt
+    elif [[ "${FS}" == "luks" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}2
+        echo -n "${luks_password}" | cryptsetup -v luksFormat ${DISK}3 -
+        echo -n "${luks_password}" | cryptsetup open ${DISK}3 ROOT -
+        mkfs.btrfs -L ROOT /dev/mapper/ROOT
+        mount -t btrfs /dev/mapper/ROOT /mnt
+        createsubvolumes
+        umount /mnt
+# mount all the subvolumes
+        mount -o noatime,compress=zstd,space_cache,commit=120,subvol=@ /dev/mapper/ROOT /mnt
+# make directories home, .snapshots, var, tmp
+        mkdir -p /mnt/{home,var,tmp,.snapshots}
+# mount subvolumes
+        mountallsubvol
+    fi
 fi
 
 if [[ "${FS}" == "btrfs" ]]; then
