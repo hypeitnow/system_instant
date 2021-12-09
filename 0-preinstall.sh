@@ -79,10 +79,34 @@ mountallsubvol () {
     mount -o ${mountoptions},subvol=@.snapshots /dev/mapper/ROOT /mnt/.snapshots
     mount -o ${mountoptions},subvol=@var /dev/mapper/ROOT /mnt/var
 }
-
-if [[ "${DISK}" == "nvme" ]]; then
-    partition2=${DISK}p2
-    partition3=${DISK}p3
+if [[ "${DISK}" =~ "nvme" ]]; then
+    if [[ "${FS}" == "btrfs" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}p2
+        mkfs.btrfs -L ROOT ${DISK}p3 -f
+        mount -t btrfs ${DISK}p3 /mnt
+    elif [[ "${FS}" == "ext4" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}p2
+        mkfs.ext4 -L ROOT ${DISK}p3
+        mount -t ext4 ${DISK}p3 /mnt
+    elif [[ "${FS}" == "luks" ]]; then
+        mkfs.vfat -F32 -n "EFIBOOT" ${DISK}p2
+# enter luks password to cryptsetup and format root partition
+        echo -n "${luks_password}" | cryptsetup -y -v luksFormat ${DISK}p3 -
+# open luks container and ROOT will be place holder 
+        echo -n "${luks_password}" | cryptsetup open ${DISK}p3 ROOT -
+# now format that container
+        mkfs.btrfs -L ROOT /dev/mapper/ROOT
+# create subvolumes for btrfs
+        mount -t btrfs /dev/mapper/ROOT /mnt
+        createsubvolumes       
+        umount /mnt
+# mount @ subvolume
+        mount -o noatime,compress=zstd,space_cache,commit=120,subvol=@ /dev/mapper/ROOT /mnt
+# make directories home, .snapshots, var, tmp
+        mkdir -p /mnt/{home,var,tmp,.snapshots}
+# mount subvolumes
+        mountallsubvol
+    fi
 else
     partition2=${DISK}2
     partition3=${DISK}3
