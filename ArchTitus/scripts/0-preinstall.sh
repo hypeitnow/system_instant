@@ -97,6 +97,19 @@ subvolumesetup () {
     mountallsubvol
 }
 
+subvolumesetup () {
+# create nonroot subvolumes
+    createsubvolumes     
+# unmount root to remount with subvolume 
+    umount /mnt
+# mount @ subvolume
+    mount -o ${MOUNT_OPTIONS},subvol=@ /dev/mapper/ROOT /mnt
+# make directories home, .snapshots, var, tmp
+    mkdir -p /mnt/{home,var,tmp,.snapshots}
+# mount subvolumes
+    mountallsubvol
+}
+
 if [[ "${DISK}" =~ "nvme" ]]; then
     partition2=${DISK}p2
     partition3=${DISK}p3
