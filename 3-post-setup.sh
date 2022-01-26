@@ -12,24 +12,41 @@ echo -ne "
                         SCRIPTHOME: ArchTitus
 -------------------------------------------------------------------------
 
+Final Setup and Configurations
+GRUB EFI Bootloader Install & Check
+"
+source /root/ArchTitus/setup.conf
+genfstab -U /mnt >> /etc/fstab
+if [[ -d "/sys/firmware/efi" ]]; then
+    grub-install --efi-directory=/boot ${DISK}
+fi
+# set kernel parameter for decrypting the drive
+if [[ "${FS}" == "luks" ]]; then
+sed -i "s%GRUB_CMDLINE_LINUX_DEFAULT=\"%GRUB_CMDLINE_LINUX_DEFAULT=\"cryptdevice=UUID=${ENCRYPTED_PARTITION_UUID}:ROOT root=/dev/mapper/ROOT %g" /etc/default/grub
+fi
+
+echo -e "Installing CyberRe Grub theme..."
+THEME_DIR="/boot/grub/themes"
+THEME_NAME=CyberRe
+echo -e "Creating the theme directory..."
+mkdir -p "${THEME_DIR}/${THEME_NAME}"
+echo -e "Copying the theme..."
+cd ${HOME}/ArchTitus
+cp -a ${THEME_NAME}/* ${THEME_DIR}/${THEME_NAME}
+echo -e "Backing up Grub config..."
+cp -an /etc/default/grub /etc/default/grub.bak
+echo -e "Setting the theme as the default..."
+grep "GRUB_THEME=" /etc/default/grub 2>&1 >/dev/null && sed -i '/GRUB_THEME=/d' /etc/default/grub
+echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> /etc/default/grub
+echo -e "Updating grub..."
+grub-mkconfig -o /boot/grub/grub.cfg
+echo -e "All set!"
+
+echo -ne "
 -------------------------------------------------------------------------
-                    Installing Desktop Enviroment
+               Enabling (and Theming) Login Display Manager
 -------------------------------------------------------------------------
 "
-
-source /root/ArchTitus/setup.conf
-
-sed -n '/'$INSTALL_TYPE'/q;p' /root/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
-do
-  if [[ ${line} == '--END OF MINIMAL INSTALL--' ]]
-  then
-    # If selected installation type is FULL, skip the --END OF THE MINIMAL INSTALLATION-- line
-    continue
-  fi
-  echo "INSTALLING: ${line}"
-  sudo pacman -S --noconfirm --needed ${line}
-done
-
 if [[ ${DESKTOP_ENV} == "kde" ]]; then
   systemctl enable sddm.service
   if [[ ${INSTALL_TYPE} == "FULL" ]]; then
@@ -44,17 +61,19 @@ elif [[ "${DESKTOP_ENV}" == "lxde" ]]; then
   systemctl enable lxdm.service
 
 elif [[ "${DESKTOP_ENV}" == "openbox" ]]; then
-  sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
   systemctl enable lightdm.service
   if [[ "${INSTALL_TYPE}" == "FULL" ]]; then
-    git clone https://github.com/stojshic/dotfiles-openbox
-    ./dotfiles-openbox/install.sh
+    # Set default lightdm-webkit2-greeter theme to Litarvan
+    sed -i 's/^webkit_theme\s*=\s*\(.*\)/webkit_theme = litarvan #\1/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+    # Set default lightdm greeter to lightdm-webkit2-greeter
+    sed -i 's/#greeter-session=example.*/greeter-session=lightdm-webkit2-greeter/g' /etc/lightdm/lightdm.conf
   fi
 
-else 
+else
+  if [[ ! "${DESKTOP_ENV}" == "server"  ]]; then
   sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
   systemctl enable lightdm.service
-
+  fi
 fi
 
 echo -ne "
@@ -68,9 +87,10 @@ systemctl enable ntpd.service
 systemctl disable dhcpcd.service
 systemctl stop dhcpcd.service
 systemctl enable NetworkManager.service
+systemctl enable bluetooth
 echo -ne "
 -------------------------------------------------------------------------
-                    Cleaning 
+                    Cleaning
 -------------------------------------------------------------------------
 "
 # Remove no password sudo rights

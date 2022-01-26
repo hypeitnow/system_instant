@@ -1,6 +1,6 @@
 openbox
 lightdm
-lightdm-gtk-greeter
+lightdm-webkit2-greeter
 thunar
 lxsession
 rxvt-unicode
