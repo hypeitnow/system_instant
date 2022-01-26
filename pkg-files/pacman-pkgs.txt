@@ -8,6 +8,7 @@ xorg-xinit
 xterm
 binutils
 dosfstools
+iptables-nft
 linux-headers
 noto-fonts-emoji
 usbutils
