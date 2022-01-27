@@ -60,6 +60,7 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 systemctl enable cups.service
+systemctl enable cronie.service
 ntpd -qg
 systemctl enable ntpd.service
 systemctl disable dhcpcd.service
