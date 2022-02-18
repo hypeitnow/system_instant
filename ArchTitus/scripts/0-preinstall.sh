@@ -139,7 +139,11 @@ elif [[ "${FS}" == "luks" ]]; then
     mount -t btrfs ${partition3} /mnt
     subvolumesetup
 # store uuid of encrypted partition for grub
+<<<<<<<< HEAD:ArchTitus/scripts/0-preinstall.sh
     echo ENCRYPTED_PARTITION_UUID=$(blkid -s UUID -o value ${partition3}) >> $CONFIGS_DIR/setup.conf
+========
+    echo ENCRYPTED_PARTITION_UUID=$(blkid -s UUID -o value ${partition3}) >> $CONFIG_DIR/setup.conf
+>>>>>>>> 0ef4faae (Reorganize solution):scripts/0-preinstall.sh
 fi
 
 # mount target
