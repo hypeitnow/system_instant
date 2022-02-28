@@ -17,19 +17,27 @@ set_option() {
     echo "${1}=${2}" >>$CONFIG_FILE # add option
 }
 
-set_password() {
-    read -rs -p "Please enter password: " PASSWORD1
-    echo -ne "\n"
-    read -rs -p "Please re-enter password: " PASSWORD2
-    echo -ne "\n"
-    if [[ "$PASSWORD1" == "$PASSWORD2" ]]; then
-        set_option "$1" "$PASSWORD1"
-    else
-        echo -ne "ERROR! Passwords do not match. \n"
-        set_password
+root_check() {
+    if [[ "$(id -u)" != "0" ]]; then
+        echo -ne "ERROR! This script must be run under the 'root' user!\n"
+        exit 0
     fi
 }
 
+docker_check() {
+    if awk -F/ '$2 == "docker"' /proc/self/cgroup | read -r; then
+        echo -ne "ERROR! Docker container is not supported (at the moment)\n"
+        exit 0
+    elif [[ -f /.dockerenv ]]; then
+        echo -ne "ERROR! Docker container is not supported (at the moment)\n"
+        exit 0
+    fi
+}
+
+background_checks() {
+    root_check
+    docker_check
+}
 # Renders a text based list of options that can be selected by the
 # user using up, down and enter keys and returns the chosen option.
 #
