@@ -1,12 +1,12 @@
 --END OF MINIMAL INSTALL--
 autojump
 awesome-terminal-fonts
-brave-beta-bin # Brave Browser
-dxvk-bin # DXVK DirectX to Vulcan
-github-desktop-bin # Github Desktop sync
+brave-beta-bin 
+dxvk-bin 
+github-desktop-bin 
 lightly-git
 lightlyshaders-git
-mangohud # Gaming FPS Counter
+mangohud 
 mangohud-common
 nerd-fonts-fira-code
 nordic-darker-standard-buttons-theme
@@ -17,17 +17,17 @@ noto-fonts-emoji
 papirus-icon-theme
 plasma-pa
 rambox-pro
-ocs-url # install packages from websites
+ocs-url 
 sddm-nordic-theme-git
 shellcheck
 snapper-gui-git
 ttf-droid
 ttf-hack
-ttf-meslo # Nerdfont package
+ttf-meslo 
 ttf-roboto
-zoom # video conferences
+zoom 
 snap-pac
 optimus-manager
 megasync
 dolphin-megasync-git
-visual-studio-code-insiders-bin
+code-insiders
