@@ -90,25 +90,6 @@ gitupdate() {
     ssh-add ~/.ssh/github
     ssh -T git@github.com
 }
-
-git_prune_local() { 
-    local prune=$(git fetch -p ; git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d 2>&1)
-    if [[ $prune =~ "not fully merged" ]]; then 
-    echo -e "\nThere are some commits that need your attention, problably you should run:\n
-    git log --graph --left-right --cherry-pick --oneline branch1...branch2 
-    "  
-    while true; do
-        read  "yn?Do you want to proceed and force delete?(y\n)" 
-        case $yn in
-            [Yy]* ) git fetch -p ; git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -D; break;;
-            [Nn]* ) break;;
-            * ) echo "Please answer yes or no.";;
-        esac
-    done
-    fi    
-    }
-
-    
 alias gp=gitpush
 alias gu=gitupdate
 alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
