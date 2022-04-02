@@ -21,7 +21,8 @@ source $HOME/ArchTitus/configs/setup.conf
   touch "/home/$USERNAME/.cache/zshhistory"
   cp "$HOME/ArchTitus/configs/.zshrc" $HOME/.zshrc
   cp "$HOME/ArchTitus/configs/aliasrc" $HOME/aliasrc
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+  cp -r "$HOME/ArchTitus/powerlevel10k" $HOME/
+  cp "$HOME/ArchTitus/configs/.p10k.zsh" $HOME/.p10k.zsh
 
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
