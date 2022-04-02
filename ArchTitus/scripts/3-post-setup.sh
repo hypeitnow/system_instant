@@ -156,3 +156,6 @@ rm -r /home/$USERNAME/ArchTitus
 
 # Replace in the same state
 cd $pwd
+
+#Fix broken dirs creation 
+[[ -d /home/$USERNAME/Downloads ]] || runuser -u $USERNAME -c 'LC_ALL=C xdg-user-dirs-update --force'
