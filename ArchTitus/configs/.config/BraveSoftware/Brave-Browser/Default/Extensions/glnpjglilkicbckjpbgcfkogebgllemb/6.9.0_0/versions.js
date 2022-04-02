@@ -1,1 +1,0 @@
-var PLUGIN_VERSIONS={currentVersion:"6.9.0",protocolVersion:"2"};

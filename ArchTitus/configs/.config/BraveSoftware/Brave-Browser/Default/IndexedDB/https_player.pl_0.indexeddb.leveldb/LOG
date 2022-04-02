@@ -1,6 +1,0 @@
-2022/03/03-18:23:50.393 83a2 Creating DB /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_player.pl_0.indexeddb.leveldb since it was missing.
-2022/03/03-18:23:50.402 83a2 Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_player.pl_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/03-18:23:54.033 7a44 Level-0 table #5: started
-2022/03/03-18:23:54.036 7a44 Level-0 table #5: 1401 bytes OK
-2022/03/03-18:23:54.043 7a44 Delete type=0 #3
-2022/03/03-18:23:54.043 7a44 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

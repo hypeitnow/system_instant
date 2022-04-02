@@ -1,7 +1,0 @@
-2022/03/12-20:45:01.472 bae3 Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/12-20:45:01.473 bae3 Recovering log #3
-2022/03/12-20:45:01.497 bae3 Reusing old log /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
-2022/03/12-20:46:38.331 bd27 Level-0 table #5: started
-2022/03/12-20:46:38.345 bd27 Level-0 table #5: 1304427 bytes OK
-2022/03/12-20:46:38.352 bd27 Delete type=0 #3
-2022/03/12-20:46:38.353 bd27 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

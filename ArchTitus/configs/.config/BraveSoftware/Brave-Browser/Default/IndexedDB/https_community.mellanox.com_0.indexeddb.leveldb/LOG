@@ -1,9 +1,0 @@
-2022/03/03-22:38:06.494 ca3e Creating DB /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_community.mellanox.com_0.indexeddb.leveldb since it was missing.
-2022/03/03-22:38:06.527 ca3e Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_community.mellanox.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/03-22:38:07.839 bef0 Level-0 table #5: started
-2022/03/03-22:38:07.846 bef0 Level-0 table #5: 36892 bytes OK
-2022/03/03-22:38:07.852 bef0 Delete type=0 #3
-2022/03/03-22:38:07.853 bf07 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/03/03-22:38:11.159 bef0 Level-0 table #7: started
-2022/03/03-22:38:11.235 bef0 Level-0 table #7: 1415179 bytes OK
-2022/03/03-22:38:11.243 bef0 Delete type=0 #4
