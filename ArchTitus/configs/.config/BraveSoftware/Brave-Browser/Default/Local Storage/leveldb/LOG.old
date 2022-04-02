@@ -1,0 +1,32 @@
+2022/03/25-22:04:45.210 5 Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/03/25-22:04:45.211 5 Recovering log #209
+2022/03/25-22:04:45.231 5 Reusing old log /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000209.log 
+2022/03/25-22:30:31.881 11 Level-0 table #215: started
+2022/03/25-22:30:31.893 11 Level-0 table #215: 155524 bytes OK
+2022/03/25-22:30:31.905 11 Delete type=0 #209
+2022/03/25-22:31:42.736 11 Level-0 table #217: started
+2022/03/25-22:31:42.746 11 Level-0 table #217: 150063 bytes OK
+2022/03/25-22:31:42.753 11 Delete type=0 #214
+2022/03/25-22:31:54.512 13 Level-0 table #219: started
+2022/03/25-22:31:54.556 13 Level-0 table #219: 150063 bytes OK
+2022/03/25-22:31:54.565 13 Delete type=0 #216
+2022/03/25-22:45:14.002 13 Level-0 table #221: started
+2022/03/25-22:45:14.031 13 Level-0 table #221: 150063 bytes OK
+2022/03/25-22:45:14.040 13 Delete type=0 #218
+2022/03/25-22:45:14.041 13 Compacting 4@0 + 2@1 files
+2022/03/25-22:45:14.095 13 Generated table #222@0: 1511 keys, 2208698 bytes
+2022/03/25-22:45:14.112 13 Generated table #223@0: 577 keys, 463355 bytes
+2022/03/25-22:45:14.112 13 Compacted 4@0 + 2@1 files => 2672053 bytes
+2022/03/25-22:45:14.119 13 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/03/25-22:45:14.120 13 Delete type=2 #211
+2022/03/25-22:45:14.120 13 Delete type=2 #212
+2022/03/25-22:45:14.120 13 Delete type=2 #215
+2022/03/25-22:45:14.121 13 Delete type=2 #217
+2022/03/25-22:45:14.121 13 Delete type=2 #219
+2022/03/25-22:45:14.121 13 Delete type=2 #221
+2022/03/26-17:14:11.309 30 Level-0 table #225: started
+2022/03/26-17:14:11.360 30 Level-0 table #225: 30557 bytes OK
+2022/03/26-17:14:11.368 30 Delete type=0 #220
+2022/03/26-18:34:36.932 61 Level-0 table #227: started
+2022/03/26-18:34:36.985 61 Level-0 table #227: 19759 bytes OK
+2022/03/26-18:34:36.995 61 Delete type=0 #224

@@ -1,0 +1,16 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+onLaunchAction=UseLastUsedCapturemode
+useLightMaskColour=true
+
+[GuiConfig]
+captureMode=5
+cropRegion=656,294,619,379
+window-position=50,50
+
+[Save]
+lastSaveLocation=file:///home/hypeit/Pictures/Screenshot_20220325_230903.png

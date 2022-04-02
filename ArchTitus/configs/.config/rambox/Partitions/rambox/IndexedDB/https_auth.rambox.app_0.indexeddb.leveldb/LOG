@@ -1,0 +1,2 @@
+2022/04/02-06:50:53.576 2fa Creating DB /home/hypeit/.config/rambox/Partitions/rambox/IndexedDB/https_auth.rambox.app_0.indexeddb.leveldb since it was missing.
+2022/04/02-06:50:53.589 2fa Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/rambox/IndexedDB/https_auth.rambox.app_0.indexeddb.leveldb/MANIFEST-000001

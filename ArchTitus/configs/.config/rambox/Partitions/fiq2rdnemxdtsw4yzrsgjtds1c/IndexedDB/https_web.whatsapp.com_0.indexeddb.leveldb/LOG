@@ -1,0 +1,11 @@
+2022/03/26-23:22:54.532 15578 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/26-23:22:54.532 15578 Recovering log #98
+2022/03/26-23:22:54.919 15578 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000098.log 
+2022/03/26-23:23:17.217 18465 Level-0 table #104: started
+2022/03/26-23:23:17.438 18465 Level-0 table #104: 1376102 bytes OK
+2022/03/26-23:23:17.449 18465 Delete type=0 #98
+2022/03/26-23:23:18.896 18463 Compacting 1@1 + 2@2 files
+2022/03/26-23:23:19.474 18463 Generated table #105@1: 36465 keys, 2235117 bytes
+2022/03/26-23:23:19.795 18463 Generated table #106@1: 37295 keys, 1310722 bytes
+2022/03/26-23:23:19.796 18463 Compacted 1@1 + 2@2 files => 3545839 bytes
+2022/03/26-23:23:19.802 18463 compacted to: files[ 0 0 2 0 0 0 0 ]

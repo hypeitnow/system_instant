@@ -1,0 +1,12 @@
+2022/02/13-19:18:41.368 356 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/13-19:18:41.368 356 Recovering log #11
+2022/02/13-19:18:41.394 356 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000011.log 
+2022/02/13-20:29:03.283 350 Level-0 table #16: started
+2022/02/13-20:29:03.369 350 Level-0 table #16: 1192328 bytes OK
+2022/02/13-20:29:03.384 350 Delete type=0 #11
+2022/02/13-21:39:23.302 604c Compacting 1@1 + 1@2 files
+2022/02/13-21:39:23.321 604c Generated table #17@1: 79 keys, 51907 bytes
+2022/02/13-21:39:23.321 604c Compacted 1@1 + 1@2 files => 51907 bytes
+2022/02/13-21:39:23.333 604c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/13-21:39:23.333 604c Delete type=2 #13
+2022/02/13-21:39:23.333 604c Delete type=2 #16

@@ -1,0 +1,7 @@
+2022/03/26-23:23:08.897 18464 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdakzqxlillbcwqckvrcks/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/26-23:23:08.897 18464 Recovering log #3
+2022/03/26-23:23:08.917 18464 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdakzqxlillbcwqckvrcks/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2022/03/26-23:38:14.280 17a06 Level-0 table #5: started
+2022/03/26-23:38:14.385 17a06 Level-0 table #5: 1396932 bytes OK
+2022/03/26-23:38:14.388 17a06 Delete type=0 #3
+2022/03/26-23:38:14.394 17a06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

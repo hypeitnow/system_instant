@@ -1,0 +1,6 @@
+2022/04/02-06:50:25.086 51f Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/04/02-06:50:25.109 51f Recovering log #149
+2022/04/02-06:50:25.118 51f Reusing old log /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000149.log 
+2022/04/02-06:50:29.759 54e Level-0 table #154: started
+2022/04/02-06:50:29.771 54e Level-0 table #154: 71458 bytes OK
+2022/04/02-06:50:29.785 54e Delete type=0 #149

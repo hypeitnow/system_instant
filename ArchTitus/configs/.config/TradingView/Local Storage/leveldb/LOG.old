@@ -1,0 +1,6 @@
+2022/01/14-16:47:42.827 ce5 Reusing MANIFEST /home/hypeit/.config/TradingView/Local Storage/leveldb/MANIFEST-000001
+2022/01/14-16:47:42.827 ce5 Recovering log #4
+2022/01/14-16:47:42.833 ce5 Reusing old log /home/hypeit/.config/TradingView/Local Storage/leveldb/000004.log 
+2022/01/15-17:19:25.708 1a1d4 Level-0 table #8: started
+2022/01/15-17:19:25.767 1a1d4 Level-0 table #8: 8300 bytes OK
+2022/01/15-17:19:25.775 1a1d4 Delete type=0 #4

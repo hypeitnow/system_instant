@@ -1,0 +1,14 @@
+{
+	"lang": "en-US",
+	"darkThemeInvert": false,
+	"disable-hide": true,
+	"option-to-hide-menu": false,
+	"option-to-disable-internal-external-popup": false,
+	"allow-multiple": false,
+	"visible": true,
+	"webview-onenote": {
+		"url": "https://onedrive.live.com/redir?resid=36F222B77EC0529B%21456&page=Edit&wd=target%28IT.one%7Cd1508178-b754-4232-ac21-de938ca8951d%2FANDROID%7C874c7501-9cd4-4f32-9f5f-063730d3546e%2F%29",
+		"proxy": ""
+	},
+	"maximized": true
+}

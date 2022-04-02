@@ -1,0 +1,6 @@
+2022/03/25-21:45:00.787 343 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdm7fqpnq3caaflp1sov4x/Local Storage/leveldb/MANIFEST-000001
+2022/03/25-21:45:00.789 343 Recovering log #7
+2022/03/25-21:45:00.792 343 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdm7fqpnq3caaflp1sov4x/Local Storage/leveldb/000007.log 
+2022/03/25-21:49:03.012 3f2 Level-0 table #11: started
+2022/03/25-21:49:03.067 3f2 Level-0 table #11: 9183 bytes OK
+2022/03/25-21:49:03.074 3f2 Delete type=0 #7

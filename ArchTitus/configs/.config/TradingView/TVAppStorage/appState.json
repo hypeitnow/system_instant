@@ -1,0 +1,14 @@
+{
+  "saveCredentials": true,
+  "forcedMacOsEnableHardwareAcceleration": false,
+  "fileSaveDefaultPath": "/home/hypeit/Downloads",
+  "showFolderSelectDialog": false,
+  "saveSymbolInterval": true,
+  "alertSettings": {
+    "enablePlaySound": true,
+    "enableShowNotification": true
+  },
+  "isRunBefore": true,
+  "cid": "1da3637c-bb93-40de-8d31-f2023a304ef6",
+  "disableHardwareAcceleration": true
+}

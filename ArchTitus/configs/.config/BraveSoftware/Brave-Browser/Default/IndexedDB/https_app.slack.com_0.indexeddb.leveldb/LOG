@@ -1,0 +1,6 @@
+2022/03/12-17:24:43.625 d06 Creating DB /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb since it was missing.
+2022/03/12-17:24:43.647 d06 Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/12-17:28:33.576 cfe Level-0 table #5: started
+2022/03/12-17:28:33.582 cfe Level-0 table #5: 1756 bytes OK
+2022/03/12-17:28:33.589 cfe Delete type=0 #3
+2022/03/12-17:28:33.589 cfe Manual compaction at level-0 from (begin) .. (end); will stop at (end)

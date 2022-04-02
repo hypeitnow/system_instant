@@ -1,0 +1,30 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+Recent Files[$e]=file:$HOME/Pictures/paradox.png,file:$HOME/Pictures/paradox.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16
+
+[MainWindow]
+LVDS-1 Height 1366x768=667
+LVDS-1 Width 1366x768=779
+LVDS-1 XPosition 1366x768=411
+LVDS-1 YPosition 1366x768=165
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAwsAAAJxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/paradox-1200x627.jpeg
+Name1[$e]=paradox-1200x627.jpeg
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=189,589

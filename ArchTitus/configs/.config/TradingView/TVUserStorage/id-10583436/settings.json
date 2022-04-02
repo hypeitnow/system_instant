@@ -1,0 +1,48 @@
+{
+  "globals": {
+    "undo": []
+  },
+  "app": {
+    "chartWindows": [
+      {
+        "persistentId": "f7c0f5e9-1e7e-4b97-afe4-ef0fd7584cea",
+        "options": {
+          "tabViewDefaultUrl": "https://www.tradingview.com/chart/",
+          "windowOptions": {
+            "width": 1024,
+            "height": 724,
+            "minWidth": 500,
+            "minHeight": 350,
+            "show": true,
+            "x": 171,
+            "y": 0,
+            "state": 1
+          },
+          "titleBarOptions": {
+            "showMainMenu": true,
+            "showTabs": true,
+            "showMaximize": true,
+            "showMinimize": true
+          }
+        },
+        "tabs": [
+          {
+            "persistentId": "0a49cd2b-9ebd-4412-b068-ceb8d0cb9816",
+            "active": true,
+            "title": "ETHUSD",
+            "url": "https://pl.tradingview.com/chart/BJDaUZfU/",
+            "isFullscreen": false
+          }
+        ]
+      }
+    ],
+    "state": {
+      "focusedWindowId": "f7c0f5e9-1e7e-4b97-afe4-ef0fd7584cea",
+      "askForClose": true,
+      "shouldCredentialsSave": true
+    }
+  },
+  "linking": {
+    "groups": []
+  }
+}

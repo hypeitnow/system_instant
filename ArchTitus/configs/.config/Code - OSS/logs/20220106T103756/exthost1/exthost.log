@@ -1,0 +1,19 @@
+[2022-01-06 10:38:00.073] [exthost] [info] Extension host with pid 5427 started
+[2022-01-06 10:38:00.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-06 10:38:00.290] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-06 10:38:00.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-06 10:38:00.475] [exthost] [info] Eager extensions activated
+[2022-01-06 10:38:00.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-06 10:38:49.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-06 10:38:49.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-06 10:38:49.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-06 10:39:10.686] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-06 10:39:11.695] [exthost] [info] Extension host with pid 5427 exiting with code 0
+[2022-01-06 10:39:13.170] [exthost] [info] Extension host with pid 5551 started
+[2022-01-06 10:39:13.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-06 10:39:13.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-06 10:39:13.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-06 10:39:13.342] [exthost] [info] Eager extensions activated
+[2022-01-06 10:39:13.344] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-06 10:39:47.072] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-06 10:39:48.077] [exthost] [info] Extension host with pid 5551 exiting with code 0

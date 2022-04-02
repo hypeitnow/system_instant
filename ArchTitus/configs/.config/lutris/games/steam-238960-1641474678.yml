@@ -1,0 +1,6 @@
+system:
+  vk_icd: /usr/share/vulkan/icd.d/nvidia_icd.json
+steam: {}
+game:
+  appid: '238960'
+null: {}

@@ -1,0 +1,6 @@
+2022/02/13-21:06:32.563 ad4 Reusing MANIFEST /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/MANIFEST-000001
+2022/02/13-21:06:32.564 ad4 Recovering log #17
+2022/02/13-21:06:32.564 ad4 Reusing old log /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/000017.log 
+2022/02/13-21:35:36.878 5f41 Level-0 table #22: started
+2022/02/13-21:35:36.891 5f41 Level-0 table #22: 28760 bytes OK
+2022/02/13-21:35:36.898 5f41 Delete type=0 #17

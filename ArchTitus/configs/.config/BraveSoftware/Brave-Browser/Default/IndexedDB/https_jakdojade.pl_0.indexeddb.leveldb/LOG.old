@@ -1,0 +1,6 @@
+2022/02/12-16:49:33.556 3024 Creating DB /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_jakdojade.pl_0.indexeddb.leveldb since it was missing.
+2022/02/12-16:49:33.596 3024 Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_jakdojade.pl_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/12-20:53:01.194 39c2 Level-0 table #5: started
+2022/02/12-20:53:01.199 39c2 Level-0 table #5: 1943 bytes OK
+2022/02/12-20:53:01.206 39c2 Delete type=0 #3
+2022/02/12-20:53:01.207 39c2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,9 @@
+2022/02/13-19:18:57.465 350 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/13-19:18:57.465 350 Recovering log #7
+2022/02/13-19:18:57.470 350 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2022/02/13-19:19:19.217 354 Compacting 1@1 + 1@2 files
+2022/02/13-19:19:19.232 354 Generated table #10@1: 177 keys, 239283 bytes
+2022/02/13-19:19:19.233 354 Compacted 1@1 + 1@2 files => 239283 bytes
+2022/02/13-19:19:19.237 354 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/13-19:19:19.238 354 Delete type=2 #5
+2022/02/13-19:19:19.238 354 Delete type=2 #8

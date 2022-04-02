@@ -1,0 +1,1 @@
+(self["webpackJsonp_trade-spot"]=self["webpackJsonp_trade-spot"]||[]).push([[9016],{aOwG:(e,s,t)=>{"use strict";t.r(s),t.d(s,{default:()=>p});var n=t("/SIk"),o=t.n(n),a=t("ErMs"),c=o().createElement;const p=({onResume:e})=>c(a.k.Icons.ResumeWindow,{size:20,onClick:e})}}]);

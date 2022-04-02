@@ -1,0 +1,6 @@
+2022/03/26-17:21:25.691 1786a Creating DB /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mosaico.ai_0.indexeddb.leveldb since it was missing.
+2022/03/26-17:21:25.712 1786a Reusing MANIFEST /home/hypeit/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mosaico.ai_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/26-18:42:53.663 18178 Level-0 table #5: started
+2022/03/26-18:42:53.670 18178 Level-0 table #5: 1035 bytes OK
+2022/03/26-18:42:53.677 18178 Delete type=0 #3
+2022/03/26-18:42:53.678 18178 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

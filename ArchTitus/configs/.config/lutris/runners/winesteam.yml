@@ -1,0 +1,3 @@
+system: {}
+winesteam:
+  steam_path: /home/hypeit/.local/share/Steam

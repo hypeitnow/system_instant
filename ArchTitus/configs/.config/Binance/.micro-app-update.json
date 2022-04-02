@@ -1,0 +1,32 @@
+{
+	"trade-spot": {
+		"appName": "trade-spot",
+		"appVersion": "1.2.4",
+		"version": "1.3.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/spot-trade-ui/spot-trade-ui-ca604059b2c164df75f60661b39fa051.zip",
+		"sign": "w53HhAOSnleazDWr866BUSC8W3rKZNAexoB2ufKUnWGLp/RSxcFr4BQY+YVDWyUeLibxB5FbXVahBo/m5mrK7erKkrZDE45x2u8hbRSt8EuBEX5kYcfi20y42gT90r3HigCdrrOinYsXW29megzwxA8AZySXL2QL7ErK2KssTnpxvIeMx9NCFOXkcGMcGerTu4NCUhWaDteiSZ6Alu1d/tX1WuoeBO+rbnAtDs6Xx/0I9CrhQA7l3/o3T43fcUAkppssl6Qz3EBp+Og1y7aHs9lJPjS6T7yiNLi8QH9o5e1wx/pqFjZ9AcrcTTwwFe0DN+2Zm/M9CwDw25zfvJmHiw==",
+		"releaseDate": 1641434872000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/trade-spot-v1.2.4"
+	},
+	"c2c": {
+		"appName": "c2c",
+		"appVersion": "1.1.1",
+		"version": "1.3.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/c2c-user-ui/c2c-user-ui-8180774c9c76a1298b7e21a207ae273d.zip",
+		"sign": "A2aJpBylVZ+c8MSv6qOixLWA7gG4z58zt6+07cL8qkqOptkugL/wFUQ+aQEiFyQ2Fnf6e6/hB1qdtD/UC1ZvMCXtcqd5lygxmhHTRC8nRmHry+yBUzZbRAACn9HPooBN7pos3hGuxUcvcDqV0Ud83Dbwd46L92LkjyZJXM/zdvVxFZAAsuMwCXYjKVnS0ubBHquE2aPCblsK7rlOwDhf7xFSthHSr/R5nv604f6slW5ge3bD9pcmckEHg1kt/+Pl9aNCATap86BkwJgo6q1d2U8XKVIRZBNcqvpPQ9mELUoWggaF94+bjYWp6jF00nkXmrX3PZw91HaW1BUuDySQtQ==",
+		"releaseDate": 1640940358000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/c2c-v1.1.1"
+	},
+	"launchpad": {
+		"appName": "launchpad",
+		"appVersion": "1.1.2",
+		"version": "1.3.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/launchpad-ui/launchpad-ui-30cb32478e5df8abf749cea4a746c896.zip",
+		"sign": "lamoBOGI8oFi4ibekeEEssiAIhMPDJBh6mic5gX5XiV34dDRLrt4gYGxsYkJ7rUXcTRWsjK77AjYynsJJ8sRIrgKmmJlJXuUcE/iS9E6IFDutcBkXkUdL+tNnMk7h2AxE5Pn1YbI5Aw/PtPnqK779yEIFtCyoLZ5YLgYXOrSswF/Qg7mZLCa4APAVQ0cuYLJg2/4/v02KfP4vbvrjTXYQnGO35LLFRNKvZrFT0HZsm8nol2j7HZtI7phDXjjpEdTVp0+hNpcKzn6ayGyOYgik997YHe/CMJkiBCKi9OebaA3SIOWRGFou2y+oeLisacLN2+Vv+DdvplHtDAQQRKGYA==",
+		"releaseDate": 1641357989000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/launchpad-v1.1.2"
+	}
+}
