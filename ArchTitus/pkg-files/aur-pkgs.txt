@@ -29,3 +29,4 @@ ttf-meslo
 ttf-roboto
 zoom 
 snap-pac
+rtl88x2bu-dkms-git
