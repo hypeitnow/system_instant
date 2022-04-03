@@ -1,5 +1,6 @@
 --END OF MINIMAL INSTALL--
 autojump
+android-tools
 awesome-terminal-fonts
 brave-bin
 code-insiders
@@ -29,4 +30,6 @@ ttf-meslo
 ttf-roboto
 zoom 
 snap-pac
+spotify
+scrcpy
 rtl88x2bu-dkms-git
