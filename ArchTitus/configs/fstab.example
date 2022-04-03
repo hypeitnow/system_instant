@@ -1,0 +1,25 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda3 UUID=4d3d9aa4-1bcf-4f41-97e7-8068602571f1
+LABEL=ROOT          	/         	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=256,subvol=/@	0 0
+
+# /dev/sda2 UUID=97D9-7B7E
+LABEL=EFIBOOT       	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda3 UUID=4d3d9aa4-1bcf-4f41-97e7-8068602571f1
+LABEL=ROOT          	/home     	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=257,subvol=/@home	0 0
+
+# /dev/sda3 UUID=4d3d9aa4-1bcf-4f41-97e7-8068602571f1
+LABEL=ROOT          	/tmp      	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=259,subvol=/@tmp	0 0
+
+# /dev/sda3 UUID=4d3d9aa4-1bcf-4f41-97e7-8068602571f1
+LABEL=ROOT          	/var      	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=258,subvol=/@var	0 0
+
+# /dev/sda3 UUID=4d3d9aa4-1bcf-4f41-97e7-8068602571f1
+LABEL=ROOT          	/.snapshots	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=260,subvol=/@.snapshots	0 0
+
+LABEL=Games 	/run/media/hypeit/Games	ext4	auto,user,exec,rw,async,atime	0 0
+
+LABEL=Filme     /run/media/hypeit/Filme ntfs    uid=1000,gid=1000,umask=000,auto,user,exec,rw,async,atime   0 0

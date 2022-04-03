@@ -32,4 +32,5 @@ zoom
 snap-pac
 spotify
 scrcpy
+signal-desktop-beta-bin
 rtl88x2bu-dkms-git
