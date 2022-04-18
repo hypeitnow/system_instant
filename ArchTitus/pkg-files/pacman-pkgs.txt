@@ -26,7 +26,6 @@ bluez-libs
 bluez-utils
 bridge-utils
 btrfs-progs
-celluloid
 cmatrix
 cronie
 cups

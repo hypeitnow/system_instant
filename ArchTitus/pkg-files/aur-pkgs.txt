@@ -34,3 +34,4 @@ spotify
 scrcpy
 signal-desktop-beta-bin
 rtl88x2bu-dkms-git
+vlc
