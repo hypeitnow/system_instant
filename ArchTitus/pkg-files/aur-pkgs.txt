@@ -27,8 +27,7 @@ snapper-gui-git
 ttf-droid
 ttf-hack
 ttf-meslo 
-ttf-roboto
-zoom 
+ttf-roboto 
 snap-pac
 spotify
 scrcpy
