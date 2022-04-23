@@ -60,6 +60,7 @@ lutris
 lzop
 m4
 make
+mkinitcpio-firmware
 neofetch
 ntfs-3g
 ntp
@@ -112,3 +113,4 @@ hcxtools
 hcxdumptool 
 cowpatty 
 bully
+linux-zen
