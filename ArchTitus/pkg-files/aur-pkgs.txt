@@ -3,7 +3,7 @@ autojump
 android-tools
 awesome-terminal-fonts
 brave-bin
-visual-studio-code-insiders-bin
+code-insiders
 dxvk-bin
 megasync-bin
 dolphin-megasync-bin
