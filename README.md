@@ -90,3 +90,7 @@ An issue is easier to resolve if it contains a few important pieces of informati
 - Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: <https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg>
 # linux_instant
 Repo containing instant linux scripts
+
+# Updates
+To update vsc run 
+***[paru|yay] -S code-insiders --rebuild --redownload --cleanafter every day.***
