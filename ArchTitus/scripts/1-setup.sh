@@ -109,7 +109,7 @@ echo -ne "
 "
 # Graphics Drivers find and install
 if lspci | grep -E "NVIDIA|GeForce" && ! lspci | grep -E 'VGA.*Intel'; then
-    pacman -S nvidia --noconfirm --needed
+    pacman -S nvidia-beta-dkms --noconfirm --needed
 	nvidia-xconfig
 elif lspci | grep -E 'VGA.*Intel'; then
 	printf 'You have optimus gpu, please visit arch wiki to verify which driver version you should install(no nvidia drivers installed)'
