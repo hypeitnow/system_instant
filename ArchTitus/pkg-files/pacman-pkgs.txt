@@ -53,6 +53,7 @@ haveged
 htop
 jdk-openjdk
 kitty
+kdialog
 libdvdcss
 libtool
 lsof
@@ -105,6 +106,7 @@ zip
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+zenity
 wifite
 reaver 
 pyrit 
