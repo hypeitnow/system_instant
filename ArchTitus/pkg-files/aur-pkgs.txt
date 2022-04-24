@@ -33,4 +33,5 @@ spotify
 scrcpy
 signal-desktop-beta-bin
 rtl88x2bu-dkms-git
+wine-staging
 vlc
