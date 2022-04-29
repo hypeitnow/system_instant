@@ -114,6 +114,6 @@ alias gu=gitupdate
 alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
-alias sysupdate='sudo pacman -Syu && sudo yay -Syu'
+alias sysupdate='sudo pacman -Sy archlinux-keyring && yay'
 alias 'python=python3'
 alias 'pip=pip3'
