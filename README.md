@@ -1,6 +1,9 @@
 # linux_instant
 Repo containing instant linux scripts
 
+# Desktop environments
+***GNOME***
+You should remember about the kitty.conf file which contains the super+v mapping for pasting from clipboard, in gnome notification center should be changed to super+b  
 # Updates
 To update vsc run 
 ***[paru|yay] -S code-insiders --rebuild --redownload --cleanafter every day.***
