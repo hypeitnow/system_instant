@@ -98,6 +98,7 @@ unrar
 unzip
 virt-manager
 virt-viewer
+veracrypt
 which
 wine-gecko
 wine-mono
