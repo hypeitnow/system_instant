@@ -2,7 +2,7 @@
 
 echo "Starting the extraction proccess..."
 
-[[ -f /tmp/brave.tgz ]] || echo "Exiting as no archive was found"; exit 1 
+[[ -f /tmp/brave.tgz ]] || (echo "Exiting as no archive was found"; exit 1)
 
 tar --overwrite --strip-components=1 -C "/home/hypeit/.cache/" -xzf /tmp/brave.tgz tmp/BraveSoftware || echo "Error in unpacking .cache"
 
