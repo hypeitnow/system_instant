@@ -117,3 +117,4 @@ hcxdumptool
 cowpatty 
 bully
 linux-zen
+inetutils
