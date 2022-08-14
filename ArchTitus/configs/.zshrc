@@ -105,6 +105,7 @@ bindkey -s '^ ' ' git status --short^M'
 
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/aliasrc" ] && source "$HOME/aliasrc"
+[ -f "$HOME/git_alias" ] && source "$HOME/git_alias"
 
 # Load ; should be last.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null

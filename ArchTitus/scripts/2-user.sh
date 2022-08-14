@@ -21,6 +21,7 @@ source $HOME/ArchTitus/configs/setup.conf
   touch "/home/$USERNAME/.cache/zshhistory"
   cp "$HOME/ArchTitus/configs/.zshrc" $HOME/.zshrc
   cp "$HOME/ArchTitus/configs/aliasrc" $HOME/aliasrc
+  cp "$HOME/ArchTitus/configs/git_alias" $HOME/git_alias  
   cp -r "$HOME/ArchTitus/powerlevel10k" $HOME/
   cp "$HOME/ArchTitus/configs/.p10k.zsh" $HOME/.p10k.zsh
 
