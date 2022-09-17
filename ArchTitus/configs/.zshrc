@@ -114,5 +114,15 @@ source /usr/share/autojump/autojump.zsh 2>/dev/null
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompinit && source /opt/azure-cli/az.completion;fi
+
+#Start agent
+if [ -z "$SSH_AUTH_SOCK" ]; then
+   RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
+   if [ "$RUNNING_AGENT" = "0" ]; then
+        ssh-agent -s &> ~/.ssh/ssh-agent
+   fi
+   eval `cat ~/.ssh/ssh-agent` &> /dev/null
+fi
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
