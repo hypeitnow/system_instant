@@ -87,8 +87,7 @@ gitpush() {
 }
 gitupdate() {
     eval "$(ssh-agent -s)"
-    ssh-add ~/.ssh/github
-    ssh -T git@github.com
+    ssh-add ~/.ssh/id_rsa
 }
 
 git_prune_local() { 
@@ -117,5 +116,5 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias sysupdate='sudo pacman -Sy archlinux-keyring --noconfirm && yay'
 alias 'python=python3'
 alias 'pip=pip3'
-alias 'webtorrrent=webtorrent download -u 100 '
+alias 'wtor=webtorrent download -u 100 '
 alias 'sshp= sshpass -e ssh '
