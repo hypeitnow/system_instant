@@ -77,6 +77,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias vim='vim'
 alias vi='vim'
+alias c='code-insiders'
 alias gds-start='sudo systemctl start openvpn-client@gds'
 alias gds-stop='sudo systemctl stop openvpn-client@gds'
 gitpush() {
