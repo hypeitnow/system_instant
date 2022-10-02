@@ -38,6 +38,9 @@ alias gm='git merge'
 compdef _git gm=git-merge
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
+compdef _git grhh=git-reset-hard
+alias gsbm='git submodule update --init --remote --force --recursive'
+compdef _git gsbm='git-submodule-update'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
