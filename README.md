@@ -18,6 +18,12 @@ and set the menu display options similarly: https://github.com/Jguer/yay/blob/ma
 for example: yay --save --nocleanmenu --nodiffmenu
 
 I'll leave the rest an an exercise to the reader. Remember, man is your friend!
+# Archived and No longer maintained. 
+
+Due to the constant updates and time it takes to maintain this script I will no longer be updating it. Free free to fork it and take what you want from here. There has been some fantastic contributions over the past year and I learned a lot while making this project. 
+
+Thank you!
+
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
