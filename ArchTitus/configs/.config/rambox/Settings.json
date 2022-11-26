@@ -16,24 +16,22 @@
 	},
 	"window": {
 		"x": 0,
-		"y": 29,
-		"maximized": true,
+		"y": 122,
+		"maximized": false,
 		"alwaysOnTop": false,
 		"autoHideMenu": true,
 		"displayBehaviour": "traytaskbar",
 		"closeBehaviour": "traytaskbar",
-		"width": 1366,
-		"height": 576
+		"width": 1855,
+		"height": 877
 	},
 	"hardwareAcceleration": true,
 	"language": "english",
 	"systemTrayIndicator": true,
 	"flashTaskbar": false,
-	"preventLock": false,
 	"unlockPasswordTimer": 0,
 	"CPUNotifications": true,
 	"defaultLinkHandling": "block",
-	"hideAppsLabels": true,
 	"shortcuts": {
 		"lastApp1": true,
 		"lastApp2": true,
@@ -49,11 +47,12 @@
 		"profile": true,
 		"focusMode": true
 	},
-	"downloadFolder": "/home/hypeit/Downloads",
+	"downloadFolder": "/home/hypeit",
 	"theme": "dark",
 	"defaultSpellChecker": "en-GB",
+	"lockmethod": "disabled",
 	"closeBehaviour": "traytaskbar",
 	"alwaysOnTop": false,
 	"autoHideMenu": true,
-	"lockmethod": "disabled"
+	"displayBehaviour": "traytaskbar"
 }

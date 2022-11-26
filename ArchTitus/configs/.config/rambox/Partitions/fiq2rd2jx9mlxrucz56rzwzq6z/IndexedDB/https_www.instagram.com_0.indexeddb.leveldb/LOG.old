@@ -1,3 +1,6 @@
-2022/03/26-16:40:56.497 155a3 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/26-16:40:56.497 155a3 Recovering log #32
-2022/03/26-16:40:56.499 155a3 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000032.log 
+2022/09/18-13:47:58.287 24a0 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/18-13:47:58.287 24a0 Recovering log #119
+2022/09/18-13:47:58.291 24a0 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000119.log 
+2022/09/18-14:00:30.920 baf Level-0 table #125: started
+2022/09/18-14:00:30.938 baf Level-0 table #125: 844431 bytes OK
+2022/09/18-14:00:30.953 baf Delete type=0 #119

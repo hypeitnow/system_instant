@@ -1,3 +1,6 @@
-2022/03/26-23:24:44.891 187f1 Reusing MANIFEST /home/hypeit/.config/p3x-onenote/IndexedDB/https_onenote.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/26-23:24:44.892 187f1 Recovering log #4
-2022/03/26-23:24:44.906 187f1 Reusing old log /home/hypeit/.config/p3x-onenote/IndexedDB/https_onenote.officeapps.live.com_0.indexeddb.leveldb/000004.log 
+2022/09/17-14:00:18.918 3c08 Reusing MANIFEST /home/hypeit/.config/p3x-onenote/IndexedDB/https_onenote.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/17-14:00:18.918 3c08 Recovering log #3
+2022/09/17-14:00:18.974 3c08 Reusing old log /home/hypeit/.config/p3x-onenote/IndexedDB/https_onenote.officeapps.live.com_0.indexeddb.leveldb/000003.log 
+2022/09/17-14:01:06.004 3c34 Level-0 table #5: started
+2022/09/17-14:01:06.140 3c34 Level-0 table #5: 1455103 bytes OK
+2022/09/17-14:01:06.148 3c34 Delete type=0 #3

@@ -1,7 +1,4 @@
 {
-  "globals": {
-    "undo": []
-  },
   "app": {
     "chartWindows": [
       {
@@ -29,18 +26,25 @@
           {
             "persistentId": "0a49cd2b-9ebd-4412-b068-ceb8d0cb9816",
             "active": true,
-            "title": "ETHUSD",
+            "title": "RAYUSD",
             "url": "https://pl.tradingview.com/chart/BJDaUZfU/",
-            "isFullscreen": false
+            "isFullscreen": false,
+            "symbol": {
+              "symbol": "FTX:RAYUSD",
+              "interval": "5"
+            },
+            "watchlist": "red"
           }
         ]
       }
     ],
     "state": {
       "focusedWindowId": "f7c0f5e9-1e7e-4b97-afe4-ef0fd7584cea",
-      "askForClose": true,
-      "shouldCredentialsSave": true
+      "askForClose": true
     }
+  },
+  "globals": {
+    "undo": []
   },
   "linking": {
     "groups": []

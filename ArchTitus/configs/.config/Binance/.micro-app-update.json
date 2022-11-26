@@ -1,13 +1,13 @@
 {
 	"trade-spot": {
 		"appName": "trade-spot",
-		"appVersion": "1.2.4",
-		"version": "1.3.0",
-		"url": "https://ftp.binance.com/electron-desktop-business/spot-trade-ui/spot-trade-ui-ca604059b2c164df75f60661b39fa051.zip",
-		"sign": "w53HhAOSnleazDWr866BUSC8W3rKZNAexoB2ufKUnWGLp/RSxcFr4BQY+YVDWyUeLibxB5FbXVahBo/m5mrK7erKkrZDE45x2u8hbRSt8EuBEX5kYcfi20y42gT90r3HigCdrrOinYsXW29megzwxA8AZySXL2QL7ErK2KssTnpxvIeMx9NCFOXkcGMcGerTu4NCUhWaDteiSZ6Alu1d/tX1WuoeBO+rbnAtDs6Xx/0I9CrhQA7l3/o3T43fcUAkppssl6Qz3EBp+Og1y7aHs9lJPjS6T7yiNLi8QH9o5e1wx/pqFjZ9AcrcTTwwFe0DN+2Zm/M9CwDw25zfvJmHiw==",
-		"releaseDate": 1641434872000,
+		"appVersion": "1.4.0",
+		"version": "1.5.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/spot-trade-ui/spot-trade-ui-7b3f43e3fbf7c75718991f5f99524bdd.zip",
+		"sign": "A2imswlb4p7HcDCdNMn0zqTDgA98O8vvpjJaRk4bsDvwpvaqnCqMXvXrK3zQSgo+HoubwrrSTXGeYnCZJFbxdAH5J6GPiYCTcFYEFAZfVzKCSeOVCRzfkRy+VU1DMLkBTtu8sxQc4yKKdb/Pr7R2SkkRRVnW+L2a+2qeeEjZTF3mEZehYU3JjsyOf47S7nqzzBVt6cCHgqxOqyIIHF1S/Uq8G3w9simMRUUX+mLuYaaooRLx6Bx2rH5u6VgMOJ2J4Kud+CrEFVeDBkE91vBEBVqHl0RWuVmZMGU0R89IWQhlRshqpRn76TvU0p5NNDsripSB9lBKzI76f5BpCMvKWw==",
+		"releaseDate": 1648106174000,
 		"gray": false,
-		"localPath": "/home/hypeit/.config/Binance/microApps/trade-spot-v1.2.4"
+		"localPath": "/home/hypeit/.config/Binance/microApps/trade-spot-v1.4.0"
 	},
 	"c2c": {
 		"appName": "c2c",
@@ -28,5 +28,45 @@
 		"releaseDate": 1641357989000,
 		"gray": false,
 		"localPath": "/home/hypeit/.config/Binance/microApps/launchpad-v1.1.2"
+	},
+	"user-center-dashboard": {
+		"appName": "user-center-dashboard",
+		"appVersion": "1.1.1",
+		"version": "1.5.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/mainuc-dashboard-ui/mainuc-dashboard-ui-acdbc1dd56b1ee6d7e00a64a8eeee21c.zip",
+		"sign": "ngZrLFYyJgDBXZArcUkmO7JTMa4jey5alP6KyNT0Fgk1CJX/qa5hykk/I5nfdcBzpTTrVcip8si50JqBiecLearQ4vEz6xoaoY5oGkzb5e0AZyhPSGEA1V690TrufTuwj2gre+bedffl19vYdHvPLY8f5B6jEW3MOQQAUyvm73kmMKM39KZ8yEg61NU35WC1/HqFm7fJA55qIEVYsoxY934c2NJciUC5iZvLO/fbS5MmH9elz7S+ffFPoxaW2TUFdvcQaYNVcoQbVr5xL7oHBNKUhbfY8HW8eBs1BrhSeXHZ066FOEkpK/CA9yAM+HBF6eDa6SHwVYNGlkYb+Z5p/g==",
+		"releaseDate": 1647500696000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/user-center-dashboard-v1.1.1"
+	},
+	"trade-futures": {
+		"appName": "trade-futures",
+		"appVersion": "1.0.86",
+		"version": "1.5.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/futures-trade-ui/futures-trade-ui-98d2778baf04ffe9aa8600a13f8604e5.zip",
+		"sign": "Za1XGQ+xrSLGRNG/Gro3ILh6Sj0DoHkqb+3rsUqKx7YCoC6bk2cpyjHmlkYTqSjt1hR5dmxoyR5h1S8W7cPwwdB1y3RsOKrwLyerAbJx4c/DdGYLfKVKsUH5vt0inyaJ7kRY8/8oXnhvpQFDViQYQ3wAolHkfJGHDjcz+meJLIIqIyDGXuCnovCuj5e1ZoE6NMp7CNYw9S5RZyPoMVJE1T+CRSqJq5ndbbaNKn9Tr+JSZa9TfHnAIhdtN9VviHJWtl3diLnp/pANdD+wxikS7uOEltM6rkLPChQkYSCOOw+HOuTiJEtWRLzmvtCxvb3OnbE6cM0t9IHobjJYmp3fYQ==",
+		"releaseDate": 1647937725000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/trade-futures-v1.0.86"
+	},
+	"savings": {
+		"appName": "savings",
+		"appVersion": "1.1.0",
+		"version": "1.5.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/lending-ui/lending-ui-e47b2c7cd99bbbde0027f408bd0254f1.zip",
+		"sign": "l6TLZ7Cv7rK5Ljwhkh0DcP870e552TlQidjhYsD58MiawtJQndOeHcvNUY2khqn44aoxFdVSbS9bgBzJhC2rkk/tZzefb9yKnsZmdCrbSg5BVvkQCxiH+Ld9q/u6HBn8L0OfaFUuuR3e1mEUhFkOWxbDzA4tjNkxcjeGZmnbtAGdeHY3Gnc+updrUv9PFS1hR8fdnvCyNRlJtod4NA3jc2a4+m9cWpn2W+ruJOm+bjXFyAq+M+xTAAXEbc/sQB4tLopsO6s+0iCGF1hulnRYVs5ntJetP1O5odd11QvUfXdxvJWPoH2SFBEw/igczMvl0YMpWU/J55sNpbR989uZqQ==",
+		"releaseDate": 1648902510000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/savings-v1.1.0"
+	},
+	"user-center-saving": {
+		"appName": "user-center-saving",
+		"appVersion": "1.0.14",
+		"version": "1.5.0",
+		"url": "https://ftp.binance.com/electron-desktop-business/mainuc-saving-ui/mainuc-saving-ui-b838d48d61b6d9387c4e4317d99358f9.zip",
+		"sign": "LtirTlzaP4k4bhVGzwZ7PKgVhofH5F3lAonkGFuPvt1Ocd7IrVPvE2HiO0i5+CaWb1v8xzuT6rlktnThKgS6/JYOkZNcVkQpJtiSzdApTRjqBYALz/uPZQHh9AAJJIQ9AjS1W/S+sHw6e2tH76nIhg0ducvAE54wH/4yuakZ4hSA7N6+0qmtkSskgiquoeQ0OHXxjR/NGGxD1wfF82+nPQHEeiv4jHc4F+W2Uzn7NV16cho9d8bua42/1Q1cG6fCSvMqzjIhFABQQlqIUg4xjC2h8w8Lz8FZ7U6PppIF1UYBgeEEEks0qwJo6j2PbTk/4tq5uJBwY+baoOcP7SvNvw==",
+		"releaseDate": 1648893897000,
+		"gray": false,
+		"localPath": "/home/hypeit/.config/Binance/microApps/user-center-saving-v1.0.14"
 	}
 }

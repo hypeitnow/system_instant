@@ -3,6 +3,10 @@ Recent Files[$e]=triforce-logo-A327B982CE-seeklogo.com.png,file:$HOME/Downloads/
 Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
 detailViewIconSize=16
 
+[KPropertiesDialog]
+HDMI-A-1 Height 1920x1080=543
+HDMI-A-1 Width 1920x1080=432
+
 [PlasmaViews][Panel 2][Defaults]
 thickness=44
 

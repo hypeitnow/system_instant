@@ -1,3 +1,5 @@
-2022/03/25-21:45:01.014 343 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/MANIFEST-000001
-2022/03/25-21:45:01.014 343 Recovering log #3
-2022/03/25-21:45:01.015 343 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/000003.log 
+2022/09/18-09:30:48.869 394 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/MANIFEST-000001
+2022/09/18-09:30:48.869 394 Recovering log #3
+2022/09/18-09:30:48.977 394 (ignoring error) /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/000003.log: dropping 21756 bytes; Corruption: checksum mismatch
+2022/09/18-09:30:48.977 394 (ignoring error) /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/000003.log: dropping 40 bytes; Corruption: missing start of fragmented record(2)
+2022/09/18-09:30:48.979 394 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdnemxdtsw4yzrsgjtds1c/Service Worker/Database/000003.log 

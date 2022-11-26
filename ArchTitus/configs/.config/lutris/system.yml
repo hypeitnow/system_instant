@@ -1,3 +1,6 @@
 system:
-  prelaunch_command: prime-run
-  prime: true
+  disable_runtime: false
+  prefix_command: ''
+  prelaunch_command: ''
+  prime: false
+  vk_icd: /usr/share/vulkan/icd.d/nvidia_icd.json

@@ -1,3 +1,3 @@
-2022/01/07-10:57:21.179 7b3 Reusing MANIFEST /home/hypeit/.config/Binance/Partitions/binance.embed-app/Local Storage/leveldb/MANIFEST-000001
-2022/01/07-10:57:21.179 7b3 Recovering log #3
-2022/01/07-10:57:21.179 7b3 Reusing old log /home/hypeit/.config/Binance/Partitions/binance.embed-app/Local Storage/leveldb/000003.log 
+2022/04/02-22:06:29.245 cf4f Reusing MANIFEST /home/hypeit/.config/Binance/Partitions/binance.embed-app/Local Storage/leveldb/MANIFEST-000001
+2022/04/02-22:06:29.245 cf4f Recovering log #3
+2022/04/02-22:06:29.246 cf4f Reusing old log /home/hypeit/.config/Binance/Partitions/binance.embed-app/Local Storage/leveldb/000003.log 

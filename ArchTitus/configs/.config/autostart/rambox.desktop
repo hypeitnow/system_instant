@@ -1,8 +1,9 @@
 [Desktop Entry]
-Type=Application
-Version=1.0
-Name=rambox
-Comment=ramboxstartup script
-Exec=/opt/rambox/rambox
-StartupNotify=false
+Categories=Network;
+Comment=Workspace simplifier
+Exec=/opt/rambox/rambox --no-sandbox %U
+Icon=rambox
+Name=Rambox
+StartupWMClass=Rambox
 Terminal=false
+Type=Application

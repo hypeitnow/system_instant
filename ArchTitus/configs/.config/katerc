@@ -6,10 +6,15 @@ Show Full Path in Title=false
 Show Menu Bar=true
 Show Status Bar=true
 Show Tab Bar=true
+Show Url Nav Bar=true
 
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
 BOM=false
 Backup Local=false
 Backup Prefix=
@@ -52,6 +57,7 @@ Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
 Font=Hack,10,-1,7,50,0,0,0,0,0
+Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
@@ -82,6 +88,7 @@ Line Modification=true
 Line Numbers=true
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
 Persistent Selection=false
 Scroll Bar Marks=false
 Scroll Bar Mini Map All=true
@@ -92,6 +99,7 @@ Scroll Past End=false
 Search/Replace Flags=140
 Show Documentation With Completion=true
 Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
 Show Word Count=false
@@ -103,6 +111,9 @@ Vi Relative Line Numbers=false
 Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Search History=INSTALLING bra,INSTALLING,konsa
 
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true

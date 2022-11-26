@@ -1,3 +1,3 @@
-2022/03/25-21:45:01.090 3fc Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/Service Worker/Database/MANIFEST-000001
-2022/03/25-21:45:01.091 3fc Recovering log #3
-2022/03/25-21:45:01.092 3fc Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/Service Worker/Database/000003.log 
+2022/09/18-09:30:49.126 395 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/Service Worker/Database/MANIFEST-000001
+2022/09/18-09:30:49.126 395 Recovering log #3
+2022/09/18-09:30:49.200 395 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rd2jx9mlxrucz56rzwzq6z/Service Worker/Database/000003.log 

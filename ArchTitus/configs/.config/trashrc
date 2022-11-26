@@ -3,4 +3,4 @@ NextID=1
 smb://192.168.0.11/InternalStorage:/mnt/landrive=0
 
 [Status]
-Empty=true
+Empty=false

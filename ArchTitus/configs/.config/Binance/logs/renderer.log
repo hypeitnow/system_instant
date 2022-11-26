@@ -4070,3 +4070,280 @@
     "__requestTime": 1641549641538
   }
 }
+[2022-04-02 22:05:46.169] [info] [Binance] 
+
+
+██████╗ ██╗███╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗
+██╔══██╗██║████╗  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝
+██████╔╝██║██╔██╗ ██║███████║██╔██╗ ██║██║     █████╗  
+██╔══██╗██║██║╚██╗██║██╔══██║██║╚██╗██║██║     ██╔══╝  
+██████╔╝██║██║ ╚████║██║  ██║██║ ╚████║╚██████╗███████╗
+╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+
+[2022-04-02 22:05:46.172] [info] [Binance] ------------ Start Up Page ------------
+[2022-04-02 22:05:46.172] [info] [Binance] userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Binance/1.33.2 Chrome/89.0.4389.128 Electron/12.0.7 Safari/537.36 (electron 1.33.2)
+[2022-04-02 22:05:46.300] [info] [Network Optimization] startNetworkOptimization
+[2022-04-02 22:05:46.577] [error] [Api] {
+  "message": "CancelExecutor Cancel request https://domain-config-1259603563.file.myqcloud.com/app/dynamic-config.jwt.json"
+}
+[2022-04-02 22:05:46.598] [info] [Network Optimization] dynamicConfig apiDomainList: [
+  {
+    cdnUrl: 'bin.bnbstatic.com',
+    name: '*.binance.com',
+    cdnUrlPub: 'public.bnbstatic.com',
+    wssUrl: 'nbstream.binance.com',
+    domain: 'www.binance.com',
+    key: 'sha256/f7ipmaGK2IVZy864hvXgKTJKw4SKC2tE29F0f0/Vj+s=',
+    webviewUrl: 'www.binance.com'
+  },
+  {
+    cdnUrl: 'bin.bnbstatic.com',
+    name: '*.binance.me',
+    cdnUrlPub: 'public.bnbstatic.com',
+    wssUrl: 'nbstream.binance.me',
+    domain: 'www.binance.me',
+    key: 'sha256/WnAcmOywTtjo7eBndEzODFZFvu5YujYkggGqplksLL4=',
+    webviewUrl: 'www.binance.me'
+  },
+  {
+    cdnUrl: 'static-file-1259603563.file.myqcloud.com',
+    name: '*.bnappzh.co',
+    cdnUrlPub: 'public-1259603563.file.myqcloud.com',
+    wssUrl: 'nbstream.bnappzh.co',
+    domain: 'www.bnappzh.co',
+    key: 'sha256/y3CgEePp461jH2NVwkKo01UqQhJ7yGCuRIYDKG81K2o=',
+    webviewUrl: 'www.bnbzh.ac'
+  }
+]
+[2022-04-02 22:05:46.816] [error] [Api] {
+  "message": "Network Error",
+  "name": "Error",
+  "stack": "Error: Network Error\n    at e.exports (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1411106)\n    at XMLHttpRequest.p.onerror (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1410070)",
+  "config": {
+    "url": "https://www.bnappzh.co/bapi/composite/v2/public/common/config/stub/score",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "mclient-x-tag": "Z73vs0d3eu67rDqMCbSH",
+      "bnc-time-zone": "Europe/Warsaw",
+      "bnc-uuid": "bc6cd044c6a341dcbadeee76128d0db1",
+      "versionname": "1.33.2",
+      "clienttype": "electron",
+      "lang": "en",
+      "device-info": "eyJzY3JlZW5fcmVzb2x1dGlvbiI6Ijc2OCwxMzY2IiwiYXZhaWxhYmxlX3NjcmVlbl9yZXNvbHV0aW9uIjoiNzI0LDEzNjYiLCJzeXN0ZW1fdmVyc2lvbiI6IkxpbnV4IHg4Nl82NCIsImJyYW5kX21vZGVsIjoidW5rbm93biIsInN5c3RlbV9sYW5nIjoiZW4tVVMiLCJ0aW1lem9uZSI6IkdNVCsxIiwidGltZXpvbmVPZmZzZXQiOi02MCwidXNlcl9hZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IExpbnV4IHg4Nl82NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQmluYW5jZS8xLjI5LjAgQ2hyb21lLzg5LjAuNDM4OS4xMjggRWxlY3Ryb24vMTIuMC43IFNhZmFyaS81MzcuMzYgKGVsZWN0cm9uIDEuMjkuMCkiLCJsaXN0X3BsdWdpbiI6IkNocm9taXVtIFBERiBWaWV3ZXIsQ2hyb21pdW0gUERGIFZpZXdlciIsImNhbnZhc19jb2RlIjoiODczYWMwNjgiLCJ3ZWJnbF92ZW5kb3IiOiJHb29nbGUgSW5jLiIsIndlYmdsX3JlbmRlcmVyIjoiQU5HTEUgKEludGVsIE9wZW4gU291cmNlIFRlY2hub2xvZ3kgQ2VudGVyLCBNZXNhIERSSSBJbnRlbChSKSBIRCBHcmFwaGljcyA0MDAwIChJVkIgR1QyKSwgT3BlbkdMIDQuMiBjb3JlKSIsImF1ZGlvIjoiMTI0LjA0MzQ3NzMwNTkwOTYyIiwicGxhdGZvcm0iOiJMaW51eCB4ODZfNjQiLCJ3ZWJfdGltZXpvbmUiOiJFdXJvcGUvV2Fyc2F3IiwiZGV2aWNlX25hbWUiOiJDaHJvbWUgVjg5LjAuNDM4OS4xMjggKExpbnV4KSIsImZpbmdlcnByaW50IjoiOTBmOTRmNDYwZjM1OWM4Mjc0NWM5ZWU3MjFjODljMjEiLCJkZXZpY2VfaWQiOiIiLCJyZWxhdGVkX2RldmljZV9pZHMiOiIiLCJsb2dpbl9pcCI6IjEyNy4wLjAuMSIsIm1hY19hZGRyZXNzIjoiMDA6MDA6MDA6MDA6MDA6MDAiLCJhcHBfaW5zdGFsbF9kYXRlIjoxNjQxNDY1OTE4fQ==",
+      "fvideo-id": "623e3f83cee7a7ad940039498c84134a025e75eb"
+    },
+    "params": {
+      "timestamp": 1648929946603
+    },
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "cancelToken": {
+      "promise": {}
+    },
+    "method": "get",
+    "__id": 5,
+    "__requestTime": 1648929946611
+  }
+}
+[2022-04-02 22:05:46.817] [error] [Network Optimization] getScore error: www.bnappzh.co {
+  message: 'Network Error',
+  name: 'Error',
+  stack: 'Error: Network Error\n' +
+    '    at e.exports (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1411106)\n' +
+    '    at XMLHttpRequest.p.onerror (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1410070)'
+}
+[2022-04-02 22:05:47.476] [info] [Network Optimization] bset apiDomain: {
+  cdnUrl: 'bin.bnbstatic.com',
+  name: '*.binance.me',
+  cdnUrlPub: 'public.bnbstatic.com',
+  wssUrl: 'nbstream.binance.me',
+  domain: 'www.binance.me',
+  key: 'sha256/WnAcmOywTtjo7eBndEzODFZFvu5YujYkggGqplksLL4=',
+  webviewUrl: 'www.binance.me'
+}
+[2022-04-02 22:05:47.552] [info] [Network Optimization] optimization success
+[2022-04-02 22:05:47.552] [info] [Network Optimization] cost time: 1252ms
+[2022-04-02 22:06:20.252] [info] [home] onCreate
+[2022-04-02 22:06:20.254] [info] [home] created
+[2022-04-02 22:06:20.278] [info] [home] setMountContainer
+[2022-04-02 22:06:20.278] [info] [home] mounted
+[2022-04-02 22:06:20.768] [info] [ wss://stream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:20.769] [info] [ wss://stream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:20.795] [info] [home] [Webview Logger] invoke ready
+[2022-04-02 22:06:20.797] [info] [home] onAppInit
+[2022-04-02 22:06:20.797] [info] [home] dom-ready
+[2022-04-02 22:06:20.808] [info] [home] [Webview Logger] app init params binance-resources://micro-app/home/index.html /en? home
+[2022-04-02 22:06:20.810] [info] [home] [object Object]
+[2022-04-02 22:06:20.848] [info] [home] [Webview Logger] __ElectronDesktop.constants hostInfo {"API_HOST":"https://www.binance.me","WEBSITE_HOST":"https://www.binance.me","ACCOUNTS_HOST":"https://accounts.binance.me","STATIC_HOST":"https://bin.bnbstatic.com","I18N_CMS_PUBLIC":"https://bin.bnbstatic.com/api/i18n/-/web/cms","I18N_CMS_PRIVATE":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com/api/i18n/-/web/cms"}
+[2022-04-02 22:06:20.849] [info] [home] [Webview Logger] __INJECTED_BY_ELECTRON__.env env {"HOME_WS_HOST":"wss://stream.binance.me","HOME_API_HOST":"https://www.binance.me","HOME_API_HOST_TEMPLATE":"https://www.binance.me","HOME_SENSORS_SERVER_HOST":"https://sensors.binance.cloud/sa?project=binance","HOME_STATIC_HOST":"https://bin.bnbstatic.com","HOME_STATIC_HOST_PUBLIC":"https://bin.bnbstatic.com","HOME_SENTRY_DSN":"https://9b82019213a143f3b791bb2c32ec34a5@report.binance.gg/10","HOME_WS_HOST_TEMPLATE":"wss://stream.binance.me"}
+[2022-04-02 22:06:20.849] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:06:20.952] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:06:21.531] [info] [ wss://fstream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:21.531] [info] [ wss://fstream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:21.596] [info] [home] cookies.read('data_opt_out') null
+[2022-04-02 22:06:21.650] [info] [home] DEPLOYMENT_ENV gray
+[2022-04-02 22:06:21.661] [info] [home] [Webview Logger] loadApp app success
+[2022-04-02 22:06:21.661] [info] [home] app: [object Module]
+[2022-04-02 22:06:21.662] [info] [home] app.init cost time: 864 ms
+[2022-04-02 22:06:21.663] [info] [home] onAppReady
+[2022-04-02 22:06:21.688] [info] [home] TypeError: Cannot read property 'replace' of undefined
+[2022-04-02 22:06:21.769] [info] [ wss://sdstream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:21.770] [info] [ wss://sdstream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:22.171] [info] [ wss://stream.binance.me/stream ] onopen
+[2022-04-02 22:06:22.592] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] start ping pong check
+[2022-04-02 22:06:22.593] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] open, current status  -1
+[2022-04-02 22:06:22.643] [info] [ wss://fstream.binance.me/stream ] onopen
+[2022-04-02 22:06:22.889] [info] [ wss://sdstream.binance.me/stream ] onopen
+[2022-04-02 22:06:23.719] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] onopen
+[2022-04-02 22:06:29.736] [info] [Binance] 
+
+
+██████╗ ██╗███╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗
+██╔══██╗██║████╗  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝
+██████╔╝██║██╔██╗ ██║███████║██╔██╗ ██║██║     █████╗  
+██╔══██╗██║██║╚██╗██║██╔══██║██║╚██╗██║██║     ██╔══╝  
+██████╔╝██║██║ ╚████║██║  ██║██║ ╚████║╚██████╗███████╗
+╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+
+[2022-04-02 22:06:29.739] [info] [Binance] ------------ Start Up Page ------------
+[2022-04-02 22:06:29.739] [info] [Binance] userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Binance/1.33.2 Chrome/89.0.4389.128 Electron/12.0.7 Safari/537.36 (electron 1.33.2)
+[2022-04-02 22:06:29.846] [info] [Network Optimization] startNetworkOptimization
+[2022-04-02 22:06:30.096] [error] [Api] {
+  "message": "CancelExecutor Cancel request https://domain-config-1259603563.file.myqcloud.com/app/dynamic-config.jwt.json"
+}
+[2022-04-02 22:06:30.101] [info] [Network Optimization] dynamicConfig apiDomainList: [
+  {
+    cdnUrl: 'bin.bnbstatic.com',
+    name: '*.binance.com',
+    cdnUrlPub: 'public.bnbstatic.com',
+    wssUrl: 'nbstream.binance.com',
+    domain: 'www.binance.com',
+    key: 'sha256/f7ipmaGK2IVZy864hvXgKTJKw4SKC2tE29F0f0/Vj+s=',
+    webviewUrl: 'www.binance.com'
+  },
+  {
+    cdnUrl: 'bin.bnbstatic.com',
+    name: '*.binance.me',
+    cdnUrlPub: 'public.bnbstatic.com',
+    wssUrl: 'nbstream.binance.me',
+    domain: 'www.binance.me',
+    key: 'sha256/WnAcmOywTtjo7eBndEzODFZFvu5YujYkggGqplksLL4=',
+    webviewUrl: 'www.binance.me'
+  },
+  {
+    cdnUrl: 'static-file-1259603563.file.myqcloud.com',
+    name: '*.bnappzh.co',
+    cdnUrlPub: 'public-1259603563.file.myqcloud.com',
+    wssUrl: 'nbstream.bnappzh.co',
+    domain: 'www.bnappzh.co',
+    key: 'sha256/y3CgEePp461jH2NVwkKo01UqQhJ7yGCuRIYDKG81K2o=',
+    webviewUrl: 'www.bnbzh.ac'
+  }
+]
+[2022-04-02 22:06:30.226] [error] [Api] {
+  "message": "Network Error",
+  "name": "Error",
+  "stack": "Error: Network Error\n    at e.exports (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1411106)\n    at XMLHttpRequest.p.onerror (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1410070)",
+  "config": {
+    "url": "https://www.bnappzh.co/bapi/composite/v2/public/common/config/stub/score",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "mclient-x-tag": "tvXLzOPgJFiMa8Omltoo",
+      "bnc-time-zone": "Europe/Warsaw",
+      "bnc-uuid": "bc6cd044c6a341dcbadeee76128d0db1",
+      "versionname": "1.33.2",
+      "clienttype": "electron",
+      "lang": "en",
+      "device-info": "eyJzY3JlZW5fcmVzb2x1dGlvbiI6Ijc2OCwxMzY2IiwiYXZhaWxhYmxlX3NjcmVlbl9yZXNvbHV0aW9uIjoiNzI0LDEzNjYiLCJzeXN0ZW1fdmVyc2lvbiI6IkxpbnV4IHg4Nl82NCIsImJyYW5kX21vZGVsIjoidW5rbm93biIsInN5c3RlbV9sYW5nIjoiZW4tVVMiLCJ0aW1lem9uZSI6IkdNVCsxIiwidGltZXpvbmVPZmZzZXQiOi02MCwidXNlcl9hZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IExpbnV4IHg4Nl82NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQmluYW5jZS8xLjI5LjAgQ2hyb21lLzg5LjAuNDM4OS4xMjggRWxlY3Ryb24vMTIuMC43IFNhZmFyaS81MzcuMzYgKGVsZWN0cm9uIDEuMjkuMCkiLCJsaXN0X3BsdWdpbiI6IkNocm9taXVtIFBERiBWaWV3ZXIsQ2hyb21pdW0gUERGIFZpZXdlciIsImNhbnZhc19jb2RlIjoiODczYWMwNjgiLCJ3ZWJnbF92ZW5kb3IiOiJHb29nbGUgSW5jLiIsIndlYmdsX3JlbmRlcmVyIjoiQU5HTEUgKEludGVsIE9wZW4gU291cmNlIFRlY2hub2xvZ3kgQ2VudGVyLCBNZXNhIERSSSBJbnRlbChSKSBIRCBHcmFwaGljcyA0MDAwIChJVkIgR1QyKSwgT3BlbkdMIDQuMiBjb3JlKSIsImF1ZGlvIjoiMTI0LjA0MzQ3NzMwNTkwOTYyIiwicGxhdGZvcm0iOiJMaW51eCB4ODZfNjQiLCJ3ZWJfdGltZXpvbmUiOiJFdXJvcGUvV2Fyc2F3IiwiZGV2aWNlX25hbWUiOiJDaHJvbWUgVjg5LjAuNDM4OS4xMjggKExpbnV4KSIsImZpbmdlcnByaW50IjoiOTBmOTRmNDYwZjM1OWM4Mjc0NWM5ZWU3MjFjODljMjEiLCJkZXZpY2VfaWQiOiIiLCJyZWxhdGVkX2RldmljZV9pZHMiOiIiLCJsb2dpbl9pcCI6IjEyNy4wLjAuMSIsIm1hY19hZGRyZXNzIjoiMDA6MDA6MDA6MDA6MDA6MDAiLCJhcHBfaW5zdGFsbF9kYXRlIjoxNjQxNDY1OTE4fQ==",
+      "fvideo-id": "623e3f83cee7a7ad940039498c84134a025e75eb"
+    },
+    "params": {
+      "timestamp": 1648929990103
+    },
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "cancelToken": {
+      "promise": {}
+    },
+    "method": "get",
+    "__id": 5,
+    "__requestTime": 1648929990104
+  }
+}
+[2022-04-02 22:06:30.228] [error] [Network Optimization] getScore error: www.bnappzh.co {
+  message: 'Network Error',
+  name: 'Error',
+  stack: 'Error: Network Error\n' +
+    '    at e.exports (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1411106)\n' +
+    '    at XMLHttpRequest.p.onerror (binance-resources://build/static/group-0/js/chunk_vendor/index.js:1:1410070)'
+}
+[2022-04-02 22:06:31.108] [info] [Network Optimization] bset apiDomain: {
+  cdnUrl: 'bin.bnbstatic.com',
+  name: '*.binance.me',
+  cdnUrlPub: 'public.bnbstatic.com',
+  wssUrl: 'nbstream.binance.me',
+  domain: 'www.binance.me',
+  key: 'sha256/WnAcmOywTtjo7eBndEzODFZFvu5YujYkggGqplksLL4=',
+  webviewUrl: 'www.binance.me'
+}
+[2022-04-02 22:06:31.111] [error] [Api] {
+  "message": "CancelExecutor Cancel request https://www.binance.com/bapi/composite/v2/public/common/config/stub/score"
+}
+[2022-04-02 22:06:31.189] [info] [Network Optimization] optimization success
+[2022-04-02 22:06:31.189] [info] [Network Optimization] cost time: 1344ms
+[2022-04-02 22:06:33.463] [info] [home] onCreate
+[2022-04-02 22:06:33.465] [info] [home] created
+[2022-04-02 22:06:33.488] [info] [home] setMountContainer
+[2022-04-02 22:06:33.488] [info] [home] mounted
+[2022-04-02 22:06:33.956] [info] [ wss://fstream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:33.957] [info] [ wss://fstream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:33.977] [info] [ wss://stream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:33.978] [info] [ wss://stream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:34.013] [info] [home] [Webview Logger] invoke ready
+[2022-04-02 22:06:34.014] [info] [home] dom-ready
+[2022-04-02 22:06:34.015] [info] [home] onAppInit
+[2022-04-02 22:06:34.018] [info] [home] [Webview Logger] app init params binance-resources://micro-app/home/index.html /en? home
+[2022-04-02 22:06:34.018] [info] [home] [object Object]
+[2022-04-02 22:06:34.021] [info] [home] [Webview Logger] __ElectronDesktop.constants hostInfo {"API_HOST":"https://www.binance.me","WEBSITE_HOST":"https://www.binance.me","ACCOUNTS_HOST":"https://accounts.binance.me","STATIC_HOST":"https://bin.bnbstatic.com","I18N_CMS_PUBLIC":"https://bin.bnbstatic.com/api/i18n/-/web/cms","I18N_CMS_PRIVATE":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com/api/i18n/-/web/cms"}
+[2022-04-02 22:06:34.022] [info] [home] [Webview Logger] __INJECTED_BY_ELECTRON__.env env {"HOME_WS_HOST":"wss://stream.binance.me","HOME_API_HOST":"https://www.binance.me","HOME_API_HOST_TEMPLATE":"https://www.binance.me","HOME_SENSORS_SERVER_HOST":"https://sensors.binance.cloud/sa?project=binance","HOME_STATIC_HOST":"https://bin.bnbstatic.com","HOME_STATIC_HOST_PUBLIC":"https://bin.bnbstatic.com","HOME_SENTRY_DSN":"https://9b82019213a143f3b791bb2c32ec34a5@report.binance.gg/10","HOME_WS_HOST_TEMPLATE":"wss://stream.binance.me"}
+[2022-04-02 22:06:34.022] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:06:34.137] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:06:34.282] [info] [home] cookies.read('data_opt_out') null
+[2022-04-02 22:06:34.286] [info] [home] DEPLOYMENT_ENV gray
+[2022-04-02 22:06:34.317] [info] [home] app.init cost time: 302 ms
+[2022-04-02 22:06:34.317] [info] [home] onAppReady
+[2022-04-02 22:06:34.319] [info] [home] [Webview Logger] loadApp app success
+[2022-04-02 22:06:34.319] [info] [home] app: [object Module]
+[2022-04-02 22:06:34.332] [info] [home] TypeError: Cannot read property 'replace' of undefined
+[2022-04-02 22:06:34.966] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] start ping pong check
+[2022-04-02 22:06:34.967] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] open, current status  -1
+[2022-04-02 22:06:35.030] [info] [ wss://fstream.binance.me/stream ] onopen
+[2022-04-02 22:06:35.254] [info] [ wss://stream.binance.me/stream ] onopen
+[2022-04-02 22:06:35.661] [info] [ wss://sdstream.binance.me/stream ] start ping pong check
+[2022-04-02 22:06:35.663] [info] [ wss://sdstream.binance.me/stream ] open, current status  -1
+[2022-04-02 22:06:36.053] [info] [ wss://bstream.binance.me/ws/inbox_9bc21161476e40208b3a53f3b29b4c3b ] onopen
+[2022-04-02 22:06:36.742] [info] [ wss://sdstream.binance.me/stream ] onopen
+[2022-04-02 22:09:44.890] [info] [home] refresh home
+[2022-04-02 22:09:44.954] [info] [home] [Webview Logger] beforeunload
+[2022-04-02 22:09:45.193] [info] [home] [Webview Logger] invoke ready
+[2022-04-02 22:09:45.196] [info] [home] dom-ready
+[2022-04-02 22:09:45.196] [info] [home] onAppInit
+[2022-04-02 22:09:45.200] [info] [home] [Webview Logger] app init params binance-resources://micro-app/home/index.html /en? home
+[2022-04-02 22:09:45.200] [info] [home] [object Object]
+[2022-04-02 22:09:45.203] [info] [home] [Webview Logger] __ElectronDesktop.constants hostInfo {"API_HOST":"https://www.binance.me","WEBSITE_HOST":"https://www.binance.me","ACCOUNTS_HOST":"https://accounts.binance.me","STATIC_HOST":"https://bin.bnbstatic.com","I18N_CMS_PUBLIC":"https://bin.bnbstatic.com/api/i18n/-/web/cms","I18N_CMS_PRIVATE":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com/api/i18n/-/web/cms"}
+[2022-04-02 22:09:45.203] [info] [home] [Webview Logger] __INJECTED_BY_ELECTRON__.env env {"HOME_WS_HOST":"wss://stream.binance.me","HOME_API_HOST":"https://www.binance.me","HOME_API_HOST_TEMPLATE":"https://www.binance.me","HOME_SENSORS_SERVER_HOST":"https://sensors.binance.cloud/sa?project=binance","HOME_STATIC_HOST":"https://bin.bnbstatic.com","HOME_STATIC_HOST_PUBLIC":"https://bin.bnbstatic.com","HOME_SENTRY_DSN":"https://9b82019213a143f3b791bb2c32ec34a5@report.binance.gg/10","HOME_WS_HOST_TEMPLATE":"wss://stream.binance.me"}
+[2022-04-02 22:09:45.204] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:09:45.341] [info] [home] did-navigate-in-page: app://www.binance-electron.com/app#/en?
+[2022-04-02 22:09:45.484] [info] [home] cookies.read('data_opt_out') null
+[2022-04-02 22:09:45.488] [info] [home] DEPLOYMENT_ENV gray
+[2022-04-02 22:09:45.514] [info] [home] app.init cost time: 315 ms
+[2022-04-02 22:09:45.515] [info] [home] onAppReady
+[2022-04-02 22:09:45.516] [info] [home] [Webview Logger] loadApp app success
+[2022-04-02 22:09:45.516] [info] [home] app: [object Module]
+[2022-04-02 22:09:45.544] [info] [home] TypeError: Cannot read property 'replace' of undefined

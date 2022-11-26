@@ -7,8 +7,8 @@
 	"allow-multiple": false,
 	"visible": true,
 	"webview-onenote": {
-		"url": "https://onedrive.live.com/redir?resid=36F222B77EC0529B%21456&page=Edit&wd=target%28IT.one%7Cd1508178-b754-4232-ac21-de938ca8951d%2FANDROID%7C874c7501-9cd4-4f32-9f5f-063730d3546e%2F%29",
+		"url": "https://onedrive.live.com/redir?resid=36F222B77EC0529B%21456&page=Edit&wd=target%28LIN.one%7C72de3648-6082-4994-b1d5-42861c306cc9%2FArch%20na%20wypasie%7Cd4c7b98e-1f49-4e9d-85b8-b16686782343%2F%29&wdorigin=NavigationUrl",
 		"proxy": ""
 	},
-	"maximized": true
+	"maximized": false
 }

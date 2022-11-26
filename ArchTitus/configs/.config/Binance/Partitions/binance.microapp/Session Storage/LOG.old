@@ -1,1 +1,3 @@
-2022/01/06-11:47:09.727 12962 Reusing MANIFEST /home/hypeit/.config/Binance/Partitions/binance.microapp/Session Storage/MANIFEST-000001
+2022/04/02-22:06:21.668 cd83 Reusing MANIFEST /home/hypeit/.config/Binance/Partitions/binance.microapp/Session Storage/MANIFEST-000001
+2022/04/02-22:06:21.668 cd83 Recovering log #3
+2022/04/02-22:06:21.668 cd83 Reusing old log /home/hypeit/.config/Binance/Partitions/binance.microapp/Session Storage/000003.log 

@@ -1985,3 +1985,161 @@
 [2022-01-07 11:00:43.037] [error] [DnsPool] resolve4 frontend-m.binance.cloud failed Error: queryA ECONNREFUSED frontend-m.binance.cloud
     at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19)
 [2022-01-07 11:00:43.037] [info] [DnsPool] resolve6 frontend-m.binance.cloud get resolver
+[2022-04-02 22:05:44.484] [info] [App Launch] 
+
+
+██████╗ ██╗███╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗
+██╔══██╗██║████╗  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝
+██████╔╝██║██╔██╗ ██║███████║██╔██╗ ██║██║     █████╗  
+██╔══██╗██║██║╚██╗██║██╔══██║██║╚██╗██║██║     ██╔══╝  
+██████╔╝██║██║ ╚████║██║  ██║██║ ╚████║╚██████╗███████╗
+╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+
+[2022-04-02 22:05:44.491] [info] [App Launch] Launch app
+[2022-04-02 22:05:44.553] [info] [MicroAppUpdater] initialize -> updateVersion: 1.5.0 gray: false
+[2022-04-02 22:05:44.487] [info] [App Launch] ----------- App launch ------------
+[2022-04-02 22:05:44.488] [info] [App Launch] App Version: 1.33.2
+[2022-04-02 22:05:44.739] [info] [App Launch] App Ready
+[2022-04-02 22:05:48.684] [info] [Binance] start up called
+[2022-04-02 22:05:48.705] [info] [Binance] start up finished
+[2022-04-02 22:05:54.796] [info] [MicroAppUpdater] checkForUpdates
+[2022-04-02 22:05:54.811] [info] [DnsPool] resolve4 www.binance.me get resolver
+[2022-04-02 22:05:54.856] [info] [DnsPool] resolve4 www.binance.me success
+[2022-04-02 22:05:54.857] [info] [DnsPool] resolve6 www.binance.me get resolver
+[2022-04-02 22:05:54.906] [info] [DnsPool] resolve6 www.binance.me success
+[2022-04-02 22:05:55.266] [info] [updater] update-not-available
+[2022-04-02 22:05:55.293] [info] [MicroAppUpdater] Compare versions trade-spot -> 1.4.0 - 1.2.4
+[2022-04-02 22:05:55.305] [info] [MicroAppUpdater] Compare versions user-center-dashboard -> 1.1.1 - 1.0.29
+[2022-04-02 22:05:55.308] [info] [MicroAppUpdater] Compare versions trade-futures -> 1.0.86 - 1.0.82
+[2022-04-02 22:05:55.310] [info] [MicroAppUpdater] Compare versions savings -> 1.1.0 - 1.0.10
+[2022-04-02 22:05:55.331] [info] [MicroAppUpdater] Compare versions user-center-saving -> 1.0.14 - 1.0.9
+[2022-04-02 22:06:00.338] [info] [DnsPool] resolve4 ftp.binance.com get resolver
+[2022-04-02 22:06:00.334] [info] [MicroAppUpdater] downloadUpdates
+[2022-04-02 22:06:00.339] [info] [DnsPool] resolve4 binance-1259603563.file.myqcloud.com get resolver
+[2022-04-02 22:06:00.437] [info] [DnsPool] resolve4 ftp.binance.com success
+[2022-04-02 22:06:00.437] [info] [DnsPool] resolve6 ftp.binance.com get resolver
+[2022-04-02 22:06:00.524] [info] [DnsPool] resolve6 ftp.binance.com success
+[2022-04-02 22:06:00.914] [info] [DnsPool] resolve4 binance-1259603563.file.myqcloud.com success
+[2022-04-02 22:06:00.915] [info] [DnsPool] resolve6 binance-1259603563.file.myqcloud.com get resolver
+[2022-04-02 22:06:01.665] [info] [DnsPool] resolve6 binance-1259603563.file.myqcloud.com success
+[2022-04-02 22:06:05.407] [info] [MicroAppUpdater] applyUpdates
+[2022-04-02 22:06:05.408] [info] [MicroAppUpdater] trade-spot 1.4.0 updated
+[2022-04-02 22:06:05.418] [info] [MicroAppUpdater] trade-futures 1.0.86 updated
+[2022-04-02 22:06:05.414] [info] [MicroAppUpdater] user-center-dashboard 1.1.1 updated
+[2022-04-02 22:06:05.421] [info] [MicroAppUpdater] savings 1.1.0 updated
+[2022-04-02 22:06:05.426] [info] [MicroAppUpdater] user-center-saving 1.0.14 updated
+[2022-04-02 22:06:05.430] [info] [MicroAppUpdater] apply updates succeed
+[2022-04-02 22:06:05.433] [info] [Binance] report fingerPrint
+[2022-04-02 22:06:06.090] [error] [Binance] getDeviceInfo error: Error: No backlight device found
+    at /opt/Binance/resources/app.asar/build/main.js:1:2564125
+    at async mt (/opt/Binance/resources/app.asar/build/main.js:1:2668434)
+    at async vt (/opt/Binance/resources/app.asar/build/main.js:1:2669136)
+    at async Promise.all (index 0)
+    at async /opt/Binance/resources/app.asar/build/main.js:1:2670176
+    at async Ct (/opt/Binance/resources/app.asar/build/main.js:1:2669830)
+    at async mr._process (/opt/Binance/resources/app.asar/build/main.js:1:2686329)
+[2022-04-02 22:06:07.061] [info] [Binance] fingerPrint: eyJtYW51ZmFjdHVyZXIiOiIiLCJtb2RlbCI6IiIsInNlcmlhbE5vIjoiIiwiYmlvc0lkIjoiQW1lcmljYW5fTWVnYXRyZW5kc19JbmMuIFA3LjQwIiwidXVpZCI6ImJjNmNkMDQ0YzZhMzQxZGNiYWRlZWU3NjEyOGQwZGIxIiwiaG9zdE5hbWUiOiJoeXBlaXQtcGMiLCJvc1ZlcnNpb24iOiJBcmNoIHJvbGxpbmcgNS4xNy4xLWFyY2gxLTEgcm9sbGluZyIsImNvcmVObyI6NCwicHJvY2Vzc29yTmFtZSI6IkdlbnVpbmVJbnRlbCBQZW50aXVtwq5fRzQ1NjAiLCJkaXNrSWQiOlsiNEQ0NTA3NzgxNjI3MDEzNjMxODYiLCJXRC1XQ0FXMzI4MDM5MTQiLCIwNzAxMDdDRTlBMTlBNTQ3Il0sInRvdGFsRGlza1NpemUiOiI4NTk0NTRNQiIsInVzZWREaXNrU2l6ZSI6IjIxNjI5OU1CIiwiZGlza1R5cGUiOlsiU1NEIiwiSEQiLCJIRCJdLCJyYW1JZCI6WyIiXSwidG90YWxSYW1TaXplIjoiMTE5MzJNQiIsInVzZWRSYW1TaXplIjoiMTEzOTlNQiIsImluc3RhbGxUaW1lIjoxNjQxNDY1OTE4MzA3LCJpbnN0YWxsUGF0aCI6Ii9vcHQvQmluYW5jZS9yZXNvdXJjZXMvYXBwLmFzYXIiLCJkZXZpY2VUaW1lIjoxNjQ4OTI5OTY2ODYxLCJ0aW1lWm9uZSI6IkdNVCswMjAwIiwicmVzb2x1dGlvbiI6IjE5MjAsMTA4MCIsImdyYXBoVmVuZG9yIjoiTlZJRElBIENvcnBvcmF0aW9uIiwiZ3JhcGhNb2RlbCI6IkdQMTA3IFtHZUZvcmNlIEdUWCAxMDUwIFRpXSAiLCJkbnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwibWFjIjpbXSwiYnJpZ2h0bmVzcyI6LTEsInNvdW5kT3V0cHV0IjoiRGVmYXVsdCIsIm1pY3JvcGhvbmUiOiJEZWZhdWx0IiwibG9jYWxlIjoiZW4tR0IiLCJhcHBWZXJzaW9uIjoiMS4zMy4yIiwiYnVpbGRWZXJzaW9uIjoiZGVmNGQ1MzYxMjE4MjgxZDAzNmFhZmE0ZmRmNDRiNThkMDFmMTQ0MiIsImRmcCI6IjYyM2UzZjgzY2VlN2E3YWQ5NDAwMzk0OThjODQxMzRhMDI1ZTc1ZWIifQ==
+[2022-04-02 22:06:07.422] [info] [Binance] report fingerPrint success
+[2022-04-02 22:06:15.135] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 52576
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:06:20.814] [info] [app-manager] respond home resources from /opt/Binance/resources/app.asar/resources/app/home
+[2022-04-02 22:06:20.818] [info] [app-manager] load v1.2.34 of home
+[2022-04-02 22:06:20.824] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:06:20.825] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:06:28.468] [info] [DnsPool] resolve4 log.bntrace.com get resolver
+[2022-04-02 22:06:29.020] [info] [App Launch] 
+
+
+██████╗ ██╗███╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗
+██╔══██╗██║████╗  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝
+██████╔╝██║██╔██╗ ██║███████║██╔██╗ ██║██║     █████╗  
+██╔══██╗██║██║╚██╗██║██╔══██║██║╚██╗██║██║     ██╔══╝  
+██████╔╝██║██║ ╚████║██║  ██║██║ ╚████║╚██████╗███████╗
+╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+
+[2022-04-02 22:06:29.022] [info] [App Launch] ----------- App launch ------------
+[2022-04-02 22:06:29.022] [info] [App Launch] App Version: 1.33.2
+[2022-04-02 22:06:29.024] [info] [App Launch] Launch app
+[2022-04-02 22:06:29.064] [info] [MicroAppUpdater] initialize -> updateVersion: 1.5.0 gray: false
+[2022-04-02 22:06:29.228] [info] [App Launch] App Ready
+[2022-04-02 22:06:32.690] [info] [Binance] start up called
+[2022-04-02 22:06:32.718] [info] [Binance] start up finished
+[2022-04-02 22:06:34.023] [info] [app-manager] respond home resources from /opt/Binance/resources/app.asar/resources/app/home
+[2022-04-02 22:06:34.025] [info] [app-manager] load v1.2.34 of home
+[2022-04-02 22:06:34.030] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:06:34.031] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:06:39.254] [info] [MicroAppUpdater] checkForUpdates
+[2022-04-02 22:06:39.268] [info] [DnsPool] resolve4 www.binance.me get resolver
+[2022-04-02 22:06:39.323] [info] [DnsPool] resolve4 www.binance.me success
+[2022-04-02 22:06:39.323] [info] [DnsPool] resolve6 www.binance.me get resolver
+[2022-04-02 22:06:39.367] [info] [DnsPool] resolve6 www.binance.me success
+[2022-04-02 22:06:39.508] [info] [updater] update-not-available
+[2022-04-02 22:06:39.747] [info] [MicroAppUpdater] Compare versions user-center-saving -> 1.0.14 - 1.0.14
+[2022-04-02 22:06:39.749] [info] [MicroAppUpdater] Compare versions trade-spot -> 1.4.0 - 1.4.0
+[2022-04-02 22:06:39.751] [info] [MicroAppUpdater] Compare versions user-center-dashboard -> 1.1.1 - 1.1.1
+[2022-04-02 22:06:39.753] [info] [MicroAppUpdater] Compare versions trade-futures -> 1.0.86 - 1.0.86
+[2022-04-02 22:06:39.755] [info] [MicroAppUpdater] Compare versions savings -> 1.1.0 - 1.1.0
+[2022-04-02 22:06:39.756] [info] [MicroAppUpdater] No updates found
+[2022-04-02 22:06:39.760] [info] [Binance] no need report fingerPrint
+[2022-04-02 22:06:59.359] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:07:29.391] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:07:59.453] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:08:29.509] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:08:59.589] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:09:29.618] [error] [Performance] Error: Command failed: /usr/bin/ps -o pid=,ppid=,pcpu=,pmem=,command= -g 53062
+
+    at ChildProcess.exithandler (child_process.js:317:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:467:12)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+[2022-04-02 22:09:45.208] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:09:45.209] [error] [micro-app-session] Error: HOME_STATIC_HOST not a valid app name
+    at de.enableToModifyAppPath.resolveAppFile (/opt/Binance/resources/app.asar/build/main.js:1:2649000)
+    at Function.<anonymous> (/opt/Binance/resources/app.asar/build/main.js:1:2651731)
+[2022-04-02 22:09:51.862] [info] [DnsPool] resolve4 log.bntrace.com get resolver

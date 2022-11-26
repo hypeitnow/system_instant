@@ -1,21 +1,24 @@
-2022/03/26-23:24:37.926 187ca Reusing MANIFEST /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/MANIFEST-000001
-2022/03/26-23:24:37.927 187ca Recovering log #21
-2022/03/26-23:24:37.928 187ca Reusing old log /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/000021.log 
-2022/03/26-23:25:39.216 187bb Level-0 table #25: started
-2022/03/26-23:25:39.258 187bb Level-0 table #25: 82447 bytes OK
-2022/03/26-23:25:39.267 187bb Delete type=0 #21
-2022/03/26-23:55:39.251 187cc Level-0 table #27: started
-2022/03/26-23:55:39.267 187cc Level-0 table #27: 29308 bytes OK
-2022/03/26-23:55:39.274 187cc Delete type=0 #24
-2022/03/27-00:25:39.250 187bb Level-0 table #29: started
-2022/03/27-00:25:39.269 187bb Level-0 table #29: 28354 bytes OK
-2022/03/27-00:25:39.276 187bb Delete type=0 #26
-2022/03/27-00:25:39.304 187bb Compacting 4@0 + 1@1 files
-2022/03/27-00:25:39.469 187bb Generated table #30@0: 37 keys, 68778 bytes
-2022/03/27-00:25:39.469 187bb Compacted 4@0 + 1@1 files => 68778 bytes
-2022/03/27-00:25:39.478 187bb compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/03/27-00:25:39.478 187bb Delete type=2 #19
-2022/03/27-00:25:39.478 187bb Delete type=2 #22
-2022/03/27-00:25:39.478 187bb Delete type=2 #25
-2022/03/27-00:25:39.478 187bb Delete type=2 #27
-2022/03/27-00:25:39.478 187bb Delete type=2 #29
+2022/09/17-14:00:13.657 3bf9 Reusing MANIFEST /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/MANIFEST-000001
+2022/09/17-14:00:13.658 3bf9 Recovering log #89
+2022/09/17-14:00:13.659 3bf9 Reusing old log /home/hypeit/.config/p3x-onenote/Local Storage/leveldb/000089.log 
+2022/09/17-14:00:32.675 3c34 Level-0 table #93: started
+2022/09/17-14:00:32.683 3c34 Level-0 table #93: 131543 bytes OK
+2022/09/17-14:00:32.692 3c34 Delete type=0 #89
+2022/09/17-14:02:18.381 3c08 Level-0 table #95: started
+2022/09/17-14:02:18.388 3c08 Level-0 table #95: 58377 bytes OK
+2022/09/17-14:02:18.397 3c08 Delete type=0 #92
+2022/09/17-14:14:15.677 3e56 Level-0 table #97: started
+2022/09/17-14:14:15.682 3e56 Level-0 table #97: 47277 bytes OK
+2022/09/17-14:14:15.691 3e56 Delete type=0 #94
+2022/09/17-14:14:15.691 3e56 Compacting 4@0 + 1@1 files
+2022/09/17-14:14:15.698 3e56 Generated table #98@0: 38 keys, 40690 bytes
+2022/09/17-14:14:15.698 3e56 Compacted 4@0 + 1@1 files => 40690 bytes
+2022/09/17-14:14:15.704 3e56 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/09/17-14:14:15.705 3e56 Delete type=2 #88
+2022/09/17-14:14:15.705 3e56 Delete type=2 #90
+2022/09/17-14:14:15.705 3e56 Delete type=2 #93
+2022/09/17-14:14:15.705 3e56 Delete type=2 #95
+2022/09/17-14:14:15.705 3e56 Delete type=2 #97
+2022/09/17-18:59:35.625 82e9 Level-0 table #100: started
+2022/09/17-18:59:35.630 82e9 Level-0 table #100: 84426 bytes OK
+2022/09/17-18:59:35.637 82e9 Delete type=0 #96

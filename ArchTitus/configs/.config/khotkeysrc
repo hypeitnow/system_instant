@@ -1,3 +1,6 @@
+[$Version]
+update_info=konsole_globalaccel.upd:konsole_globalaccel
+
 [ColorEffects:Disabled]
 ChangeSelectionColor[$d]
 Color[$d]
@@ -172,32 +175,6 @@ TriggersCount=1
 Key=
 Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
-
-[Data_1_2]
-Comment=Global keyboard shortcut to launch Konsole
-Enabled=true
-Name=Launch Konsole
-Type=MENUENTRY_SHORTCUT_ACTION_DATA
-
-[Data_1_2Actions]
-ActionsCount=1
-
-[Data_1_2Actions0]
-CommandURL=org.kde.konsole.desktop
-Type=MENUENTRY
-
-[Data_1_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_2Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_2Triggers0]
-Key=Ctrl+Alt+T
-Type=SHORTCUT
-Uuid={f2b31639-1d6e-4467-8451-b3d969fb4529}
 
 [Data_2]
 Comment=Ta grupa zawiera różne przykłady pokazujące większość funkcji KHotkeys. (Ta grupa i wszystkie zawarte w niej działania są domyślnie wyłączone.)
