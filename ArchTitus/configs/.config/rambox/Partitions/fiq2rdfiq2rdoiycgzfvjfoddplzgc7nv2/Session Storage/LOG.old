@@ -1,6 +1,0 @@
-2022/02/13-16:36:24.061 41f Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/Session Storage/MANIFEST-000001
-2022/02/13-16:36:24.061 41f Recovering log #10
-2022/02/13-16:36:24.099 41f Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/Session Storage/000010.log 
-2022/02/13-17:56:44.466 41f Level-0 table #14: started
-2022/02/13-17:56:44.475 41f Level-0 table #14: 43759 bytes OK
-2022/02/13-17:56:44.482 41f Delete type=0 #10

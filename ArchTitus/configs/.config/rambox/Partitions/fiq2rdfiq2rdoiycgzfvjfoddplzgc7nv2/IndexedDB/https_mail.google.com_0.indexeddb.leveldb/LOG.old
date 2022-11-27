@@ -1,6 +1,0 @@
-2022/02/13-16:36:40.423 309 Reusing MANIFEST /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/02/13-16:36:40.424 309 Recovering log #4
-2022/02/13-16:36:40.448 309 Reusing old log /home/hypeit/.config/rambox/Partitions/fiq2rdfiq2rdoiycgzfvjfoddplzgc7nv2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
-2022/02/13-16:37:25.754 41f Level-0 table #8: started
-2022/02/13-16:37:25.796 41f Level-0 table #8: 1914394 bytes OK
-2022/02/13-16:37:25.806 41f Delete type=0 #4
