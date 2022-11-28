@@ -1,0 +1,15 @@
+[$Version]
+update_info=kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Id_1=c9b1a564-76f7-43dd-9010-c41b9ad42185
+Number=1
+Rows=1
+
+[NightColor]
+Active=true
+LatitudeAuto=52.2484
+LongitudeAuto=21.0026

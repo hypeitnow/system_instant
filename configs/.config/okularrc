@@ -1,0 +1,24 @@
+[Desktop Entry]
+FullScreen=false
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular,file:$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
+Recent URLs[$e]=file:$HOME/Documents/
+detailViewIconSize=16
+
+[MainWindow]
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=0
+LVDS-1 XPosition 1366x768=228
+LVDS-1 YPosition 1366x768=120
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOhAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.epub
+File2[$e]=$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
+File3[$e]=$HOME/Downloads/zus
+Name1[$e]=Winning_ The Unforgiving Race to Greatness by Tim S. Grover.epub
+Name2[$e]=Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
+Name3[$e]=zus

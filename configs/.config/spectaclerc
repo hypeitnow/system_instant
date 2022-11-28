@@ -1,0 +1,21 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+clipboardGroup=PostScreenshotCopyImage
+onLaunchAction=UseLastUsedCapturemode
+useLightMaskColour=true
+
+[GuiConfig]
+captureMode=5
+cropRegion=549,200,694,602
+window-position=50,50
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/Screenshot_20220911_210144.png,file:$HOME/Downloads/Screenshot_20220911_210537.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
+detailViewIconSize=16
+
+[Save]
+lastSaveAsLocation=file:///home/hypeit/Downloads/Screenshot_20220911_210537.png
+lastSaveLocation=file:///home/hypeit/Downloads/Screenshot_20220911_210537.png

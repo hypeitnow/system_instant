@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Network;
+Comment=Workspace simplifier
+Exec=/opt/rambox/rambox --no-sandbox %U
+Icon=rambox
+Name=Rambox
+StartupWMClass=Rambox
+Terminal=false
+Type=Application

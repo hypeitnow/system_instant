@@ -1,0 +1,25 @@
+[Added Associations]
+application/vnd.ms-publisher=code-insiders.desktop;
+inode/directory=org.kde.dolphin.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
+video/x-matroska=vlc.desktop;io.github.celluloid_player.Celluloid.desktop;mpv.desktop;
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
+
+[Default Applications]
+application/vnd.citrix.receiver.configure=new_store.desktop
+application/vnd.ms-publisher=code-insiders.desktop;
+application/x-ica=wfica.desktop
+inode/directory=org.kde.dolphin.desktop;
+text/html=brave-browser.desktop
+video/mp4=vlc.desktop;
+video/x-matroska=vlc.desktop;
+x-scheme-handler/forticlient=FortiClient.desktop
+x-scheme-handler/franz=franz.desktop
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
+x-scheme-handler/sgnl=signal-desktop-beta.desktop
+x-scheme-handler/signalcaptcha=signal-desktop-beta.desktop
+x-scheme-handler/tradingview=tradingview.desktop
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop
