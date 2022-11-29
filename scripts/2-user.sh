@@ -16,14 +16,15 @@ Installing AUR Softwares
 "
 source $HOME/ArchTitus/configs/setup.conf
 
-  cd ~
-  mkdir "/home/$USERNAME/.cache"
-  touch "/home/$USERNAME/.cache/zshhistory"
-  cp "$HOME/ArchTitus/configs/.zshrc" $HOME/.zshrc
-  cp "$HOME/ArchTitus/configs/aliasrc" $HOME/aliasrc
-  cp "$HOME/ArchTitus/configs/git_alias" $HOME/git_alias  
-  cp -r "$HOME/ArchTitus/powerlevel10k" $HOME/
-  cp "$HOME/ArchTitus/configs/.p10k.zsh" $HOME/.p10k.zsh
+cd ~
+mkdir "/home/$USERNAME/.cache"
+touch "/home/$USERNAME/.cache/zshhistory"
+cp "$HOME/ArchTitus/configs/.zshrc" $HOME/.zshrc
+cp "$HOME/ArchTitus/configs/aliasrc" $HOME/aliasrc
+cp "$HOME/ArchTitus/configs/git_alias" $HOME/git_alias  
+cp -r "$HOME/ArchTitus/powerlevel10k" $HOME/
+cp -r "$HOME/ArchTitus/configs/.local" $HOME/
+cp "$HOME/ArchTitus/configs/.p10k.zsh" $HOME/.p10k.zsh
 
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line

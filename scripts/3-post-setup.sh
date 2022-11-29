@@ -143,6 +143,14 @@ echo 'Plymouth theme installed'
 
 echo -ne "
 -------------------------------------------------------------------------
+               Installing Chris Titus Bash Customization
+-------------------------------------------------------------------------
+"
+git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
+chmod +x setup.sh && ./setup.sh
+
+echo -ne "
+-------------------------------------------------------------------------
                     Cleaning
 -------------------------------------------------------------------------
 "
