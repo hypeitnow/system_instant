@@ -113,8 +113,8 @@ if lspci | grep -E "NVIDIA|GeForce" && ! lspci | grep -E 'VGA.*Intel'; then
 	nvidia-xconfig
 elif lspci | grep -E 'VGA.*Intel'; then
 	printf 'You have optimus gpu, please visit arch wiki to verify which driver version you should install(no nvidia drivers installed)'
-elif lspci | grep -E "Radeon"; then
-    pacman -S xf86-video-amdgpu --noconfirm --needed
+elif lspci | grep -E "AMD"; then
+    pacman -S xf86-video-amdgpu vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver --noconfirm --needed
 elif lspci | grep -E "Integrated Graphics Controller"; then
     pacman -S libva-intel-driver libvdpau-va-gl lib32-vulkan-intel vulkan-intel libva-intel-driver libva-utils --needed --noconfirm
 fi
