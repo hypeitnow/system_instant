@@ -3,7 +3,7 @@ autojump
 android-tools
 awesome-terminal-fonts
 brave-beta-bin
-code-insiders
+visual-studio-code-insiders-bin
 dxvk-bin
 megasync-bin
 dolphin-megasync-bin
@@ -35,3 +35,5 @@ signal-desktop-beta-bin
 rtl88x2bu-dkms-git
 wine-staging
 vlc
+tradingview-bin
+binance
