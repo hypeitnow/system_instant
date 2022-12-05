@@ -117,4 +117,5 @@ hcxdumptool
 cowpatty 
 bully
 linux-zen
+linux-zen-headers
 inetutils
