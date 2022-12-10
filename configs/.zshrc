@@ -101,28 +101,43 @@ bindkey -s '^ ' ' git status --short^M'
 
 # # Disable flow control (ctrl+s, ctrl+q) to enable saving with ctrl+s in Vim
 # stty -ixon -ixoff
-
+plugins=(archlinux 
+	asdf 
+	bundler 
+	docker 
+	jsontools 
+	vscode 
+	web-search 
+	k 
+	tig 
+	gitfast 
+	colored-man-pages 
+	colorize 
+	command-not-found 
+	cp 
+	dirhistory 
+	autojump 
+	sudo 
+	zsh-syntax-highlighting
+	zsh-autosuggestions)
 
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/aliasrc" ] && source "$HOME/aliasrc"
 [ -f "$HOME/git_alias" ] && source "$HOME/git_alias"
 
 # Load ; should be last.
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source /usr/share/autojump/autojump.zsh 2>/dev/null
-source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompinit && source /opt/azure-cli/az.completion;fi
 
 #Start agent
-if [ -z "$SSH_AUTH_SOCK" ]; then
-   RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
-   if [ "$RUNNING_AGENT" = "0" ]; then
-        ssh-agent -s &> ~/.ssh/ssh-agent
-   fi
-   eval `cat ~/.ssh/ssh-agent` &> /dev/null
-fi
+# if [ -z "$SSH_AUTH_SOCK" ]; then
+#    RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
+#    if [ "$RUNNING_AGENT" = "0" ]; then
+#         ssh-agent -s &> ~/.ssh/ssh-agent
+#    fi
+#    eval `cat ~/.ssh/ssh-agent` &> /dev/null
+# fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
