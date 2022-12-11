@@ -121,9 +121,11 @@ plugins=(archlinux
 	colorize 
 	command-not-found 
 	cp 
-	dirhistory 
+	dirhistory
+	history
 	autojump 
-	sudo 
+	sudo
+	jsontools 
 	zsh-syntax-highlighting
 	zsh-autosuggestions)
 
