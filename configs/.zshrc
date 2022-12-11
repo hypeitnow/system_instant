@@ -115,7 +115,6 @@ plugins=(archlinux
 	jsontools 
 	vscode 
 	web-search 
-	k 
 	tig 
 	gitfast 
 	colored-man-pages 
@@ -147,6 +146,6 @@ if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompini
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source $ZSH/oh-my-zsh.sh
