@@ -1,5 +1,5 @@
 plasma-desktop
-sddm
+sddm-git
 dolphin
 --END OF MINIMAL INSTALL--
 ark
@@ -30,6 +30,8 @@ oxygen
 plasma-nm
 plasma-pa
 plasma-wayland-session
+sddm-config-editor-git
+sddm-kcm
 powerdevil
 print-manager
 spectacle

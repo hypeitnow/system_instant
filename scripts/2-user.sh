@@ -23,7 +23,7 @@ source $HOME/ArchTitus/configs/setup.conf
   cp "$HOME/ArchTitus/configs/aliasrc" $HOME/aliasrc
   cp "$HOME/ArchTitus/configs/git_alias" $HOME/git_alias  
   cp "$HOME/ArchTitus/configs/.p10k.zsh" $HOME/.p10k.zsh # copy config 
-  ln -s /usr/share/zsh-theme-powerlevel10k/ /usr/share/oh-my-zsh/custom/themes/powerlevel10k 
+  cp -R "$HOME/ArchTitus/configs/.local/*" $HOME/.local/share/ # copy config for KONSOLE
 
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
