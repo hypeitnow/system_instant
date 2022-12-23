@@ -20,6 +20,8 @@ noto-fonts-emoji
 papirus-icon-theme
 plasma-pa
 rambox-pro-bin
+oh-my-zsh-git
+zsh-theme-powerlevel10k-git
 ocs-url 
 sddm-nordic-theme-git
 shellcheck
