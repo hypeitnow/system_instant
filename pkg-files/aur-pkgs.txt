@@ -8,6 +8,7 @@ dxvk-bin
 megasync-bin
 dolphin-megasync-bin
 lightly-git
+lightly-qt
 mangohud 
 mangohud-common
 nerd-fonts-fira-code
