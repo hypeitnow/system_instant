@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallet name="kdewallet">
+    <folder name="Brave Keys"/>
+    <folder name="Chromium Keys"/>
+    <folder name="Evernote">
+        <password name="AuthToken:User:233863442">enote-encr-key7mAeLPJ/RxIoDis/nG6Mc1TMuTe8/l4IbXaZpcG2MQg=</password>
+    </folder>
+    <folder name="Form Data"/>
+    <folder name="FortiClientLinuxVPN">
+        <password name="Netrix/credentials">{}</password>
+    </folder>
+    <folder name="Network Management"/>
+    <folder name="Passwords">
+        <map name="mother">
+            <mapentry name="password">Eiz(ae#ko3mee@gh</mapentry>
+            <mapentry name="username">mother</mapentry>
+        </map>
+        <map name="smb-192.168.0.7:-1">
+            <mapentry name="login">home</mapentry>
+            <mapentry name="password">home</mapentry>
+        </map>
+    </folder>
+    <folder name="vscode-insiderseamodio.gitlens">
+        <password name="gitlens.plus.auth:production">kbfrYd9iuXvZ+0pFsY8kKsaqHENHdhJAsIKLssj0Gd/wqzD6RBtdBlWB5ERdIiMFqnyfbUqSoFyxQagZ443U5yAQgZCQPKjUhkbv25kL/5ISHqHv3wgbAlPLhPwouyO1b2//VbCte6CwtTHsIVmoA5er4r23cdqfFFqyD/sfABOPG9Lx/WNmwNmCXBD8xk/KPIdv5HOQiwfBcFYzLjEkcHgwauG9evxtRhbgqTG/VYa/peWp8boRuKja2213JHPrOE9j6JIDGpXs6lw+qpBUSknaAS+tvdw/uth9BbbWdNEnduAaUSsiXVi3vC6/WGWHJLhejAXjnhCs2g4K3F9Mm2CarCgN2UtCt9737qM=</password>
+    </folder>
+    <folder name="vscode-insidersvscode.github-authentication">
+        <password name="github.auth">kbfrYd9iuXvZ+0pFsY8kKtW4EkNHelMJvp+Xq8+3C4io4Tb7XgZbCVXKsQgkdV1ErHa3Kh66oF71Kep99dGGlmRP5ICIbqiF0wjnj5tQ4cESGvHos08HaUDP38Nl4hHjUi6mS5/8Q665tTPsIVmoA83r8eu9N4SVAjLyEJcKD0O2DImjrjdtw9/TWw+2+VmNaNB94GWvnQ3GDlgafzU1KXIoZfyNBORLNmiuqTC5XKnuy9bg/K09//vyl2VoFw6uPR5ByLZEQb2f7D0C+9IieBaVBkGs2bs7jJkHca7UD6hvcPAgRWc+FGXx53nSJn2mKtwanFS42kK8t00A5GVWxWyy4mE/iHYDicbZv4qjnIaIpyYs2YoyHpjsdgdAcjxvoWVxoy4sk8yprVNHi5CqcnEuS8P2b/Yhwe3R4d/WySI767vY7WQ9lVfZPIjU2RwFSd6DcJ6ac67WK5meCud3ogpRyLiTCtQggi1JEDimHZ1MJWfk0Nt0A8X7fj94QHUwkPzpX2dPQjhOmREctsPZ72P4+irmiV2Hvq/reSqwp0FncgmnLQ6s0dDBy1W5B1+RjOgHVwh54ZoyIw==</password>
+    </folder>
+</wallet>
