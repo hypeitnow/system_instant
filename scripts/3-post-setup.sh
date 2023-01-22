@@ -147,7 +147,7 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
-chmod +x setup.sh && ./setup.sh
+chmod +x setup-arch.sh && ./setup-arch.sh
 
 ln -s /usr/share/zsh-theme-powerlevel10k/ /usr/share/oh-my-zsh/custom/themes/powerlevel10k 
 ln -s /usr/share/zsh/plugins/zsh-autosuggestions /usr/share/oh-my-zsh/plugins/zsh-autosuggestions
