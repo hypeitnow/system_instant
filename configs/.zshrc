@@ -49,6 +49,7 @@ _comp_options+=(globdots)               # Include hidden files.
 
 
 # Custom ZSH Binds
+zle -N autosuggest-accept
 bindkey '^ ' autosuggest-accept
 
 # Emacs style bindings (for Home/End keys...)
