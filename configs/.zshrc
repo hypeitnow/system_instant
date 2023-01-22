@@ -49,8 +49,6 @@ _comp_options+=(globdots)               # Include hidden files.
 
 
 # Custom ZSH Binds
-zle -N autosuggest-accept
-bindkey '^ ' autosuggest-accept
 
 # Emacs style bindings (for Home/End keys...)
 bindkey -e
@@ -88,7 +86,7 @@ bindkey "\e[3;5~" kill-word
 bindkey "^[m" copy-prev-shell-word
 
 # Ctrl+space: print Git status
-bindkey -s '^ ' ' git status --short^M'
+bindkey -s '^[s' ' git status --short^M'
 
 # Alt+~: run Git WTF script
 # function _git_wtf {
@@ -152,3 +150,6 @@ if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompini
 # source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source $ZSH/oh-my-zsh.sh
+
+#Has to be run after loading autosuggest accept in oh-my-zsh, it can be supressed by `zle -N autosuggest acceppt`, which creates empty widget, but that in pracice prevents real bind from being created
+bindkey '^ ' autosuggest-accept
