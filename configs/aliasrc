@@ -24,7 +24,9 @@ ex ()
   fi
 }
 
-export EDITOR=vim
+export EDITOR=nano 
+
+alias netrestart='sudo systemctl restart systemd-networkd.service && C=$(nmcli c show --active | awk 'FNR == 2 {print $1}') && nmcli down $C && nmcli c up $C'
 
 alias pacman-update='sudo pacman-mirrors --geoip'
 
