@@ -39,3 +39,5 @@ wine-staging
 vlc
 tradingview-bin
 binance
+rclone
+ksysguard
