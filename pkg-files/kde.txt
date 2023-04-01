@@ -38,3 +38,4 @@ spectacle
 systemsettings
 xdg-desktop-portal-kde
 zeroconf-ioslave
+kooha
