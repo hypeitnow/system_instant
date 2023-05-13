@@ -40,7 +40,7 @@ HISTFILE=~/.cache/zshhistory
 setopt appendhistory
 
 # Basic auto/tab complete:
-autoload -U compinit
+autoload -Uz compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
@@ -109,12 +109,15 @@ bindkey -s '^[s' ' git status --short^M'
 # stty -ixon -ixoff
 plugins=(archlinux 
 	asdf 
-	bundler 
-	docker 
+	bundler  
 	jsontools 
 	vscode 
 	web-search 
 	tig 
+	git
+	minikube
+	kubectl
+	helm
 	gitfast 
 	colored-man-pages 
 	colorize 
@@ -127,14 +130,6 @@ plugins=(archlinux
 	jsontools 
 	zsh-syntax-highlighting
 	zsh-autosuggestions)
-
-# Load aliases and shortcuts if existent.
-[ -f "$HOME/aliasrc" ] && source "$HOME/aliasrc"
-[ -f "$HOME/git_alias" ] && source "$HOME/git_alias"
-
-# Load ; should be last.
-
-if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompinit && source /opt/azure-cli/az.completion;fi
 
 #Start agent
 # if [ -z "$SSH_AUTH_SOCK" ]; then
@@ -153,3 +148,12 @@ source $ZSH/oh-my-zsh.sh
 
 #Has to be run after loading autosuggest accept in oh-my-zsh, it can be supressed by `zle -N autosuggest acceppt`, which creates empty widget, but that in pracice prevents real bind from being created
 bindkey '^ ' autosuggest-accept
+
+
+# Load aliases and shortcuts if existent.
+[ -f "$HOME/aliasrc" ] && source "$HOME/aliasrc"
+[ -f "$HOME/git_alias" ] && source "$HOME/git_alias"
+
+# Load custom aliases should be last to stay in oh my zsh 
+
+if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompinit && source "/opt/azure-cli/az.completion";fi
