@@ -41,3 +41,4 @@ tradingview-bin
 binance
 rclone
 ksysguard
+upd72020x-fw 
