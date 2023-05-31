@@ -41,4 +41,5 @@ tradingview-bin
 binance
 rclone
 ksysguard
+pam_autologin
 upd72020x-fw 
