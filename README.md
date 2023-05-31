@@ -23,6 +23,9 @@ I'll leave the rest an an exercise to the reader. Remember, man is your friend!
 Due to the constant updates and time it takes to maintain this script I will no longer be updating it. Free free to fork it and take what you want from here. There has been some fantastic contributions over the past year and I learned a lot while making this project. 
 
 Thank you!
+# Configure sddm autologin.
+
+Have a look at https://bbs.archlinux.org/viewtopic.php?pid=2099725#p2099725
 
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
