@@ -6,7 +6,7 @@ idleTime=300
 lockBeforeTurnOff=0
 
 [AC][DimDisplay]
-idleTime=300000
+idleTime=400000
 
 [AC][HandleButtonEvents]
 lidAction=1
@@ -15,7 +15,7 @@ powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
 
 [AC][SuspendSession]
-idleTime=2400000
+idleTime=1800000
 suspendThenHibernate=false
 suspendType=1
 

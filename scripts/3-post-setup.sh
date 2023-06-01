@@ -152,9 +152,6 @@ echo -ne "
                Installing Chris Titus Bash Customization and linking ZSH files 
 -------------------------------------------------------------------------
 "
-git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
-chmod +x setup-arch.sh && ./setup-arch.sh
-
 ln -s /usr/share/zsh-theme-powerlevel10k/ /usr/share/oh-my-zsh/custom/themes/powerlevel10k
 ln -s /usr/share/zsh/plugins/zsh-autosuggestions /usr/share/oh-my-zsh/plugins/zsh-autosuggestions
 ln -s /usr/share/zsh/plugins/zsh-syntax-highlighting /usr/share/oh-my-zsh/plugins/zsh-syntax-highlighting
@@ -171,8 +168,7 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 
-rm -r $HOME/ArchTitus
-rm -r /home/$USERNAME/ArchTitus
+mv $HOME/ArchTitus /home/$USERNAME/ArchTitus && mv /home/$USERNAME/ArchTitus /home/$USERNAME/ArchTitus_afterinstall
 
 # Replace in the same state
 cd $pwd
@@ -188,4 +184,12 @@ XDG_PUBLICSHARE_DIR="\$HOME/Public"
 XDG_TEMPLATES_DIR="\$HOME/Templates"
 XDG_VIDEOS_DIR="\$HOME/Videos"
 EOF
-runuser -u $USERNAME -- "LC_ALL=C xdg-user-dirs-update --force"
+
+cat <<EOF >/home/$USERNAME/runme.sh
+#!/usr/bin/env bash
+runuser -u $USER -- "LC_ALL=C xdg-user-dirs-update --force" after first login
+git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
+chmod +x setup-arch.sh && ./setup-arch.sh
+EOF
+
+chmod +x "/home/$USERNAME/runme.sh"
