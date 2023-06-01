@@ -1,0 +1,11 @@
+[KFileDialog Settings]
+Recent Files[$e]=wallet_kde,file:$HOME/linux_instant/configs/wallet_kde
+Recent URLs[$e]=file:$HOME/linux_instant/configs/,file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=354
+1920x1080 screen: Width=288
+1920x1080 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPRAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
