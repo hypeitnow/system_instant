@@ -24,9 +24,9 @@ ex ()
   fi
 }
 
-export EDITOR=nano 
+export EDITOR='nano' 
 
-alias netrestart='sudo systemctl restart systemd-networkd.service && C=$(nmcli c show --active | awk 'FNR == 2 {print $1}') && nmcli down $C && nmcli c up $C'
+netrestart() { sudo systemctl restart systemd-networkd.service && C=$(nmcli c show --active | awk 'FNR == 2 {print $1}') && nmcli down $C && nmcli c up $C }
 
 alias pacman-update='sudo pacman-mirrors --geoip'
 
@@ -117,10 +117,10 @@ alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 alias sysupdate='sudo pacman -Sy archlinux-keyring --noconfirm && yay'
-alias 'python=python3'
-alias 'pip=pip3'
-alias 'wtor=webtorrent download -u 100 '
-alias 'sshp= sshpass -e ssh '
+alias python='python3'
+alias pip='pip3'
+alias wtor='webtorrent download -u 100 '
+alias sshp='sshpass -e ssh '
 
 
 # Aliases git
