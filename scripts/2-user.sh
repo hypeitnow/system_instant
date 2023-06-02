@@ -66,7 +66,7 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     konsave -i ~/ArchTitus/configs/current.knsv
     sleep 1
     konsave -a current
-    cp -r ~/ArchTitus/configs/.config/* $HOME/.config/ #make sure all configs are copied including console 
+    mkdir -p $HOME/configfiles_manual && cp -r ~/ArchTitus/configs/.config/* $HOME/configfiles_manual #make sure all configs are copied including console 
   elif [[ $DESKTOP_ENV == "openbox" ]]; then
     cd ~
     git clone https://github.com/stojshic/dotfiles-openbox
