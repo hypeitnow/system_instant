@@ -167,6 +167,7 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 # Add sudo rights
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+echo 'hypeit ALL=(ALL) NOPASSWD: /usr/bin/podman' > /etc/sudoers.d/rootful_podman && chmod 440 /etc/sudoers.d/rootful_podman
 
 mv $HOME/ArchTitus /home/$USERNAME/ArchTitus && mv /home/$USERNAME/ArchTitus /home/$USERNAME/ArchTitus_afterinstall
 
