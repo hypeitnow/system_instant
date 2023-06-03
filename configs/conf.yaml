@@ -41,6 +41,7 @@ save:
             - gtk-4.0
             - rclone
             - vlc
+            - kitty
             - Kvantum
             - latte
             - dolphinrc
