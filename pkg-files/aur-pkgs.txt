@@ -37,7 +37,7 @@ signal-desktop-beta-bin
 rtl88x2bu-dkms-git
 wine-staging
 vlc
-tradingview-bin
+p3x-onenote-appimage
 binance
 rclone
 ksysguard
