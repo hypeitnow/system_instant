@@ -119,3 +119,4 @@ bully
 linux-zen
 linux-zen-headers
 inetutils
+net-tools
