@@ -7,7 +7,19 @@ You should remember about the kitty.conf file which contains the super+v mapping
 # Updates
 To update vsc run 
 ***[paru|yay] -S code-insiders --rebuild --redownload --cleanafter every day.***
+# Minikube 
+To install minikube stack run 
+```
+yay -Syu podman kubectl helm minikube
+minikube start \
+--force-systemd \
+--container-runtime containerd \
+--kubernetes-version latest \
+--cni flannel \
+--nodes 2 \
+--addons="csi-hostpath-driver,dashboard,default-storageclass,helm-tiller,ingress,ingress-dns,metallb,metrics-server,portainer,storage-provisioner,volumesnapshots"
 
+```
 # Yay do not confirm every time 
 To avoid the second and third prompts, you can set the config options to give defaults and never prompt. See the current config with yay -Yg (https://github.com/Jguer/yay/blob/master/doc/yay.8#L105)
 
