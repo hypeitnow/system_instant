@@ -6,7 +6,7 @@ Repo containing instant linux scripts
 You should remember about the kitty.conf file which contains the super+v mapping for pasting from clipboard, in gnome notification center should be changed to super+b  
 # Updates
 To update vsc run 
-```paru|yay] -S code-insiders --rebuild --redownload --cleanafter every day.```
+```paru|yay] -S code-insiders --rebuild --redownload --cleanafter``` every day.
 # Minikube 
 To install minikube stack run 
 ```
