@@ -37,6 +37,7 @@ signal-desktop-beta-bin
 rtl88x2bu-dkms-git
 wine-staging
 vlc
+npm
 p3x-onenote-appimage
 binance
 rclone
