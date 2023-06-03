@@ -10,7 +10,7 @@ To update vsc run
 # Minikube 
 To install minikube stack run 
 ```
-yay -Syu podman kubectl helm minikube
+yay -Syu podman kubectl helm minikube aardvark-dns
 minikube start \
 --force-systemd \
 --container-runtime containerd \
