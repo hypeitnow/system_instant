@@ -39,6 +39,7 @@ save:
             - gtk-2.0
             - gtk-3.0
             - gtk-4.0
+            - rclone
             - Kvantum
             - latte
             - dolphinrc
@@ -63,6 +64,7 @@ save:
             - lightlyrc
             - ksplashrc
             - khotkeysrc
+
 
     app_layouts:
         location: "$HOME/.local/share/kxmlgui5"
