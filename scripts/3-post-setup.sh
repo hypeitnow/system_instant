@@ -60,7 +60,7 @@ if [[ ${DESKTOP_ENV} == "kde" ]]; then
   if [[ ${INSTALL_TYPE} == "FULL" ]]; then
     echo [Theme] >>/etc/sddm.conf
     echo Current=Nordic >>/etc/sddm.conf
-    echo <<EOF >>/etc/sddm.conf
+    cat <<EOF >>/etc/sddm.conf
 # [Autologin]
 # Relogin=false
 # Session=plasmawayland
@@ -190,6 +190,8 @@ cat <<EOF >/home/$USERNAME/runme.sh
 runuser -u $USER -- "LC_ALL=C xdg-user-dirs-update --force" after first login
 git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
 chmod +x setup-arch.sh && ./setup-arch.sh
+sudo npm install webtorrent-cli -g 
+
 EOF
 
 chmod +x "/home/$USERNAME/runme.sh"
