@@ -40,3 +40,4 @@ systemsettings
 xdg-desktop-portal-kde
 zeroconf-ioslave
 kooha
+kwallet-pam

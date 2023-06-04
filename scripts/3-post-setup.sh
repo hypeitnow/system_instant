@@ -58,6 +58,7 @@ echo -ne "
 if [[ ${DESKTOP_ENV} == "kde" ]]; then
   systemctl enable sddm.service
   if [[ ${INSTALL_TYPE} == "FULL" ]]; then
+    touch /etc/security/autologin.conf 
     echo [Theme] >>/etc/sddm.conf
     echo Current=Nordic >>/etc/sddm.conf
     cat <<EOF >>/etc/sddm.conf
