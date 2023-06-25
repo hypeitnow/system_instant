@@ -1,6 +1,7 @@
 --END OF MINIMAL INSTALL--
 autojump
 android-tools
+azure-cli-bin
 awesome-terminal-fonts
 brave-beta-bin
 visual-studio-code-insiders-bin
