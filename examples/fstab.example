@@ -1,4 +1,5 @@
 # Static information about the filesystems.
+# Remember to run `sudo chown -R hypeit:root  /mnt/others && sudo chmod 0770 -R /mnt/others` as in case of stupid ext4 there is no option to change permissions
 # See fstab(5) for details.
 
 # <file system> <dir> <type> <options> <dump> <pass>
@@ -15,4 +16,4 @@ LABEL=EFIBOOT       	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,cod
 
 /dev/sda3           	/.snapshots	btrfs     	rw,noatime,compress=zstd:3,ssd,space_cache=v2,commit=120,subvolid=260,subvol=/@.snapshots	0 0
 
-UUID=36af91ce-e156-4be2-a705-ddd14abc1dbe            	/run/media/hypeit	ext4     	auto,user,exec,rw,async,atime	0 0
+UUID=36af91ce-e156-4be2-a705-ddd14abc1dbe            	/mnt/others	ext4     	defaults,auto,noatime,async,user,rw	0 0
