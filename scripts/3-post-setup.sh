@@ -191,7 +191,7 @@ cat <<EOF >/home/$USERNAME/runme.sh
 #!/usr/bin/env bash
 runuser -u $USER -- "LC_ALL=C xdg-user-dirs-update --force"
 git clone https://github.com/ChrisTitusTech/mybash.git && cd mybash
-chmod +x setup-arch.sh && bash ./setup-arch.sh
+chmod +x setup-arch.sh && bash ./setup-arch.sh && rm -rf .git 
 sudo npm install webtorrent-cli -g 
 
 EOF
