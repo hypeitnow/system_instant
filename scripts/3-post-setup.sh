@@ -197,3 +197,5 @@ sudo npm install webtorrent-cli -g
 EOF
 
 chmod +x "/home/$USERNAME/runme.sh"
+
+cp "$HOME/ArchTitus/configs/.bashrc" $HOME/.bashrc
