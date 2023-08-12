@@ -625,5 +625,3 @@ else
 	echo "can't found the autojump script"
 fi
 
-complete -C /usr/local/bin/terraform terraform
-
