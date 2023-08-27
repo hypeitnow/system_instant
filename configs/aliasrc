@@ -120,6 +120,7 @@ alias sysupdate='sudo pacman -Sy archlinux-keyring --noconfirm && yay'
 alias python='python3'
 alias pip='pip3'
 alias wtor='webtorrent download -u 100 '
+alias obssync='rclone bisync gdrive:WORK/ /home/hypeit/Documents/obsidian/ --verbose --resync'
 alias sshp='sshpass -e ssh '
 
 
@@ -134,7 +135,9 @@ alias gup='git fetch && git rebase'
 compdef _git gup=git-fetch
 alias gp='git push'
 compdef _git gp=git-push
-gdv() { git diff -w "$@" | view - }
+gdv() { 
+  git diff -w "$@" | view - 
+}
 compdef _git gdv=git-diff
 alias gc='git commit -v'
 compdef _git gc=git-commit
@@ -195,3 +198,30 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+
+
+### Custom functions authored by mki
+
+function extract_shortcode() {
+    if [ "$#" -ne 1 ]; then
+        echo "Error: Invalid number of arguments. Please provide exactly one argument."
+        return 1
+    fi
+
+    local url="$1"
+    if [[ "$url" != *"instagram.com/p"* ]] && [[ "$url" != *"instagram.com/r"* ]]; then
+        echo "Error: Invalid URL. The URL must contain 'instagram.com/p' or 'instagram.com/r'."
+        return 1
+    fi
+
+    local shortcode
+    shortcode=$(echo "$url" | grep -oP '(?<=/p/|/r/)[^/?]*')
+    echo "Shortcode: ${shortcode}"
+
+    if ! command -v instaloader &> /dev/null; then
+        echo "Error: Instaloader is not installed. Please install it using 'pip install instaloader'."
+        return 1
+    fi
+
+    instaloader -- -${shortcode}
+}
