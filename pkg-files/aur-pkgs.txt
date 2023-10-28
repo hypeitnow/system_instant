@@ -8,7 +8,8 @@ visual-studio-code-insiders-bin
 dxvk-bin
 megasync-bin
 dolphin-megasync-bin
-lightly-git
+sweet-kde-git
+klassy-git
 kde-rounded-corners
 mangohud 
 mangohud-common
