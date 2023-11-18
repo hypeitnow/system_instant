@@ -41,7 +41,6 @@ wine-staging
 vlc
 npm
 p3x-onenote-appimage
-binance
 rclone
 ksysguard
 pam_autologin
