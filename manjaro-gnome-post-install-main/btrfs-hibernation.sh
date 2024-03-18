@@ -9,7 +9,7 @@ fs_uuid=$(findmnt / -o UUID -n) && echo "${fs_uuid}"
 # temporarily mount the system drive root via the on-demand line in fstab. if doesn't exist, create a temp mountpoint and mount
 if sudo grep -Fq "/mnt/drives/system" /etc/fstab; then sudo mount /mnt/drives/system; 
 else 
-sudo mkdir -p /mnt/drives/system
+[[ -d /mnt/drives/system ]] || sudo mkdir -p /mnt/drives/system
 sudo mount -U "${fs_uuid}" /mnt/drives/system
 fi
 
