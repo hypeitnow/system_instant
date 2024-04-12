@@ -63,7 +63,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # This workaround does: 
 sudo ln -s /usr/lib/systemd/system/systemd-suspend-then-hibernate.service /etc/systemd/system/systemd-suspend.service
 # when suspend-then-hibernate is used, go into hibernation (0.0 power consumption) after 120min of suspend unless interrupted
-sudo sed -i -e 's@#HibernateDelaySec=180min@HibernateDelaySec=120min@g' /etc/systemd/sleep.conf
+sudo sed -i -e 's@#HibernateDelaySec=@HibernateDelaySec=120min@g' /etc/systemd/sleep.conf
 
 # Now define what to do on user initiated actions: go into hibernation when hitting power key
 sudo sed -i -e 's@#HandlePowerKey=poweroff@HandlePowerKey=hibernate@g' /etc/systemd/logind.conf
