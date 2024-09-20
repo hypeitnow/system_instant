@@ -1,4 +1,3 @@
-ZSH=/usr/share/oh-my-zsh/
 
 export TERM="xterm-256color"
 export ZSH=/usr/share/oh-my-zsh
