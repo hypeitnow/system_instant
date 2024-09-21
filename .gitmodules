@@ -1,0 +1,6 @@
+[submodule "winutils/winutil"]
+	path = winutils/winutil
+	url = https://github.com/ChrisTitusTech/winutil.git
+[submodule "linutils/linutil"]
+	path = linutils/linutil
+	url = https://github.com/ChrisTitusTech/linutil.git

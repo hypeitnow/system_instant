@@ -69,6 +69,9 @@ then
 else
     echo "Custom .zshrc already exists at $ZSHRC_CUSTOM."
 fi
+echo 'export LIBGL_ALWAYS_INDIRECT=1' >> ~/.zshrc
+echo 'export WSL_HOST=$(cat "/etc/resolv.conf" | grep nameserver | awk '\''{print $2}'\'')' >> ~/.zshrc
+echo 'export DISPLAY="${WSL_HOST}:0"' >> ~/.zshrc
 
 # Modify the downloaded .zshrc to set ZSH to $HOME/.config/zsh
 echo "Updating ZSH path in the custom .zshrc..."
