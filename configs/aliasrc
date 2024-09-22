@@ -30,7 +30,7 @@ netrestart() { sudo systemctl restart systemd-networkd.service && C=$(nmcli c sh
 
 alias pacman-update='sudo pacman-mirrors --geoip'
 
-alias ls='ls'
+alias ls='ls --color=auto'
 alias ll='ls -l'
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -lFh'     #size,show type,human readable
