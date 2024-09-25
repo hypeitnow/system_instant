@@ -2,6 +2,19 @@ Start-Sleep -Milliseconds 20000
 
 Write-Host "Install Copilot"
 dism /online /add-package /package-name:Microsoft.Windows.Copilot
+# Update registry keys to turn off Windows Copilot
+$regPathHKLM = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
+Write-Host "Setting TurnOffWindowsCopilot to 0 in $regPathHKLM"
+Set-ItemProperty -Path $regPathHKLM -Name "TurnOffWindowsCopilot" -Value 0
+$hkmlValue = Get-ItemProperty -Path $regPathHKLM -Name "TurnOffWindowsCopilot"
+Write-Host "TurnOffWindowsCopilot is set to $($hkmlValue.TurnOffWindowsCopilot)"
+
+$regPathHKCU = "HKCU:\Software\Policies\Microsoft\Windows\WindowsCopilot"
+Write-Host "Setting TurnOffWindowsCopilot to 0 in $regPathHKCU"
+Set-ItemProperty -Path $regPathHKCU -Name "TurnOffWindowsCopilot" -Value 0
+$hkcuValue = Get-ItemProperty -Path $regPathHKCU -Name "TurnOffWindowsCopilot"
+Write-Host "TurnOffWindowsCopilot is set to $($hkcuValue.TurnOffWindowsCopilot)"
+# Activate copilot so that it is visible in taskbar in personalization settings
 
 $regPathBingChat = "HKCU:\Software\Microsoft\Windows\Shell\Copilot\BingChat\"
 Write-Host "Setting IsUserEligible to 1 in $regPathBingChat"
@@ -41,15 +54,3 @@ Set-ItemProperty -Path $regPathExplorer -Name "ShowCopilotButton" -Value 1
 $explorerValue = Get-ItemProperty -Path $regPathExplorer -Name "ShowCopilotButton"
 Write-Host "ShowCopilotButton is set to $($explorerValue.ShowCopilotButton)"
 
-# Update registry keys to turn off Windows Copilot
-$regPathHKLM = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
-Write-Host "Setting TurnOffWindowsCopilot to 0 in $regPathHKLM"
-Set-ItemProperty -Path $regPathHKLM -Name "TurnOffWindowsCopilot" -Value 0
-$hkmlValue = Get-ItemProperty -Path $regPathHKLM -Name "TurnOffWindowsCopilot"
-Write-Host "TurnOffWindowsCopilot is set to $($hkmlValue.TurnOffWindowsCopilot)"
-
-$regPathHKCU = "HKCU:\Software\Policies\Microsoft\Windows\WindowsCopilot"
-Write-Host "Setting TurnOffWindowsCopilot to 0 in $regPathHKCU"
-Set-ItemProperty -Path $regPathHKCU -Name "TurnOffWindowsCopilot" -Value 0
-$hkcuValue = Get-ItemProperty -Path $regPathHKCU -Name "TurnOffWindowsCopilot"
-Write-Host "TurnOffWindowsCopilot is set to $($hkcuValue.TurnOffWindowsCopilot)"
