@@ -1,16 +1,38 @@
 # Check if the script is running as an administrator
-If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
-{
+If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     # Re-launch the script with administrator rights
     Start-Process powershell.exe -ArgumentList ('-NoProfile -ExecutionPolicy Bypass -File "{0}"' -f $MyInvocation.MyCommand.Definition) -Verb RunAs -Wait
     Start-Sleep 5
     exit
 }
+else {
+    # We are running "as Administrator" - so change the title and background color to indicate this
+    $Host.UI.RawUI.WindowTitle = $MyInvocation.MyCommand.Definition + "(Elevated)"
+    $Host.UI.RawUI.BackgroundColor = "DarkBlue"
+    clear-host
+}
 
 # Your script logic here
 
-Write-Host "Install Copilot"
-dism /online /add-package /package-name:Microsoft.Windows.Copilot
+# Prompt the user
+$enableCopilot = Read-Host "Do you want to enable Copilot for the EU market? (Y/N)"
+
+if ($enableCopilot -eq "Y" -or $enableCopilot -eq "y") {
+    # Run ViVeTool to enable Copilot
+    $scriptPath = $MyInvocation.MyCommand.Path
+    $viveToolPath = Join-Path (Split-Path $scriptPath) "vtool\ViVeTool.exe"
+    Start-Process -FilePath $viveToolPath -ArgumentList "/enable /id:44774629,44850061,44776738,42105254,41655236" -Wait -NoNewWindow
+
+    # Inform the user
+    Write-Host "Copilot has been enabled. Please restart your PC for the changes to take effect."
+}
+else {
+    # Temporarily enable Copilot until the next reset
+    Write-Host "Copilot will be temporarily enabled until the next reset."
+    Write-Host "Please note that this change will not persist beyond the next restart."
+    Write-Host "To permanently enable Copilot, run the script again and choose 'Y'."
+}
+
 # Update registry keys to turn off Windows Copilot
 $regPathHKLM = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
 Write-Host "Setting TurnOffWindowsCopilot to 0 in $regPathHKLM"
@@ -63,4 +85,5 @@ Set-ItemProperty -Path $regPathExplorer -Name "ShowCopilotButton" -Value 1
 $explorerValue = Get-ItemProperty -Path $regPathExplorer -Name "ShowCopilotButton"
 Write-Host "ShowCopilotButton is set to $($explorerValue.ShowCopilotButton)"
    
-
+Write-Host -NoNewLine "Press any key to continue..."
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
