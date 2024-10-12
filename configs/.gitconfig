@@ -1,3 +1,22 @@
 [user]
 	name = hypeit
 	email = matkoz111@gmail.com
+[alias]
+	pullall = "!f() { find $1 -type d -maxdepth 1 -exec sh -c \"(cd {} && git pull 2>/dev/null)\" \\; ; }; f"
+[credential]
+	credentialStore = secretservice
+	helper = /usr/lib/git-core/git-credential-libsecret
+	cacheOptions = --timeout 86400
+[http]
+	postBuffer = 524288000
+	version = HTTP/2
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+# Without credential.useHttpPath, Git would store credentials based on the server URL alone - means uses one account for all github repos. This could lead to conflicts if you have multiple repositories on the same server but different accounts. By including the path, Git ensures that credentials are specific to each repository path, reducing the risk of credential conflicts. 
+# git-credential-libsecret will save one credential and every time use it as first and then the contidional include - in our case gcm, but it will never get to use gcm since it will think the account is valid which will result in repo not found for org nad private repos 
+[credential "https://github.com"]
+	useHttpPath = true
+[includeIf "hasconfig:remote.*.url:https://github.com/circle*/**"]
+    path = ~/.gitconfig-org
+
+
