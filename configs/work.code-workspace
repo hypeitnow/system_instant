@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "repos/circle"
+		},
+		{
+			"path": "Documents"
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontFamily": "Hack Nerd Font, MesloLGL Nerd Font",
+		"powershell.cwd": "circle",
+		"azure-pipelines.tenant": "19da1f3c-d958-44ea-850d-195c1502525c"
+	}
+}

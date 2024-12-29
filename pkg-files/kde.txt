@@ -41,4 +41,6 @@ xdg-desktop-portal-kde
 zeroconf-ioslave
 kooha
 kwallet-pam
-opera-beta
+opera-developer
+git-credential-manager-bin
+git-credential-manager-extras

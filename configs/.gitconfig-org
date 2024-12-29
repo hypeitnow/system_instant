@@ -1,0 +1,4 @@
+[credential]
+credentialStore = cache
+helper = /usr/bin/git-credential-manager
+cacheOptions = --timeout 86400
