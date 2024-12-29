@@ -1,3 +1,15 @@
+[AC][Display]
+DisplayBrightness=25
+TurnOffDisplayIdleTimeoutSec=360
+UseProfileSpecificDisplayBrightness=true
+
+[AC][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=1800
+PowerButtonAction=1
+
+[Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=900
+
 [BatteryManagement]
 BatteryCriticalAction=1
 BatteryLowLevel=20

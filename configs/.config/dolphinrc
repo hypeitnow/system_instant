@@ -1,5 +1,5 @@
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+update_info=dolphin_detailsmodesettings.upd:move-content-display
 
 [ContextMenu]
 ShowOpenTerminal=false
@@ -13,15 +13,18 @@ ShowFullPathInTitlebar=true
 Version=202
 ViewPropsTimestamp=2021,10,15,16,3,44.102
 
+[IconsMode]
+PreviewSize=80
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
-HDMI-0 Height 1920x1080=543
-HDMI-0 Width 1920x1080=386
-HDMI-A-1 Height 1920x1080=543
-HDMI-A-1 Width 1920x1080=399
+1920x1080 screen: Height=647
+1920x1080 screen: Width=497
+2560x1080 screen: Height=532
+2560x1080 screen: Width=462
 LVDS-1 Height 1366x768=543
 LVDS-1 Width 1366x768=382
 LVDS1 Height 1366x768=647
@@ -30,8 +33,6 @@ Virtual-1 Height 1920x941=568
 Virtual-1 Width 1920x941=470
 
 [MainWindow]
-HDMI-0 XPosition 1920x1080=479
-HDMI-0 YPosition 1920x1080=266
 HDMI-1 XPosition 1920x1080=410
 HDMI-1 YPosition 1920x1080=203
 LVDS-1 Window-Maximized 1366x768=true
@@ -64,13 +65,10 @@ ConfirmEmptyTrash=true
 
 [Open-with settings]
 CompletionMode=1
-History=vis,visual,ci,cit,citr,vl
+History=
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
-
-[Search]
-Location=Everywhere
 
 [SettingsDialog]
 Virtual-1 Height 1920x941=508

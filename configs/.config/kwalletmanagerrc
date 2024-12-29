@@ -1,0 +1,6 @@
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[WalletEditor]
+AlwaysShowContents=false
+SplitterSize=49,49

@@ -1,21 +1,29 @@
 [$Version]
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
+[Annotations]
+annotationToolType=1
+
 [General]
 clipboardGroup=PostScreenshotCopyImage
-onLaunchAction=UseLastUsedCapturemode
+launchAction=UseLastUsedCaptureMode
 useLightMaskColour=true
 
 [GuiConfig]
-captureMode=5
-cropRegion=549,200,694,602
+captureMode=0
+quitAfterSaveCopyExport=true
 window-position=50,50
 
+[ImageSave]
+imageCompressionQuality=95
+lastImageSaveAsLocation=file:///home/hypeit/Downloads/Screenshot_20230924_135723.png
+lastImageSaveLocation=file:///home/hypeit/Downloads/Screenshot_20230924_135723.png
+translatedScreenshotsFolder=Screenshots
+
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Downloads/Screenshot_20220911_210144.png,file:$HOME/Downloads/Screenshot_20220911_210537.png
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
+Recent Files[$e]=file:$HOME/Downloads/Screenshot_20230924_135723.png,file:$HOME/Downloads/Screenshot_20230924_135723.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/
 detailViewIconSize=16
 
-[Save]
-lastSaveAsLocation=file:///home/hypeit/Downloads/Screenshot_20220911_210537.png
-lastSaveLocation=file:///home/hypeit/Downloads/Screenshot_20220911_210537.png
+[VideoSave]
+translatedScreencastsFolder=Screencasts

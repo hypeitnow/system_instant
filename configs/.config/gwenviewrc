@@ -13,6 +13,10 @@ Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=16
 
 [MainWindow]
+1920x1080 screen: Height=761
+1920x1080 screen: Width=684
+2560x1080 screen: Height=761
+2560x1080 screen: Width=685
 HDMI-0 Height 1920x1080=731
 HDMI-0 Width 1920x1080=671
 HDMI-0 XPosition 1920x1080=624
@@ -22,15 +26,32 @@ LVDS-1 Width 1366x768=779
 LVDS-1 XPosition 1366x768=411
 LVDS-1 YPosition 1366x768=165
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAp8AAAKxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAq0AAALLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Screenshot_20220911_210537.png
-File2[$e]=$HOME/Pictures/wallpaper.jpg
-Name1[$e]=Screenshot_20220911_210537.png
-Name2[$e]=wallpaper.jpg
+File1[$e]=mtp:/Mi 9T Pro/Internal shared storage/Pictures/Screenshots/Screenshot_20230531-133908_Settings.png
+File10[$e]=$HOME/Downloads/www.Torrenting.com - Conclave 2024 1080p AMZN WEB-DL DDP5 1 H 264-FLUX/Conclave 2024 1080p AMZN WEB-DL DDP5 1 H 264-FLUX.jpg
+File2[$e]=$HOME/Downloads/-CaumGgRgzEZ/2022-03-05_16-08-56_UTC.jpg
+File3[$e]=$HOME/Downloads/-CwZFF2HMO54/2023-08-26_02-57-53_UTC_1.jpg
+File4[$e]=$HOME/Downloads/BNzkMtevOCP7MHNiwOvYNaCtochz16p9CYkBl1tnFos=.png
+File5[$e]=$HOME/Downloads/Screenshot_20230924_135723.png
+File6[$e]=$HOME/Downloads/Merged_document.jpg
+File7[$e]=$HOME/Downloads/IMG20231020071503.heic
+File8[$e]=$HOME/Downloads/IMG_6729.HEIC.heif
+File9[$e]=$HOME/Downloads/Venom The Last Dance 2024 REPACK 1080p AMZN WEB-DL WEB-DL DDP5 1 Atmos H 264-FLUX/Venom The Last Dance 2024 REPACK 1080p AMZN WEB-DL WEB-DL DDP5 1 Atmos H 264-FLUX.jpg
+Name1[$e]=Screenshot_20230531-133908_Settings.png
+Name10[$e]=Conclave 2024 1080p AMZN WEB-DL DDP5 1 H 264-FLUX.jpg
+Name2[$e]=2022-03-05_16-08-56_UTC.jpg
+Name3[$e]=2023-08-26_02-57-53_UTC_1.jpg
+Name4[$e]=BNzkMtevOCP7MHNiwOvYNaCtochz16p9CYkBl1tnFos=.png
+Name5[$e]=Screenshot_20230924_135723.png
+Name6[$e]=Merged_document.jpg
+Name7[$e]=IMG20231020071503.heic
+Name8[$e]=IMG_6729.HEIC.heif
+Name9[$e]=Venom The Last Dance 2024 REPACK 1080p AMZN WEB-DL WEB-DL DDP5 1 Atmos H 264-FLUX.jpg
 
 [SideBar]
+InformationSplitterSizes=214,261
 IsVisible ViewMode=true
-SideBarSplitterSizes=203,467
+SideBarSplitterSizes=210,610

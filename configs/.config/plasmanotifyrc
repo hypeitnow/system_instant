@@ -1,10 +1,22 @@
 [Applications][brave-browser]
 Seen=true
 
+[Applications][brave-browser-beta]
+Seen=true
+
+[Applications][opera-beta]
+Seen=true
+
+[Applications][opera-developer]
+Seen=true
+
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
 [Applications][org.qbittorrent.qbittorrent]
+Seen=true
+
+[Applications][p3x-onenote]
 Seen=true
 
 [Applications][rambox]

@@ -94,11 +94,11 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=841,616
-History Items[$e]=smb://googlewalley/InternalStorage,file:$HOME/MEGAsync,file:$HOME/Games,file:$HOME/Videos
+DirSelectDialog Size=820,584
+History Items[$e]=file:$HOME/Documents,file:$HOME/repos/circle,file:$HOME/repos,file:$HOME/repos,file:$HOME/repos,file:///mnt/others/VIRTUALBOX/shared,file:///mnt/others/VIRTUALBOX,file:$HOME/Videos,file:$HOME/Pictures,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Desktop,file:$HOME/Documents,file:$HOME/Games,file:$HOME/Videos
 
 [General]
-BrowserApplication=brave-browser.desktop
+BrowserApplication=opera-developer.desktop
 ColorSchemeHash=a935e515e29025e6636b957f51c3dda99b47f986
 Name=Breeze Dark
 shadeSortColumn=true
@@ -113,7 +113,7 @@ LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
 SingleClick=false
 contrast=4
-widgetStyle=Lightly
+widgetStyle=Klassy
 
 [KFileDialog Settings]
 Allow Expansion=false

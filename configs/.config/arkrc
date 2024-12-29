@@ -1,12 +1,16 @@
 [ExtractDialog]
-DirHistory[$e]=$HOME/.local/share/fonts/,$HOME/Downloads/,$HOME/MEGAsync/,$HOME/.config/,$HOME/.cache/,$HOME/.local/share/lutris/runners/wine/
+DirHistory[$e]=$HOME/Downloads/back/,$HOME/Documents/bing4all/,$HOME/.local/share/fonts/,$HOME/Downloads/,$HOME/MEGAsync/,$HOME/.config/,$HOME/.cache/,$HOME/.local/share/lutris/runners/wine/
 
 [Extraction]
 preservePaths=false
 
+[General]
+LockSidebar=true
+ShowSidebar=true
+
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config,file:$HOME/.local/share/fonts,smb://googlewalley/InternalStorage/Download,file:$HOME/MEGAsync,file:$HOME/.cache/BraveSoftware
-Recent URLs[$e]=file:$HOME/.local/share/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/.local/share/lutris/runners/wine/,file:$HOME/.cache/,file:$HOME/.cache/BraveSoftware/,file:$HOME/.config/,file:$HOME/MEGAsync/,smb://googlewalley/InternalStorage/,file:$HOME/.local/share/fonts/,file:$HOME/.local/
+Recent Files[$e]=file:$HOME,smb://googlewalley/InternalStorage/Download,file:$HOME/.cache/BraveSoftware
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/.cache/,file:$HOME/.cache/BraveSoftware/,file:$HOME/.config/,smb://googlewalley/InternalStorage/,file:$HOME/.local/,file:$HOME/Downloads/back/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -79,6 +83,7 @@ Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
 Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
 Fold First Line=false
 Folding Bar=true
 Folding Preview=true
@@ -129,12 +134,14 @@ HDMI-0 XPosition 1920x1080=473
 HDMI-0 YPosition 1920x1080=242
 LVDS-1 XPosition 1366x768=666
 LVDS-1 YPosition 1366x768=29
-State=AAAA/wAAAAD9AAAAAAAABCEAAAITAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-splitterSizes=704,352
+splitterSizes=633,316
 
 [Viewer]
+1920x1080 screen: Height=114
+1920x1080 screen: Width=221
+1920x1080 screen: Window-Maximized=true
 HDMI-0 Height 1920x1080=114
 HDMI-0 Width 1920x1080=221
 HDMI-0 Window-Maximized 1920x1080=true

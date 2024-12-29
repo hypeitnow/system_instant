@@ -1,24 +1,42 @@
 [Desktop Entry]
 FullScreen=false
 
+[General]
+LockSidebar=true
+ShowSidebar=true
+
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular,file:$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
 Recent URLs[$e]=file:$HOME/Documents/
 detailViewIconSize=16
 
 [MainWindow]
+1920x1080 screen: Window-Maximized=true
 HDMI-0 Window-Maximized 1920x1080=true
 HDMI-0 XPosition 1920x1080=0
 HDMI-0 YPosition 1920x1080=0
 LVDS-1 XPosition 1366x768=228
 LVDS-1 YPosition 1366x768=120
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAOhAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.epub
-File2[$e]=$HOME/Documents/Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
-File3[$e]=$HOME/Downloads/zus
-Name1[$e]=Winning_ The Unforgiving Race to Greatness by Tim S. Grover.epub
-Name2[$e]=Winning_ The Unforgiving Race to Greatness by Tim S. Grover.okular
-Name3[$e]=zus
+File1[$e]=$HOME/Downloads/VATR.xml
+File10[$e]=/mnt/others/VM_HOME/cachyos-latest-desktop.conf
+File2[$e]=$HOME/Downloads/bws-fat-loss-results-pdf.pdf
+File3[$e]=$HOME/Downloads/The Psychology Book - Big Ideas Simply Explained By DK/The Psychology Book - Big Ideas Simply Explained By DK.pdf
+File4[$e]=$HOME/Downloads/test.pdf
+File5[$e]=$HOME/Downloads/Kacper Graczyk.docx.pdf
+File6[$e]=$HOME/Downloads/Kacper Graczyk.docx.md
+File7[$e]=$HOME/Downloads/66b231e47c4264de4c549dcc.pdf
+File8[$e]=$HOME/Downloads/nginx.conf
+File9[$e]=/mnt/others/VM_HOME/windows-11.conf
+Name1[$e]=VATR.xml
+Name10[$e]=cachyos-latest-desktop.conf
+Name2[$e]=bws-fat-loss-results-pdf.pdf
+Name3[$e]=The Psychology Book - Big Ideas Simply Explained By DK.pdf
+Name4[$e]=test.pdf
+Name5[$e]=Kacper Graczyk.docx.pdf
+Name6[$e]=Kacper Graczyk.docx.md
+Name7[$e]=66b231e47c4264de4c549dcc.pdf
+Name8[$e]=nginx.conf
+Name9[$e]=windows-11.conf

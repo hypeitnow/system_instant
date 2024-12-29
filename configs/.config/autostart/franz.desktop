@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;
+Comment=A free messaging app for services like WhatsApp, Slack, Messenger and many more.
+Exec=/usr/bin/franz %U
+GenericName=Internet Messenger
+Icon=franz
+MimeType=x-scheme-handler/franz;
+Name=Franz
+StartupWMClass=Franz
+Terminal=false
+TryExec=/usr/bin/franz
+Type=Application
+Version=1.0

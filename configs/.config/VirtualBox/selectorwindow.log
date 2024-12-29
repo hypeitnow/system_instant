@@ -1,0 +1,26 @@
+00:00:00.586677 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.586679 Log opened 2024-01-07T20:43:24.517157000Z
+00:00:00.586679 Build Type: release
+00:00:00.586681 OS Product: Linux
+00:00:00.586682 OS Release: 6.6.10-zen1-1-zen
+00:00:00.586683 OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Fri, 05 Jan 2024 16:20:18 +0000
+00:00:00.586709 DMI Product Name: B550 Phantom Gaming 4
+00:00:00.586722 DMI Product Version: To Be Filled By O.E.M.
+00:00:00.586728 Firmware type: UEFI
+00:00:00.586796 Secure Boot: Disabled
+00:00:00.586840 Host RAM: 32014MB (31.2GB) total, 28849MB (28.1GB) available
+00:00:00.586843 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.586844 Process ID: 2333
+00:00:00.586844 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.586872 Qt version: 5.15.12
+00:00:00.587572 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.607411 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.035741 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 2560x1036
+00:00:01.043758 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.384993 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.452964 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:10.855311 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:47.699067 GUI: UICommon: Commit data request...
+00:04:47.702203 GUI: UICommon: Handling aboutToQuit request..
+00:04:48.536065 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:04:48.552296 GUI: UICommon: aboutToQuit request handled!

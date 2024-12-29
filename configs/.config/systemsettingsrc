@@ -1,8 +1,3 @@
-[KFileDialog Settings]
-Recent Files[$e]=brave_copy.sh,file:$HOME/Documents/brave_copy.sh
-Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/
-detailViewIconSize=16
-
 [KPropertiesDialog]
 HDMI-0 Height 1920x1080=543
 HDMI-0 Width 1920x1080=432
@@ -10,6 +5,9 @@ HDMI-A-1 Height 1920x1080=543
 HDMI-A-1 Width 1920x1080=432
 
 [MainWindow]
+1920x1080 screen: Window-Maximized=true
+2560x1080 screen: Height=700
+2560x1080 screen: Width=1586
 HDMI-0 Height 1920x1080=700
 HDMI-0 Width 1920x1080=1430
 HDMI-0 XPosition 1920x1080=326
@@ -32,7 +30,7 @@ LVDS1 XPosition 1366x768=346
 LVDS1 YPosition 1366x768=72
 MenuBar=Disabled
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAABZYAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABjIAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Notification Messages]

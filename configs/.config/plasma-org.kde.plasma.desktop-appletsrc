@@ -6,9 +6,12 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-0x0=Applet-26:2272,16,240,256,0;Applet-25:2336,320,176,208,0;Applet-24:0,832,288,208,0;Applet-27:16,544,240,208,0;Applet-28:2256,544,272,272,0;
 ItemGeometries-1366x768=Applet-26:1120,0,240,256,0;Applet-27:32,256,240,208,0;Applet-25:1168,272,176,192,0;Applet-24:16,496,288,208,0;Applet-28:1088,464,272,272,0;
-ItemGeometries-1920x1080=Applet-24:16,800,288,208,0;Applet-26:1616,0,240,256,0;Applet-25:1648,304,176,208,0;Applet-27:32,560,240,240,0;Applet-28:1600,528,272,272,0;
-ItemGeometriesHorizontal=Applet-24:16,800,288,208,0;Applet-26:1616,0,240,256,0;Applet-25:1648,304,176,208,0;Applet-27:32,560,240,240,0;Applet-28:1600,528,272,272,0;
+ItemGeometries-1920x1080=Applet-24:0,784,288,208,0;Applet-26:1664,16,240,256,0;Applet-25:1712,304,176,208,0;Applet-27:16,528,240,208,0;Applet-28:1616,512,272,272,0;
+ItemGeometries-2560x1080=Applet-26:2272,16,240,256,0;Applet-25:2336,304,208,208,0;Applet-24:0,784,288,208,0;Applet-27:16,528,240,240,0;Applet-28:2256,528,272,272,0;
+ItemGeometries-2560x1440=Applet-24:0,1152,288,208,0;Applet-26:1664,16,240,256,0;Applet-25:1712,480,176,208,0;Applet-27:16,704,240,208,0;Applet-28:1616,688,272,272,0;
+ItemGeometriesHorizontal=Applet-26:2272,16,240,256,0;Applet-25:2336,304,208,208,0;Applet-24:0,784,288,208,0;Applet-27:16,528,240,240,0;Applet-28:2256,528,272,272,0;
 activityId=4be2d4a8-d5ae-4c45-b510-daec14d4f635
 formfactor=0
 immutability=1
@@ -22,6 +25,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][1][Applets][24][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=0
 
 [Containments][1][Applets][24][Configuration][Appearance]
@@ -40,6 +44,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][1][Applets][25][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=0
 
 [Containments][1][Applets][25][Configuration][Appearance]
@@ -58,6 +63,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][1][Applets][26][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=0
 UserBackgroundHints=ShadowBackground
 
@@ -82,6 +88,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][1][Applets][27][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=0
 
 [Containments][1][Applets][27][Configuration][Appearance]
@@ -90,12 +97,11 @@ title=Wykorzystanie dysku
 
 [Containments][1][Applets][27][Configuration][SensorColors]
 disk/.*/usedPercent=61,174,233
-disk/202ae62d2ae60020/usedPercent=143,188,187
-disk/4d3d9aa4-1bcf-4f41-97e7-8068602571f1/usedPercent=188,143,144
+disk/4e1f1e4b-90b9-46fa-bd1f-c8a0a026c8cf/usedPercent=143,188,187
 disk/6ecf92a1-11ca-4f8e-8490-db60eccfef8d/usedPercent=174,233,61
 disk/91fd2af2-5f90-4d6b-9aa0-f18e798e4123/usedPercent=61,174,233
 disk/all/usedPercent=233,61,174
-disk/d682ad44-d770-46f4-b11b-2b610ac64e50/usedPercent=165,143,188
+disk/b64e7c22-9a1e-4c30-a9de-606cf0753588/usedPercent=188,143,144
 
 [Containments][1][Applets][27][Configuration][Sensors]
 highPrioritySensorIds=["disk/.*/usedPercent"]
@@ -107,6 +113,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][1][Applets][28][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=0
 UserBackgroundHints=ShadowBackground
 
@@ -126,17 +133,20 @@ highPrioritySensorIds=["cpu/all/usage"]
 lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
 totalSensors=["cpu/all/usage"]
 
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=549
-positions={"1920x1080":["3"\\,"17"\\,"desktop:/Path of Exile.desktop"\\,"0"\\,"1"\\,"desktop:/spotify.desktop"\\,"0"\\,"0"\\,"desktop:/net.lutris.Lutris.desktop"\\,"2"\\,"0"\\,"desktop:/TERA.desktop"\\,"0"\\,"2"\\,"desktop:/steam.desktop"\\,"1"\\,"0"]}
-sortMode=-1
+ToolBoxButtonX=290
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/hypeit/Pictures/wallpaper.jpg
+Image=/home/hypeit/.local/share/wallpapers/wallpaperflare.com_wallpaper.jpg
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -152,7 +162,12 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=5
+PreloadWeight=95
+popupHeight=514
+popupWidth=460
+
+[Containments][2][Applets][19][Configuration][Appearance]
+fontWeight=400
 
 [Containments][2][Applets][20]
 immutability=1
@@ -167,6 +182,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
+popupHeight=686
+popupWidth=841
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -184,9 +201,6 @@ global=Alt+F1
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][34][Configuration]
-PreloadWeight=92
-
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -201,12 +215,8 @@ plugin=org.kde.plasma.icontasks
 [Containments][2][Applets][5][Configuration]
 PreloadWeight=0
 
-[Containments][2][Applets][5][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:forticlient.desktop,applications:p3x-onenote-cli.desktop,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,applications:brave-browser.desktop,applications:code-insiders.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAIcklEQVRoge1ae1BU1x3-zt3HXWAXVkQRhThJfaSdWpsxbWpmfIz2oZn0gcEmEdtJdUxsfCM6RtP4GF_4oIoVfOM7ojFIJtpIqJLUgMYYq2YaiolGMQIaF1D27t7de8-vf-zDu8vusoDBdibfnTPsfZxzf9_vec65AN_hOwAA87Z2dXyoGHJ4c4pgsbyoj4sZ5ZbkTR8u2_QOysuVaPs_NAKpuQt6iV3jf26vqjpWt6LQNfT4vnxDgmUcOL-kStKq8s3FB3HokKu1cYTOEDYILHXDXwaIKYmVzKjfGft4_3wAblL41wSABGGAYDbvGTFr_GfDyosmpc4aGxNpsM4mwHpvXDRYTLKeAGNpBICAVAACMSLAewUECOirM5m29BubWTX05MEZ_efOtSCEx3QmAaF3_hujdF0t7xGQREQgAAD5A5goRGPsEZ1JXNcz_enqYeVFc_qMHi0-DAJC2pYlvxe6xBcTweLXMxGIE_wEIjbWg4mmnJR5f1oDQNeZBHRp25ZOFsxxewkQCdoDXisAHABFcQgGw0sAjJ1FQJe2fdl8Idb0N4B0LdwDBN7WERkzAzD4TvUPVNxAGFILV6xmomE6efy8JTx-BMBrAQr5VCj4x4tEwPdQ9MP6MHy4KXXCr7Ywvf4PFLG75i5xRH42NEIRYEm7lvc19UheDwix_O7d126OnVGJKIkkTfiNRRw2eD90-mcpQKXMO0SgXrRPtF38ljHAUnbnDhJ7pJQTE0YRw1AhIf5Ez-L8qdBEfjhYZr-cZBw--Cj0ume1QepppPlL_iwEbxRwtJaF7rdwBFjym2tHCMnWMmJI8T3MARFxMXk9j23dlbhwWnw44RMXTku1DHysDIIwxC8kRWggEGOkSvLHfhbtoKAlYNQldtnNGUsI2U2vzxR_9uNTXXfnfB-BFZElLc_qZ-rT8yQJbKAvLoPqaksROMnuazfm101dugiAm2v7tdLCEdBzIn2oHuT7LbABxuRuFd0O5z3n7cuSVs15Qp_W_SRB6OMbKNjMLc5VtVY6e_H52_PzCgA0AVDbp__AIFbkf1fPMP6g3zbGWFzQc9qOVsFsLur-zqZc5fPLpfpuCUXgvAsJDNpsGY4EyfKZ5rePT7Yfq7gMQPLe0gPty0JaC7gasnLelSs-zeSq2hCpGgIkMNGYbXj8e8eJ0IVUFaRyEPf5eEjNkWprKqyfuz7DfqzicwB2Lc8HEcQEwN64ZGOZVFqRwRWlNvJABDKJjJK7gXR6kMJBnN8PUNJQJu6Qv6jJuj1jxRzYbHUA5JDqbAeD4DRKAKTmdYWnm98qTSfZ_WWrQaXTg7p3A8XGgBQFpKoeIvBYgivKdedH58c0Lt64A0ADgJCrLc61KTbyoUWoQkYAJEfh4QuqrSk9fsJzeyAaBobUmA8MQKIVEI1AQ4NXUwxcdn3YXPT3V10nz14F4Gipv5YvbisiTeacrpKy6nsrt2ZwyXkqKuvGxXqswRhX620Ftqw1L7pOntUGa0R0NAZCQZYrP62xzV47nt9tPhpVnjYYQcndZW4xn4ck3QHQ6rrWIzxvkbZJm8LDFILIBAYNMli3LlxmzR6X3fDK4le5rXFfVF4qsBjhsbTN1pL8lXhpuCkaAh4SmnQb4nrbLJA5Ot465bcHmMEwm8WapiYsm7KqMXvZfLXu9gafHlppDEbDTGvGC6UxGxektYVAh10oZsHkXgkjB5eSIIzx5WdmEp9PWDh1293cwnXKVzeWEBGPyho6YYj4aO8z5v2rR0RSWLQrsuAs1GI2Grd6xo8MfXr9kwT2VEDpYgCMxl_ETxv3pqu49IBS9WUWcbiiiQsOpAjWhPcshzdkI8IapKMWYHG52SN1SUnlAB7V9vD_ZAD0up-KGb8sdleeO6FeqpoEzqVwAgXBwGLEHEtJfhEWTkwMvsnbySBgNsoS4ncTqEtY45FnCsztztOuK9dr7fNyjyinL2QSjzz1CDC_QTfG_ORPKuK2rxyIgFkt77ALGQgkRCTPqcFdffUV-6ycbJyrbgRwT1pa8L679NRYrqi1gQt2b9Oe-6JfYP1ZivVU3MG_jvfLwDvuQm5efW0659Qc0o-d8sfyux-Mcq7YcQD3pwQEQHLm7at0Ff8jnbvcVwKsFTAfCrYmzIiL3RX71volAHQPYjLncuTsOKZ-8tkLpCp3NC9W-S3beun13DHuIycuAGgGAnZDCIDkLjx8Qdl55HfklC9GKwgRZySwkfBuk4RduQVdC0eAANjlgkPlrg_OpZNDriTZfV65UDXOMW_dYtxx1MMziwxWgg9OV0lZtbSqMIPsjo-i1iZxBkAIuz8U7m1eBKc0AiApe4-eVfYe_TU8QSYBcAJR7UHJOPOva455d8eJy6cUMHPsM1H0iVbWkAhVWAgegW0A7sBDoC0baC5cuVIrT3xjIrc17Y_sQgSukfqBVeKg8doDN-z2b1x_nDeT19siTj184CF8PVyLlkBHoQCwuScuWMxrasNMPRCQ16OLGQpYin7bm7sqgEblz0vWq5evZRGROzA93xefR1mKlabmQ9Cs6jpje10F0MSzcnbSpf9MIk5SQE31MRBaEV3lNvnr-jWXZy5_DZo19be5O60FB3BPnZ_3Nl5_uUl48oeFTKez4j4NaLloQYpyy32zfntt3p5d8icX6-DZzVB99zuLAOAh0YylW97n0zMz2Iin9jJB6EGqWgeAk3dB5hfcrdxwXb-5tX7lxn3yFzXfwJMNfdXfj84kAO_LJeTtq6Rbtmfo6SdGoKyiBABnBl0yQCCX64rzqxubbizKP4ja2gaN4CHxMD90GwDoe65dkGTq-0gGDIYM99Wa_TWzV5bA4WiCZxej1Q_eD_1LPTxeYIKHkAueIqpG7PE_iHb_r8T_Pf4LuHWEuo1s2vIAAAAASUVORK5CYII%3D,applications:rambox.desktop,applications:vlc.desktop,applications:tradingview.desktop,applications:binance.desktop,applications:spotify.desktop
+launchers=applications:p3x-onenote.desktop,applications:obsidian.desktop,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,preferred://filemanager,applications:visual-studio-code-insiders.desktop,applications:opera-developer.desktop,applications:microsoft-edge-dev.desktop,applications:signal-desktop-beta.desktop,applications:adbmanager.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -233,9 +243,6 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=3;4;5;6;7;19;20
 
-[Containments][37][Configuration]
-PreloadWeight=42
-
 [Containments][8]
 activityId=
 formfactor=2
@@ -243,6 +250,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=720
+popupWidth=720
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -250,7 +259,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][10][Configuration]
-PreloadWeight=11
+PreloadWeight=100
 
 [Containments][8][Applets][11]
 immutability=1
@@ -264,7 +273,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][12][Configuration]
-PreloadWeight=0
+PreloadWeight=30
 
 [Containments][8][Applets][13]
 immutability=1
@@ -296,11 +305,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][16][Configuration]
-PreloadWeight=10
+PreloadWeight=95
 
-[Containments][8][Applets][16][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][8][Applets][16][Configuration][General]
+currentTab=streams
+migrated=true
 
 [Containments][8][Applets][17]
 immutability=1
@@ -314,10 +323,7 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][8][Applets][18][Configuration]
-PreloadWeight=0
-
-[Containments][8][Applets][20][Configuration]
-PreloadWeight=42
+PreloadWeight=10
 
 [Containments][8][Applets][21]
 immutability=1
@@ -326,12 +332,15 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][8][Applets][21][Configuration]
 PreloadWeight=100
 
+[Containments][8][Applets][21][Configuration][General]
+currentDetailsTab=details
+
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=18
+PreloadWeight=34
 
 [Containments][8][Applets][23]
 immutability=1
@@ -342,13 +351,31 @@ PreloadWeight=0
 
 [Containments][8][Applets][29]
 immutability=1
-plugin=org.kde.plasma.mediacontroller
+plugin=org.kde.kscreen
 
 [Containments][8][Applets][29][Configuration]
 PreloadWeight=0
 
-[Containments][8][Applets][35][Configuration]
-PreloadWeight=42
+[Containments][8][Applets][30]
+immutability=1
+plugin=org.kde.plasma.cameraindicator
+
+[Containments][8][Applets][30][Configuration]
+PreloadWeight=0
+
+[Containments][8][Applets][31]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][8][Applets][31][Configuration]
+PreloadWeight=0
+
+[Containments][8][Applets][32]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][8][Applets][32][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][9]
 immutability=1
@@ -357,18 +384,13 @@ plugin=org.kde.plasma.clipboard
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=0
 
-[Containments][8][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][8][Configuration]
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-shownItems=org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/TERA.desktop,0,desktop:/spotify.desktop,file:///home/hypeit/0,0,0,desktop:/net.lutris.Lutris.desktop,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/Path of Exile.desktop,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/TERA.desktop,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/Steam,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/Steam,0,desktop:/Path of Exile.desktop,desktop:/spotify.desktop,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/steam.desktop,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635
+screenMapping=desktop:/Steam,0,desktop:/Path of Exile.desktop,desktop:/startup.log,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/2-user.log,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/0-preinstall.log,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/yay,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/1-setup.log,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/aliasrc,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/git_alias,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,desktop:/3-post-setup.log,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635,file:///home/hypeit/0,0,0,desktop:/linux_instant,0,4be2d4a8-d5ae-4c45-b510-daec14d4f635
