@@ -52,6 +52,11 @@ sudo mount /swap && log_stage "Mount Swap" "Swap mounted successfully" || log_st
 sudo swapon -a && log_stage "Enable Swap" "Swap enabled successfully" || log_stage "Enable Swap" "Failed to enable swap"
 swapon -s && log_stage "Show Swap Status" "Swap status shown successfully" || log_stage "Show Swap Status" "Failed to show swap status"
 
+echo -e "\nNote: zram can coexist with the swapfile setup."
+echo "zram provides compressed RAM-based swap space and can improve system performance."
+echo "The swapfile is still necessary for hibernation, while zram helps with memory pressure during normal operation."
+echo "You can enable zram alongside this setup using 'systemctl enable --now zram-generator'"
+
 # Configure hibernation
 # Get swap device uuid and offset
 swp_uuid=$(findmnt -no UUID -T /swap/swapfile) && log_stage "Get Swap UUID" "Swap UUID: ${swp_uuid}" || log_stage "Get Swap UUID" "Failed to get swap UUID"
@@ -59,6 +64,15 @@ cd /tmp
 curl -s "https://raw.githubusercontent.com/osandov/osandov-linux/master/scripts/btrfs_map_physical.c" > bmp.c && log_stage "Download Script" "Script downloaded successfully" || log_stage "Download Script" "Failed to download script"
 gcc -O2 -o bmp bmp.c && log_stage "Compile Script" "Script compiled successfully" || log_stage "Compile Script" "Failed to compile script"
 swp_offset=$(echo "$(sudo ./bmp /swap/swapfile | egrep "^0\s+" | cut -f9) / $(getconf PAGESIZE)" | bc) && log_stage "Get Swap Offset" "Swap offset: ${swp_offset}" || log_stage "Get Swap Offset" "Failed to get swap offset"
+# Ensure resume hook is present in mkinitcpio.conf
+if grep -q "HOOKS=.*filesystems.*resume" /etc/mkinitcpio.conf; then
+    log_stage "Update mkinitcpio.conf" "resume hook already present"
+else
+    sudo sed -i '/^HOOKS=/ s/filesystems/filesystems resume/' /etc/mkinitcpio.conf && log_stage "Update mkinitcpio.conf" "resume hook added" || log_stage "Update mkinitcpio.conf" "Failed to add resume hook"
+fi
+
+sudo mkinitcpio -P && log_stage "Rebuild initramfs" "Successfully rebuilt all presets" || log_stage "Rebuild initramfs" "Failed to rebuild initramfs"
+
 # Add these values to grub
 echo -e "GRUB_CMDLINE_LINUX_DEFAULT+=\" resume=UUID=$swp_uuid resume_offset=$swp_offset \"" | sudo tee -a /etc/default/grub && log_stage "Update GRUB" "GRUB updated successfully" || log_stage "Update GRUB" "Failed to update GRUB"
 
@@ -76,10 +90,11 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg && log_stage "Update GRUB Config" "GRU
 # These instructions do not work to enable suspend then hibernate, because "suspend-then-hibernate" is not actually a working value in these conf files.
 # This workaround does: 
 sudo ln -s /usr/lib/systemd/system/systemd-suspend-then-hibernate.service /etc/systemd/system/systemd-suspend.service && log_stage "Link Suspend Service" "Suspend-then-hibernate service linked successfully" || log_stage "Link Suspend Service" "Failed to link suspend-then-hibernate service"
-# When suspend-then-hibernate is used, go into hibernation (0.0 power consumption) after 120min of suspend unless interrupted
-sudo sed -i -e 's@#HibernateDelaySec=@HibernateDelaySec=120min@g' /etc/systemd/sleep.conf && log_stage "Set Hibernate Delay" "Hibernate delay set to 120min" || log_stage "Set Hibernate Delay" "Failed to set hibernate delay"
+# When suspend-then-hibernate is used, go into hibernation (0.0 power consumption) after 90min of suspend unless interrupted
+sudo sed -i -e 's@#HibernateDelaySec=@HibernateDelaySec=90min@g' /etc/systemd/sleep.conf && log_stage "Set Hibernate Delay" "Hibernate delay set to 90min" || log_stage "Set Hibernate Delay" "Failed to set hibernate delay"
 
 # Now define what to do on user initiated actions: go into hibernation when hitting power key
+# Note: These settings do not work in case of KDE Plasma where these behaviors are set in KDE Plasma settings
 sudo sed -i -e 's@#HandlePowerKey=poweroff@HandlePowerKey=hibernate@g' /etc/systemd/logind.conf && log_stage "Set Power Key Action" "Power key action set to hibernate" || log_stage "Set Power Key Action" "Failed to set power key action"
 # Use suspend-then-hibernate when lid is closed, even when on external power since you could disconnect from power during suspend
 sudo sed -i -e 's@HandleLidSwitch=ignore@HandleLidSwitch=suspend@g' /etc/systemd/logind.conf && log_stage "Set Lid Switch Action" "Lid switch action set to suspend-then-hibernate" || log_stage "Set Lid Switch Action" "Failed to set lid switch action"
