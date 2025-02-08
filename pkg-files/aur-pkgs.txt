@@ -45,3 +45,4 @@ rclone
 ksysguard
 pam_autologin
 upd72020x-fw 
+wireless-regdb
