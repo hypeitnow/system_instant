@@ -1,25 +1,36 @@
 {
-	"folders": [
-		{
-			"path": "repos"
-		},
-		{
-			"path": "Documents"
-		}
-	],
-	"settings": {
-		"git.ignoreLimitWarning": true,
-		"terminal.integrated.fontFamily": "Hack Nerd Font, MesloLGL NF",
-		"ansible.python.interpreterPath": "/bin/python",
-		"yaml.schemas": {
-			"https://raw.githubusercontent.com/canonical/cloud-init/main/cloudinit/config/schemas/versions.schema.cloud-config.json": "file:///home/hypeit/repos/praca/artur/templates/cloud-init-docker.txt",
-			"kubernetes://schema/v1@persistentvolume+v1@persistentvolumeclaim": "file:///home/hypeit/repos/ckad-training/killersh/d2.yml",
-			"https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json": [
-				"file:///home/hypeit/repos/praca/boeing/ci-templates/buildApplication_para.yml",
-				"file:///home/hypeit/repos/praca/boeing/ci-templates/buildApplication.yml"
-			]
-		},
-		"debug.internalConsoleOptions": "neverOpen",
-		"git.postCommitCommand": "sync"
-	}
+  "folders": [
+    {
+      "path": "../circlek_repos"
+    },
+    {
+      "path": "../repos"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.createEnvironment.contentButton": "show",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "git.ignoreLimitWarning": true,
+    "terminal.integrated.fontFamily": "Hack Nerd Font, MesloLGL NF",
+    "ansible.python.interpreterPath": "/bin/python",
+    "yaml.schemas": {
+      "https://raw.g
+      // 
+      
+      
+      
+      
+      ithubusercontent.com/canonical/cloud-init/main/cloudinit/config/schemas/versions.schema.cloud-config.json": "file:///home/hypeit/repos/praca/artur/templates/cloud-init-docker.txt",
+      "kubernetes://schema/v1@persistentvolume+v1@persistentvolumeclaim": "file:///home/hypeit/repos/ckad-training/killersh/d2.yml",
+      "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json": [
+        "file:///home/hypeit/repos/praca/boeing/ci-templates/buildApplication_para.yml",
+        "file:///home/hypeit/repos/praca/boeing/ci-templates/buildApplication.yml"
+      ]
+    },
+    "debug.internalConsoleOptions": "neverOpen",
+    "git.postCommitCommand": "sync"
+  }
 }
