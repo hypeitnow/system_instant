@@ -156,3 +156,7 @@ bindkey '^ ' autosuggest-accept
 # Load custom aliases should be last to stay in oh my zsh 
 
 if (command -v az &> /dev/null); then autoload -U +X bashcompinit && bashcompinit && source "/opt/azure-cli/az.completion";fi
+
+autoload -U +X bashcompinit && bashcompinit
+[[ -s /home/hypeit/.autojump/etc/profile.d/autojump.sh ]] && source /home/hypeit/.autojump/etc/profile.d/autojump.sh
+complete -o nospace -C /usr/bin/terraform terraform
