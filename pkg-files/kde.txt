@@ -1,5 +1,5 @@
-plasma-desktop
-sddm-git
+plasma
+sddm
 dolphin
 --END OF MINIMAL INSTALL--
 ark
@@ -15,10 +15,12 @@ kde-gtk-config
 kcodecs
 kcoreaddons
 kdeplasma-addons
-kgamma5
+kgamma
 kgpg
 kinfocenter
+kio-zeroconf
 konsole
+kooha
 kscreen
 kvantum-qt5
 kwalletmanager
@@ -29,8 +31,7 @@ okular
 oxygen
 plasma-nm
 plasma-pa
-plasma-wayland-session
-sddm-config-editor-git
+plasma-wayland-protocols
 sddm-kcm
 powerdevil
 print-manager
@@ -38,9 +39,6 @@ plymouth
 spectacle
 systemsettings
 xdg-desktop-portal-kde
-zeroconf-ioslave
-kooha
 kwallet-pam
 opera-developer
-git-credential-manager-bin
 git-credential-manager-extras
