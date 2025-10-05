@@ -28,16 +28,19 @@
 [credential "https://github.com/mateuszkozako"]
 	useHttpPath = false
 	credentialStore = secretservice
+	username = mateusz.kozakowski
 [credential "https://github.com/hypeitnow"]
 	useHttpPath = true
 	credentialStore = cache
 	cacheOptions = "--timeout 86400"
+	username = hypeit
 [user "https://github.com/circlek-global"]
 	name = mateusz.kozakowski
 	email = mateusz.kozakowski@circlekeurope.com
 [credential "https://github.com/circlek-global"]
 	useHttpPath = false
 	credentialStore = secretservice
+	username = mateusz.kozakowski
 [credential "https://code.netrix.com.pl"]
 	useHttpPath = true
 [credential "https://dev.azure.com"]
@@ -46,7 +49,7 @@
 	helper = manager
 	credentialStore = secretservice
 	autoDetectTimeout = 30
-[user]
-	name = hypeit
-	email = matkoz111@gmail.com
+# [user]
+# 	name = hypeit
+# 	email = matkoz111@gmail.com
 # GIT ignores the conditional includes which is why this is here
