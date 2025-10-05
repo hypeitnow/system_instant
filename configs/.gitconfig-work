@@ -1,0 +1,13 @@
+[user]
+	name = mateusz.kozakowski
+	email = mateusz.kozakowski@circlekeurope.com
+
+[credential "https://github.com/circlek-global"]
+	useHttpPath = false
+
+[credential "https://code.netrix.com.pl"]
+	useHttpPath = true
+
+[credential]
+	helper = manager
+	credentialStore = secretservice

@@ -1,0 +1,16 @@
+[user]
+	name = hypeit
+	email = matkoz111@gmail.com
+
+[credential "https://github.com/mateuszkozako"]
+	useHttpPath = false
+	credentialStore = secretservice
+
+[credential "https://github.com/hypeitnow"]
+	useHttpPath = false
+	credentialStore = cache
+	cacheOptions = "--timeout 86400"
+
+[credential]
+	helper = manager
+#If you want this to work you cannot specify [credential "https://github.com] alone since it will override all other credential settings.

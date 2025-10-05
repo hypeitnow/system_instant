@@ -1,18 +1,38 @@
-[user]
-	name = hypeit
-	email = matkoz111@gmail.com
 [alias]
 	pullall = "!f() { find $1 -type d -maxdepth 1 -exec sh -c \"(cd {} && git pull 2>/dev/null)\" \\; ; }; f"
-[credential]
-	credentialStore = secretservice
-	helper = /usr/lib/git-core/git-credential-libsecret
-	cacheOptions = --timeout 86400
+	fetchall = "!f() { find \"${1:-.}\" -type d -name .git -exec sh -c 'cd \"${1%/*}\" && echo \"\\n➡️  Fetching in ${1%/*}\" && git fetch --all --prune' _ {} \\; ; }; f"
 [http]
 	postBuffer = 524288000
 	version = HTTP/2
+[diff]
+	tool = kdiff3
+[difftool "kdiff3"]
+	path = /usr/bin/kdiff3
+[difftool]
+	prompt = false
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = /usr/bin/kdiff3
+[mergetool]
+	prompt = false
+[difftool "meld"]
+	path = /usr/bin/meld
+[mergetool "meld"]
+	path = /usr/bin/meld
+[difftool "vscode"]
+	cmd = code-insiders --wait --diff $LOCAL $REMOTE
 [credential "https://dev.azure.com"]
 	useHttpPath = true
 [credential "https://github.com"]
-	useHttpPath = true
-[includeIf "hasconfig:remote.*.url:https://github.com/circle*/**"]
-    path = ~/.gitconfig-org
+	useHttpPath = false
+[credential]
+	helper = manager
+	credentialStore = secretservice
+	autoDetectTimeout = 30
+# Conditional includes for different repository contexts
+[includeIf "gitdir:/home/hypeit/repos/"]
+	path = ~/.gitconfig-personal
+[includeIf "gitdir:/home/hypeit/repos/circle/"]
+	path = ~/.gitconfig-work
+
