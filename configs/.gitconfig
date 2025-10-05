@@ -22,17 +22,6 @@
 	path = /usr/bin/meld
 [difftool "vscode"]
 	cmd = code-insiders --wait --diff $LOCAL $REMOTE
-
-[credential "https://dev.azure.com"]
-	useHttpPath = true
-[credential "https://github.com"]
-	useHttpPath = false
-	helper = manager
-	credentialStore = secretservice
-	autoDetectTimeout = 30
-[user "https://github.com"]
-	name = hypeit
-	email = matkoz111@gmail.com
 [user "https://github.com/hypeitnow"]
 	name = hypeit
 	email = matkoz111@gmail.com
@@ -40,7 +29,7 @@
 	useHttpPath = false
 	credentialStore = secretservice
 [credential "https://github.com/hypeitnow"]
-	useHttpPath = false
+	useHttpPath = true
 	credentialStore = cache
 	cacheOptions = "--timeout 86400"
 [user "https://github.com/circlek-global"]
@@ -51,3 +40,13 @@
 	credentialStore = secretservice
 [credential "https://code.netrix.com.pl"]
 	useHttpPath = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "https://github.com"]
+	helper = manager
+	credentialStore = secretservice
+	autoDetectTimeout = 30
+[user]
+	name = hypeit
+	email = matkoz111@gmail.com
+
