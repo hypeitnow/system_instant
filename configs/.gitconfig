@@ -22,17 +22,32 @@
 	path = /usr/bin/meld
 [difftool "vscode"]
 	cmd = code-insiders --wait --diff $LOCAL $REMOTE
+
 [credential "https://dev.azure.com"]
 	useHttpPath = true
 [credential "https://github.com"]
 	useHttpPath = false
-[credential]
 	helper = manager
 	credentialStore = secretservice
 	autoDetectTimeout = 30
-# Conditional includes for different repository contexts
-[includeIf "gitdir:/home/hypeit/repos/"]
-	path = ~/.gitconfig-personal
-[includeIf "gitdir:/home/hypeit/repos/circle/"]
-	path = ~/.gitconfig-work
-
+[user "https://github.com"]
+	name = hypeit
+	email = matkoz111@gmail.com
+[user "https://github.com/hypeitnow"]
+	name = hypeit
+	email = matkoz111@gmail.com
+[credential "https://github.com/mateuszkozako"]
+	useHttpPath = false
+	credentialStore = secretservice
+[credential "https://github.com/hypeitnow"]
+	useHttpPath = false
+	credentialStore = cache
+	cacheOptions = "--timeout 86400"
+[user "https://github.com/circlek-global"]
+	name = mateusz.kozakowski
+	email = mateusz.kozakowski@circlekeurope.com
+[credential "https://github.com/circlek-global"]
+	useHttpPath = false
+	credentialStore = secretservice
+[credential "https://code.netrix.com.pl"]
+	useHttpPath = true
