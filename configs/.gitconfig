@@ -22,25 +22,23 @@
 	path = /usr/bin/meld
 [difftool "vscode"]
 	cmd = code-insiders --wait --diff $LOCAL $REMOTE
-[user "https://github.com/hypeitnow"]
-	name = hypeit
-	email = matkoz111@gmail.com
 [credential "https://github.com/mateuszkozako"]
 	useHttpPath = false
 	credentialStore = secretservice
-	username = mateusz.kozakowski
 [credential "https://github.com/hypeitnow"]
 	useHttpPath = true
 	credentialStore = cache
 	cacheOptions = "--timeout 86400"
-	username = hypeit
-[user "https://github.com/circlek-global"]
-	name = mateusz.kozakowski
-	email = mateusz.kozakowski@circlekeurope.com
-[credential "https://github.com/circlek-global"]
+[credential "https://github.com/circlek-global"] #if usehttpPath is false remember to use token not browser login
 	useHttpPath = false
 	credentialStore = secretservice
 	username = mateusz.kozakowski
+[user "https://github.com/circlek-global"]
+	name = mateusz.kozakowski
+	email = mateusz.kozakowski@circlekeurope.com
+[user "https://github.com/hypeitnow"]
+	name = hypeitnow
+	email = matkoz111@gmail.com
 [credential "https://code.netrix.com.pl"]
 	useHttpPath = true
 [credential "https://dev.azure.com"]
@@ -49,7 +47,7 @@
 	helper = manager
 	credentialStore = secretservice
 	autoDetectTimeout = 30
-# [user]
-# 	name = hypeit
-# 	email = matkoz111@gmail.com
+[user] # this is just for global git config
+	name = hypeit
+	email = matkoz111@gmail.com
 # GIT ignores the conditional includes which is why this is here
