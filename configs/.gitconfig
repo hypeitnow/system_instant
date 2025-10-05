@@ -24,10 +24,13 @@
 	path = /usr/bin/meld
 [difftool "vscode"]
 	cmd = code-insiders --wait --diff $LOCAL $REMOTE
-[credential] #if usehttpPath is false remember to use token not browser login
+[credential "https://github.com/mateuszkozako"]
 	useHttpPath = false
 	credentialStore = secretservice
-	username = mateusz.kozakowski
+[credential "https://github.com/hypeitnow"] # this cannot be included in conditional include
+	useHttpPath = true
+	credentialStore = cache
+	cacheOptions = "--timeout 86400"
 [credential "https://code.netrix.com.pl"]
 	useHttpPath = true
 [credential "https://dev.azure.com"]
