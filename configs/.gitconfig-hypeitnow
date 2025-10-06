@@ -1,7 +1,6 @@
 [user]
 	name = hypeitnow
 	email = matkoz111@gmail.com
-[credential "https://github.com/hypeitnow"]
-	useHttpPath = true
+[credential]
 	credentialStore = cache
 	cacheOptions = "--timeout 86400"
