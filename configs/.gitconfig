@@ -1,6 +1,6 @@
 [alias]
 	pullall = "!f() { find $1 -type d -maxdepth 1 -exec sh -c \"(cd {} && git pull --autostash --stat 2>/dev/null)\" \\; ; }; f"
-	fetchall = "!f() { find \"${1:-.}\" -type d -name .git -exec sh -c 'cd \"${1%/*}\" && echo \"\\n➡️  Fetching in ${1%/*}\" && git fetch --all --tags --jobs=10 --prune' _ {} \\; ; }; f"
+	fetchall = "!f() { find \"${1:-.}\" -type d -name .git -exec sh -c 'cd \"${1%/*}\" && echo \"➡️  Fetching in ${1%/*}\" && git fetch --all --tags --jobs=10 --prune' _ {} \\; ; }; f"
 [includeIf "hasconfig:remote.origin.url:https://github.com/hypeitnow/*"]
 	path = .gitconfig-hypeitnow
 [http]
@@ -33,6 +33,11 @@
 	useHttpPath = true
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[credential "https://gitlab-ext.digitalaviationservices.com"]
+	usehttppath = false
+	credentialstore = secretservice
+	helper = manager
+	autodetecttimeout = 30
 [credential "https://github.com"]
 	helper = manager
 	credentialStore = secretservice
